@@ -1,20 +1,22 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using SwagLabs.Mvc.Models;
+using SwagLabs.Services.Logging.Interfaces;
 
 namespace SwagLabs.Mvc.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly IAppLogging<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IAppLogging<HomeController> logger)
         {
             _logger = logger;
         }
 
         public IActionResult Index()
         {
+            _logger.LogAppError("Test error");
             return View();
         }
 

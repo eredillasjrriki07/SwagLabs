@@ -2,8 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SwagLabs.Dal\SwagLabs.Dal.csproj" />
+    <ProjectReference Include="..\SwagLabs.Services\SwagLabs.Services.csproj" />
+  </ItemGroup>
 
 </Project>

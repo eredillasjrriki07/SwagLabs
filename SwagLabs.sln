@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwagLabs.Api", "SwagLabs.Api\SwagLabs.Api.csproj", "{F7519550-A325-4890-9006-AB46BDB1BA1A}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwagLabs.Dal", "SwagLabs.Dal\SwagLabs.Dal.csproj", "{CB57A615-9034-4799-8EA7-A99CAF87C0C3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwagLabs.Test", "SwagLabs.Test\SwagLabs.Test.csproj", "{4B9A651A-BB01-4D51-85F3-10D3D9660EB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwagLabs.Services", "SwagLabs.Services\SwagLabs.Services.csproj", "{80121BE3-3AD8-4550-B35F-B959B399AA7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{4B9A651A-BB01-4D51-85F3-10D3D9660EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B9A651A-BB01-4D51-85F3-10D3D9660EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B9A651A-BB01-4D51-85F3-10D3D9660EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80121BE3-3AD8-4550-B35F-B959B399AA7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80121BE3-3AD8-4550-B35F-B959B399AA7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80121BE3-3AD8-4550-B35F-B959B399AA7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80121BE3-3AD8-4550-B35F-B959B399AA7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
