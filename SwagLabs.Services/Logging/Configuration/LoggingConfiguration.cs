@@ -1,15 +1,15 @@
 ﻿using System.Data;
-using Serilog.Sinks.MSSqlServer;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Configuration;
-using SwagLabs.Services.Logging.Settings;
-using Serilog.Events;
-using Microsoft.Extensions.Hosting;
-using Serilog.Core.Enrichers;
-using Serilog;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using Serilog;
+using Serilog.Core.Enrichers;
+using Serilog.Events;
+using Serilog.Sinks.MSSqlServer;
 using SwagLabs.Services.Logging.Interfaces;
+using SwagLabs.Services.Logging.Settings;
 
 namespace SwagLabs.Services.Logging.Configuration;
 
@@ -75,7 +75,7 @@ public static class LoggingConfiguration
                      restrictedToMinimumLevel: logLevel,
                      columnOptions: ColumnOptions
                 );
-         builder.Logging.AddSerilog(log.CreateLogger(),false);
+        builder.Logging.AddSerilog(log.CreateLogger(), false);
     }
 
     public static IServiceCollection RegisterLoggingInterfaces(this IServiceCollection services)

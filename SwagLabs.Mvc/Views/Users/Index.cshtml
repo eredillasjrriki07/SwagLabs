@@ -1,0 +1,8 @@
+﻿@model IEnumerable<SwagLabs.Models.Entities.User>
+
+@{
+	ViewData["Title"] = "Index";
+}
+
+<h1 class="text-">Users</h1>
+<partial name="Partials/_UserListPartial" model="@Model"></partial>

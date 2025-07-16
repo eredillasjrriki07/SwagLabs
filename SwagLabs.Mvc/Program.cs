@@ -1,4 +1,6 @@
+using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 using SwagLabs.Dal.EfStructures;
 using SwagLabs.Services.ApiWrapper.Configuration;
 using SwagLabs.Services.DataServices;
@@ -26,6 +28,31 @@ builder.Services.AddDataServices(builder.Configuration);
 
 builder.Services.ConfigureApiServiceWrapper(builder.Configuration);
 
+builder.Services.TryAddSingleton<IActionContextAccessor, ActionContextAccessor>();
+
+if (builder.Environment.IsDevelopment())
+{
+    builder.Services.AddWebOptimizer(false, false);
+
+    /*
+    builder.Services.AddWebOptimizer(options =>
+    {   
+        options.MinifyCssFiles("SwagLabs.Mvc.styles.css");
+        options.MinifyCssFiles("css/site.css");
+        options.MinifyJsFiles("js/site.js");
+    });
+    */
+}
+else
+{
+    builder.Services.AddWebOptimizer(options =>
+    {
+        options.MinifyCssFiles("SwagLabs.Mvc.styles.css");
+        options.MinifyCssFiles("css/site.css");
+        options.MinifyJsFiles("js/site.js");
+    });
+}
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -35,21 +62,19 @@ if (app.Environment.IsDevelopment())
 }
 else
 {
-    app.UseExceptionHandler("/Home/Erro");
+    app.UseExceptionHandler("/Home/Error");
     app.UseHsts();
 }
 
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+app.UseWebOptimizer();
 app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
-    .WithStaticAssets();
+app.MapControllers();
 
 
 app.Run();

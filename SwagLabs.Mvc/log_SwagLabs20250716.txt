@@ -1,0 +1,1419 @@
+[25-07-16 15:45:24 Information]SwagLabs.Mvc:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-07-16 15:45:25 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Now listening on: "https://localhost:7166"
+in method  at :
+
+[25-07-16 15:45:25 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5001"
+in method  at :
+
+[25-07-16 15:45:25 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-16 15:45:25 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-16 15:45:25 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Mvc"
+in method  at :
+
+[25-07-16 15:45:28 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/""" - null null
+in method  at :
+
+[25-07-16 15:45:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/""" - 404 0 null 991.5246ms
+in method  at :
+
+[25-07-16 15:45:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7166""""/", Response status code: 404
+in method  at :
+
+[25-07-16 15:45:58 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/Users/Create""" - null null
+in method  at :
+
+[25-07-16 15:45:58 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Mvc.Controllers.UsersController.CreateAsync (SwagLabs.Mvc)"'
+in method  at :
+
+[25-07-16 15:45:58 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Create\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAsync()" on controller "SwagLabs.Mvc.Controllers.UsersController" ("SwagLabs.Mvc").
+in method  at :
+
+[25-07-16 15:45:59 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executing ViewResult, running view "Create".
+in method  at :
+
+[25-07-16 15:45:59 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executed ViewResult - view "Create" executed in 175.717ms.
+in method  at :
+
+[25-07-16 15:45:59 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Mvc.Controllers.UsersController.CreateAsync (SwagLabs.Mvc)" in 908.0252ms
+in method  at :
+
+[25-07-16 15:45:59 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Mvc.Controllers.UsersController.CreateAsync (SwagLabs.Mvc)"'
+in method  at :
+
+[25-07-16 15:45:59 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/Users/Create""" - 200 null "text/html; charset=utf-8" 1066.0783ms
+in method  at :
+
+[25-07-16 15:45:59 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/lib/bootstrap/css/bootstrap.min.css""" - null null
+in method  at :
+
+[25-07-16 15:45:59 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/lib/font-awesome/css/all.css""" - null null
+in method  at :
+
+[25-07-16 15:45:59 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/css/site.css""?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg&v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg" - null null
+in method  at :
+
+[25-07-16 15:45:59 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/SwagLabs.Mvc.styles.css""?v=ClmdNFHbQmlBkcppi--kDNIh926H2ahZS2GFmWTCuYc&v=ClmdNFHbQmlBkcppi--kDNIh926H2ahZS2GFmWTCuYc" - null null
+in method  at :
+
+[25-07-16 15:45:59 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/lib/jquery/jquery.min.js""" - null null
+in method  at :
+
+[25-07-16 15:45:59 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/lib/bootstrap/js/bootstrap.bundle.min.js""" - null null
+in method  at :
+
+[25-07-16 15:45:59 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/js/site.js""?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo&v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo" - null null
+in method  at :
+
+[25-07-16 15:45:59 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-16 15:46:00 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-16 15:46:00 Information]SwagLabs.Mvc:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/css/site.css"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Mvc\wwwroot\css\site.css"'
+in method  at :
+
+[25-07-16 15:46:00 Information]SwagLabs.Mvc:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/SwagLabs.Mvc.styles.css"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Mvc\obj\Debug\net9.0\scopedcss\bundle\SwagLabs.Mvc.styles.css"'
+in method  at :
+
+[25-07-16 15:46:00 Information]SwagLabs.Mvc:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/js/site.js"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Mvc\wwwroot\js\site.js"'
+in method  at :
+
+[25-07-16 15:46:00 Information]SwagLabs.Mvc:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/lib/font-awesome/css/all.css"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Mvc\wwwroot\lib\font-awesome\css\all.css"'
+in method  at :
+
+[25-07-16 15:46:00 Information]SwagLabs.Mvc:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/lib/bootstrap/js/bootstrap.bundle.min.js"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Mvc\wwwroot\lib\bootstrap\js\bootstrap.bundle.min.js"'
+in method  at :
+
+[25-07-16 15:46:00 Information]SwagLabs.Mvc:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/lib/jquery/jquery.min.js"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Mvc\wwwroot\lib\jquery\jquery.min.js"'
+in method  at :
+
+[25-07-16 15:46:00 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 159.8756ms
+in method  at :
+
+[25-07-16 15:46:00 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/SwagLabs.Mvc.styles.css""?v=ClmdNFHbQmlBkcppi--kDNIh926H2ahZS2GFmWTCuYc&v=ClmdNFHbQmlBkcppi--kDNIh926H2ahZS2GFmWTCuYc" - 200 1368 "text/css" 326.2556ms
+in method  at :
+
+[25-07-16 15:46:00 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/css/site.css""?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg&v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg" - 200 667 "text/css" 332.2314ms
+in method  at :
+
+[25-07-16 15:46:00 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/lib/bootstrap/js/bootstrap.bundle.min.js""" - 200 78129 "text/javascript" 230.7534ms
+in method  at :
+
+[25-07-16 15:46:00 Information]SwagLabs.Mvc:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/lib/bootstrap/css/bootstrap.min.css"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Mvc\wwwroot\lib\bootstrap\css\bootstrap.min.css"'
+in method  at :
+
+[25-07-16 15:46:00 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/js/site.js""?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo&v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo" - 200 231 "text/javascript" 200.3295ms
+in method  at :
+
+[25-07-16 15:46:00 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/lib/font-awesome/css/all.css""" - 200 73577 "text/css" 370.4753ms
+in method  at :
+
+[25-07-16 15:46:00 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/lib/jquery/jquery.min.js""" - 200 89501 "text/javascript" 347.0525ms
+in method  at :
+
+[25-07-16 15:46:00 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/lib/bootstrap/css/bootstrap.min.css""" - 200 163873 "text/css" 398.7245ms
+in method  at :
+
+[25-07-16 15:46:00 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 400.6763ms
+in method  at :
+
+[25-07-16 15:46:20 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/users/create""" - null null
+in method  at :
+
+[25-07-16 15:46:20 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Mvc.Controllers.UsersController.CreateAsync (SwagLabs.Mvc)"'
+in method  at :
+
+[25-07-16 15:46:20 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Create\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAsync()" on controller "SwagLabs.Mvc.Controllers.UsersController" ("SwagLabs.Mvc").
+in method  at :
+
+[25-07-16 15:46:20 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executing ViewResult, running view "Create".
+in method  at :
+
+[25-07-16 15:46:20 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executed ViewResult - view "Create" executed in 18.5553ms.
+in method  at :
+
+[25-07-16 15:46:20 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Mvc.Controllers.UsersController.CreateAsync (SwagLabs.Mvc)" in 23.4402ms
+in method  at :
+
+[25-07-16 15:46:20 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Mvc.Controllers.UsersController.CreateAsync (SwagLabs.Mvc)"'
+in method  at :
+
+[25-07-16 15:46:20 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/users/create""" - 200 null "text/html; charset=utf-8" 56.6378ms
+in method  at :
+
+[25-07-16 15:46:20 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-16 15:46:20 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-16 15:46:20 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 13.5403ms
+in method  at :
+
+[25-07-16 15:46:20 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 63.212ms
+in method  at :
+
+[25-07-16 15:46:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/users/create""" - null null
+in method  at :
+
+[25-07-16 15:46:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Mvc.Controllers.UsersController.CreateAsync (SwagLabs.Mvc)"'
+in method  at :
+
+[25-07-16 15:46:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Create\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAsync()" on controller "SwagLabs.Mvc.Controllers.UsersController" ("SwagLabs.Mvc").
+in method  at :
+
+[25-07-16 15:46:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executing ViewResult, running view "Create".
+in method  at :
+
+[25-07-16 15:46:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executed ViewResult - view "Create" executed in 5.6656ms.
+in method  at :
+
+[25-07-16 15:46:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Mvc.Controllers.UsersController.CreateAsync (SwagLabs.Mvc)" in 12.5478ms
+in method  at :
+
+[25-07-16 15:46:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Mvc.Controllers.UsersController.CreateAsync (SwagLabs.Mvc)"'
+in method  at :
+
+[25-07-16 15:46:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/users/create""" - 200 null "text/html; charset=utf-8" 32.7784ms
+in method  at :
+
+[25-07-16 15:46:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-16 15:46:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-16 15:46:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 4.1707ms
+in method  at :
+
+[25-07-16 15:46:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 11.4711ms
+in method  at :
+
+[25-07-16 15:46:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/favicon.ico""" - null null
+in method  at :
+
+[25-07-16 15:46:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:The file "/favicon.ico" was not modified
+in method  at :
+
+[25-07-16 15:46:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/favicon.ico""" - 304 null "image/x-icon" 10.6051ms
+in method  at :
+
+[25-07-16 15:46:31 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/Users/Create""" - null null
+in method  at :
+
+[25-07-16 15:46:31 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Mvc.Controllers.UsersController.CreateAsync (SwagLabs.Mvc)"'
+in method  at :
+
+[25-07-16 15:46:31 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Create\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAsync()" on controller "SwagLabs.Mvc.Controllers.UsersController" ("SwagLabs.Mvc").
+in method  at :
+
+[25-07-16 15:46:31 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executing ViewResult, running view "Create".
+in method  at :
+
+[25-07-16 15:46:31 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executed ViewResult - view "Create" executed in 6.9082ms.
+in method  at :
+
+[25-07-16 15:46:31 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Mvc.Controllers.UsersController.CreateAsync (SwagLabs.Mvc)" in 11.4125ms
+in method  at :
+
+[25-07-16 15:46:31 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Mvc.Controllers.UsersController.CreateAsync (SwagLabs.Mvc)"'
+in method  at :
+
+[25-07-16 15:46:31 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/Users/Create""" - 200 null "text/html; charset=utf-8" 43.4202ms
+in method  at :
+
+[25-07-16 15:46:31 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-16 15:46:31 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-16 15:46:31 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 29.4545ms
+in method  at :
+
+[25-07-16 15:46:31 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 10.9679ms
+in method  at :
+
+[25-07-16 15:46:41 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/users/create""" - null null
+in method  at :
+
+[25-07-16 15:46:41 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Mvc.Controllers.UsersController.CreateAsync (SwagLabs.Mvc)"'
+in method  at :
+
+[25-07-16 15:46:41 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Create\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAsync()" on controller "SwagLabs.Mvc.Controllers.UsersController" ("SwagLabs.Mvc").
+in method  at :
+
+[25-07-16 15:46:41 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executing ViewResult, running view "Create".
+in method  at :
+
+[25-07-16 15:46:41 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executed ViewResult - view "Create" executed in 2.4499ms.
+in method  at :
+
+[25-07-16 15:46:41 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Mvc.Controllers.UsersController.CreateAsync (SwagLabs.Mvc)" in 5.2927ms
+in method  at :
+
+[25-07-16 15:46:41 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Mvc.Controllers.UsersController.CreateAsync (SwagLabs.Mvc)"'
+in method  at :
+
+[25-07-16 15:46:41 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/users/create""" - 200 null "text/html; charset=utf-8" 22.7205ms
+in method  at :
+
+[25-07-16 15:46:41 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-16 15:46:41 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-16 15:46:41 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 18.7517ms
+in method  at :
+
+[25-07-16 15:46:41 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 23.989ms
+in method  at :
+
+[25-07-16 16:06:54 Information]SwagLabs.Mvc:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-07-16 16:06:54 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Now listening on: "https://localhost:7166"
+in method  at :
+
+[25-07-16 16:06:54 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5001"
+in method  at :
+
+[25-07-16 16:06:54 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-16 16:06:54 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-16 16:06:54 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Mvc"
+in method  at :
+
+[25-07-16 16:06:55 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/""" - null null
+in method  at :
+
+[25-07-16 16:06:56 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/""" - 404 0 null 512.5579ms
+in method  at :
+
+[25-07-16 16:06:56 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7166""""/", Response status code: 404
+in method  at :
+
+[25-07-16 16:07:04 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/user/create""" - null null
+in method  at :
+
+[25-07-16 16:07:04 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/user/create""" - 404 0 null 18.5307ms
+in method  at :
+
+[25-07-16 16:07:04 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7166""""/user/create", Response status code: 404
+in method  at :
+
+[25-07-16 16:07:09 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/Users/Create""" - null null
+in method  at :
+
+[25-07-16 16:07:09 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Mvc.Controllers.UsersController.CreateAsync (SwagLabs.Mvc)"'
+in method  at :
+
+[25-07-16 16:07:09 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Create\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAsync()" on controller "SwagLabs.Mvc.Controllers.UsersController" ("SwagLabs.Mvc").
+in method  at :
+
+[25-07-16 16:07:11 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executing ViewResult, running view "Create".
+in method  at :
+
+[25-07-16 16:07:11 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executed ViewResult - view "Create" executed in 255.4087ms.
+in method  at :
+
+[25-07-16 16:07:11 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Mvc.Controllers.UsersController.CreateAsync (SwagLabs.Mvc)" in 1752.4412ms
+in method  at :
+
+[25-07-16 16:07:11 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Mvc.Controllers.UsersController.CreateAsync (SwagLabs.Mvc)"'
+in method  at :
+
+[25-07-16 16:07:11 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/lib/bootstrap/css/bootstrap.css""?v=o-AsfCHj7A1M5Xgm1kJmZiGEIvMQEzQqrXz2072Gkkg&v=o-AsfCHj7A1M5Xgm1kJmZiGEIvMQEzQqrXz2072Gkkg" - null null
+in method  at :
+
+[25-07-16 16:07:11 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/Users/Create""" - 200 null "text/html; charset=utf-8" 1837.0738ms
+in method  at :
+
+[25-07-16 16:07:11 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/lib/jquery/jquery.js""?v=H-K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk&v=H-K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk" - null null
+in method  at :
+
+[25-07-16 16:07:11 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-16 16:07:11 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/lib/bootstrap/js/bootstrap.bundle.js""?v=htsAUOIgN8xkootpQUzmvaCbQo6x2PNMTD7kLWI6yYQ&v=htsAUOIgN8xkootpQUzmvaCbQo6x2PNMTD7kLWI6yYQ" - null null
+in method  at :
+
+[25-07-16 16:07:11 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/lib/font-awesome/css/all.css""?v=DLjMP-5CdeGCI2qxnDquVSdPQ6oP_enAUQ2NWfz45dw&v=DLjMP-5CdeGCI2qxnDquVSdPQ6oP_enAUQ2NWfz45dw" - null null
+in method  at :
+
+[25-07-16 16:07:11 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-16 16:07:11 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 217.2029ms
+in method  at :
+
+[25-07-16 16:07:11 Information]SwagLabs.Mvc:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/lib/jquery/jquery.js"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Mvc\wwwroot\lib\jquery\jquery.js"'
+in method  at :
+
+[25-07-16 16:07:11 Information]SwagLabs.Mvc:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/lib/font-awesome/css/all.css"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Mvc\wwwroot\lib\font-awesome\css\all.css"'
+in method  at :
+
+[25-07-16 16:07:11 Information]SwagLabs.Mvc:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Mvc\wwwroot\lib\bootstrap\css\bootstrap.css"'
+in method  at :
+
+[25-07-16 16:07:11 Information]SwagLabs.Mvc:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/lib/bootstrap/js/bootstrap.bundle.js"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Mvc\wwwroot\lib\bootstrap\js\bootstrap.bundle.js"'
+in method  at :
+
+[25-07-16 16:07:11 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/lib/jquery/jquery.js""?v=H-K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk&v=H-K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk" - 200 288580 "text/javascript" 278.2771ms
+in method  at :
+
+[25-07-16 16:07:11 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/lib/font-awesome/css/all.css""?v=DLjMP-5CdeGCI2qxnDquVSdPQ6oP_enAUQ2NWfz45dw&v=DLjMP-5CdeGCI2qxnDquVSdPQ6oP_enAUQ2NWfz45dw" - 200 73577 "text/css" 280.9268ms
+in method  at :
+
+[25-07-16 16:07:11 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/lib/bootstrap/js/bootstrap.bundle.js""?v=htsAUOIgN8xkootpQUzmvaCbQo6x2PNMTD7kLWI6yYQ&v=htsAUOIgN8xkootpQUzmvaCbQo6x2PNMTD7kLWI6yYQ" - 200 209719 "text/javascript" 282.3683ms
+in method  at :
+
+[25-07-16 16:07:11 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/lib/bootstrap/css/bootstrap.css""?v=o-AsfCHj7A1M5Xgm1kJmZiGEIvMQEzQqrXz2072Gkkg&v=o-AsfCHj7A1M5Xgm1kJmZiGEIvMQEzQqrXz2072Gkkg" - 200 205484 "text/css" 286.8023ms
+in method  at :
+
+[25-07-16 16:07:11 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 181.4183ms
+in method  at :
+
+[25-07-16 16:07:20 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/.well-known/appspecific/com.chrome.devtools.json""" - null null
+in method  at :
+
+[25-07-16 16:07:20 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/.well-known/appspecific/com.chrome.devtools.json""" - 404 0 null 6.9253ms
+in method  at :
+
+[25-07-16 16:07:20 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7166""""/.well-known/appspecific/com.chrome.devtools.json", Response status code: 404
+in method  at :
+
+[25-07-16 16:07:21 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/lib/bootstrap/js/bootstrap.bundle.js.map""" - null null
+in method  at :
+
+[25-07-16 16:07:21 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/lib/bootstrap/css/bootstrap.css.map""" - null null
+in method  at :
+
+[25-07-16 16:07:21 Information]SwagLabs.Mvc:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/lib/bootstrap/js/bootstrap.bundle.js.map"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Mvc\wwwroot\lib\bootstrap\js\bootstrap.bundle.js.map"'
+in method  at :
+
+[25-07-16 16:07:21 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/lib/bootstrap/js/bootstrap.bundle.js.map""" - 200 427637 "text/plain" 24.682ms
+in method  at :
+
+[25-07-16 16:07:21 Information]SwagLabs.Mvc:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css.map"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Mvc\wwwroot\lib\bootstrap\css\bootstrap.css.map"'
+in method  at :
+
+[25-07-16 16:07:21 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/lib/bootstrap/css/bootstrap.css.map""" - 200 538014 "text/plain" 39.7196ms
+in method  at :
+
+[25-07-16 17:34:43 Information]SwagLabs.Mvc:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-07-16 17:34:44 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Now listening on: "https://localhost:7166"
+in method  at :
+
+[25-07-16 17:34:44 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5001"
+in method  at :
+
+[25-07-16 17:34:45 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-16 17:34:45 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-16 17:34:45 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Mvc"
+in method  at :
+
+[25-07-16 17:34:46 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/""" - null null
+in method  at :
+
+[25-07-16 17:34:47 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/""" - 404 0 null 828.5459ms
+in method  at :
+
+[25-07-16 17:34:47 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7166""""/", Response status code: 404
+in method  at :
+
+[25-07-16 17:34:52 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/users""" - null null
+in method  at :
+
+[25-07-16 17:34:52 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Mvc.Controllers.UsersController.IndexAsync (SwagLabs.Mvc)"'
+in method  at :
+
+[25-07-16 17:34:52 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Index\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IndexAsync()" on controller "SwagLabs.Mvc.Controllers.UsersController" ("SwagLabs.Mvc").
+in method  at :
+
+[25-07-16 17:34:56 Information]SwagLabs.Mvc:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("94"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""SELECT [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-16 17:34:56 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executing ViewResult, running view "Index".
+in method  at :
+
+[25-07-16 17:34:57 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executed ViewResult - view "Index" executed in 590.5613ms.
+in method  at :
+
+[25-07-16 17:34:57 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Mvc.Controllers.UsersController.IndexAsync (SwagLabs.Mvc)" in 4454.3462ms
+in method  at :
+
+[25-07-16 17:34:57 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Mvc.Controllers.UsersController.IndexAsync (SwagLabs.Mvc)"'
+in method  at :
+
+[25-07-16 17:34:57 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-16 17:34:57 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-16 17:34:57 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/users""" - 200 null "text/html; charset=utf-8" 4901.1045ms
+in method  at :
+
+[25-07-16 17:34:57 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 298.0902ms
+in method  at :
+
+[25-07-16 17:34:57 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 459.0951ms
+in method  at :
+
+[25-07-16 17:36:41 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/.well-known/appspecific/com.chrome.devtools.json""" - null null
+in method  at :
+
+[25-07-16 17:36:41 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/.well-known/appspecific/com.chrome.devtools.json""" - 404 0 null 33.2177ms
+in method  at :
+
+[25-07-16 17:36:41 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7166""""/.well-known/appspecific/com.chrome.devtools.json", Response status code: 404
+in method  at :
+
+[25-07-16 17:39:33 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/users""" - null null
+in method  at :
+
+[25-07-16 17:39:33 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Mvc.Controllers.UsersController.IndexAsync (SwagLabs.Mvc)"'
+in method  at :
+
+[25-07-16 17:39:33 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Index\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IndexAsync()" on controller "SwagLabs.Mvc.Controllers.UsersController" ("SwagLabs.Mvc").
+in method  at :
+
+[25-07-16 17:39:33 Information]SwagLabs.Mvc:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("16"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""SELECT [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-16 17:39:33 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executing ViewResult, running view "Index".
+in method  at :
+
+[25-07-16 17:39:33 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executed ViewResult - view "Index" executed in 8.9746ms.
+in method  at :
+
+[25-07-16 17:39:33 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Mvc.Controllers.UsersController.IndexAsync (SwagLabs.Mvc)" in 46.2946ms
+in method  at :
+
+[25-07-16 17:39:33 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Mvc.Controllers.UsersController.IndexAsync (SwagLabs.Mvc)"'
+in method  at :
+
+[25-07-16 17:39:33 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/users""" - 200 null "text/html; charset=utf-8" 99.5876ms
+in method  at :
+
+[25-07-16 17:39:33 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/.well-known/appspecific/com.chrome.devtools.json""" - null null
+in method  at :
+
+[25-07-16 17:39:33 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/.well-known/appspecific/com.chrome.devtools.json""" - 404 0 null 4.8527ms
+in method  at :
+
+[25-07-16 17:39:33 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7166""""/.well-known/appspecific/com.chrome.devtools.json", Response status code: 404
+in method  at :
+
+[25-07-16 17:39:33 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-16 17:39:33 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-16 17:39:33 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 75.5365ms
+in method  at :
+
+[25-07-16 17:39:33 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 141.4422ms
+in method  at :
+
+[25-07-16 17:40:20 Information]SwagLabs.Mvc:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-07-16 17:40:21 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Now listening on: "https://localhost:7166"
+in method  at :
+
+[25-07-16 17:40:21 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5001"
+in method  at :
+
+[25-07-16 17:40:21 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-16 17:40:21 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-16 17:40:21 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Mvc"
+in method  at :
+
+[25-07-16 17:40:22 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/""" - null null
+in method  at :
+
+[25-07-16 17:40:22 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/""" - 404 0 null 271.4933ms
+in method  at :
+
+[25-07-16 17:40:22 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7166""""/", Response status code: 404
+in method  at :
+
+[25-07-16 17:40:25 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/users""" - null null
+in method  at :
+
+[25-07-16 17:40:25 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Mvc.Controllers.UsersController.IndexAsync (SwagLabs.Mvc)"'
+in method  at :
+
+[25-07-16 17:40:25 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Index\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IndexAsync()" on controller "SwagLabs.Mvc.Controllers.UsersController" ("SwagLabs.Mvc").
+in method  at :
+
+[25-07-16 17:40:26 Information]SwagLabs.Mvc:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("15"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""SELECT [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-16 17:40:26 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executing ViewResult, running view "Index".
+in method  at :
+
+[25-07-16 17:40:26 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executed ViewResult - view "Index" executed in 207.2436ms.
+in method  at :
+
+[25-07-16 17:40:26 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Mvc.Controllers.UsersController.IndexAsync (SwagLabs.Mvc)" in 1242.343ms
+in method  at :
+
+[25-07-16 17:40:26 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Mvc.Controllers.UsersController.IndexAsync (SwagLabs.Mvc)"'
+in method  at :
+
+[25-07-16 17:40:26 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/users""" - 200 null "text/html; charset=utf-8" 1336.2327ms
+in method  at :
+
+[25-07-16 17:40:26 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-16 17:40:26 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-16 17:40:26 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 31.8857ms
+in method  at :
+
+[25-07-16 17:40:26 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 60.298ms
+in method  at :
+
+[25-07-16 17:43:23 Information]SwagLabs.Mvc:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-07-16 17:43:24 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Now listening on: "https://localhost:7166"
+in method  at :
+
+[25-07-16 17:43:24 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5001"
+in method  at :
+
+[25-07-16 17:43:24 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-16 17:43:24 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-16 17:43:24 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Mvc"
+in method  at :
+
+[25-07-16 17:43:25 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/""" - null null
+in method  at :
+
+[25-07-16 17:43:25 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/""" - 404 0 null 221.4194ms
+in method  at :
+
+[25-07-16 17:43:25 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7166""""/", Response status code: 404
+in method  at :
+
+[25-07-16 17:43:27 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/users""" - null null
+in method  at :
+
+[25-07-16 17:43:27 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Mvc.Controllers.UsersController.IndexAsync (SwagLabs.Mvc)"'
+in method  at :
+
+[25-07-16 17:43:27 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Index\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IndexAsync()" on controller "SwagLabs.Mvc.Controllers.UsersController" ("SwagLabs.Mvc").
+in method  at :
+
+[25-07-16 17:43:28 Information]SwagLabs.Mvc:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("34"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""SELECT [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-16 17:43:28 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executing ViewResult, running view "Index".
+in method  at :
+
+[25-07-16 17:43:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executed ViewResult - view "Index" executed in 220.4816ms.
+in method  at :
+
+[25-07-16 17:43:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Mvc.Controllers.UsersController.IndexAsync (SwagLabs.Mvc)" in 1555.1107ms
+in method  at :
+
+[25-07-16 17:43:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Mvc.Controllers.UsersController.IndexAsync (SwagLabs.Mvc)"'
+in method  at :
+
+[25-07-16 17:43:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-16 17:43:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-16 17:43:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/users""" - 200 null "text/html; charset=utf-8" 1798.0699ms
+in method  at :
+
+[25-07-16 17:43:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 197.4531ms
+in method  at :
+
+[25-07-16 17:43:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 134.8366ms
+in method  at :
+
+[25-07-16 17:44:25 Information]SwagLabs.Mvc:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-07-16 17:44:25 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Now listening on: "https://localhost:7166"
+in method  at :
+
+[25-07-16 17:44:25 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5001"
+in method  at :
+
+[25-07-16 17:44:25 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-16 17:44:25 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-16 17:44:25 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Mvc"
+in method  at :
+
+[25-07-16 17:44:26 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/""" - null null
+in method  at :
+
+[25-07-16 17:44:26 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/""" - 404 0 null 234.8789ms
+in method  at :
+
+[25-07-16 17:44:26 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7166""""/", Response status code: 404
+in method  at :
+
+[25-07-16 17:44:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/users""" - null null
+in method  at :
+
+[25-07-16 17:44:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Mvc.Controllers.UsersController.IndexAsync (SwagLabs.Mvc)"'
+in method  at :
+
+[25-07-16 17:44:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Index\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IndexAsync()" on controller "SwagLabs.Mvc.Controllers.UsersController" ("SwagLabs.Mvc").
+in method  at :
+
+[25-07-16 17:44:30 Information]SwagLabs.Mvc:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("29"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""SELECT [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-16 17:44:30 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executing ViewResult, running view "Index".
+in method  at :
+
+[25-07-16 17:44:30 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executed ViewResult - view "Index" executed in 129.0829ms.
+in method  at :
+
+[25-07-16 17:44:30 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Mvc.Controllers.UsersController.IndexAsync (SwagLabs.Mvc)" in 1244.1913ms
+in method  at :
+
+[25-07-16 17:44:30 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Mvc.Controllers.UsersController.IndexAsync (SwagLabs.Mvc)"'
+in method  at :
+
+[25-07-16 17:44:30 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/users""" - 200 null "text/html; charset=utf-8" 1355.5385ms
+in method  at :
+
+[25-07-16 17:44:30 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-16 17:44:30 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-16 17:44:30 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 71.4572ms
+in method  at :
+
+[25-07-16 17:44:30 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 91.6792ms
+in method  at :
+
+[25-07-16 17:49:24 Information]SwagLabs.Mvc:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-07-16 17:49:24 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Now listening on: "https://localhost:7166"
+in method  at :
+
+[25-07-16 17:49:24 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5001"
+in method  at :
+
+[25-07-16 17:49:24 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-16 17:49:24 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-16 17:49:24 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Mvc"
+in method  at :
+
+[25-07-16 17:49:25 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/""" - null null
+in method  at :
+
+[25-07-16 17:49:25 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/""" - 404 0 null 212.6292ms
+in method  at :
+
+[25-07-16 17:49:25 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7166""""/", Response status code: 404
+in method  at :
+
+[25-07-16 17:49:27 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/users""" - null null
+in method  at :
+
+[25-07-16 17:49:27 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Mvc.Controllers.UsersController.IndexAsync (SwagLabs.Mvc)"'
+in method  at :
+
+[25-07-16 17:49:27 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Index\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IndexAsync()" on controller "SwagLabs.Mvc.Controllers.UsersController" ("SwagLabs.Mvc").
+in method  at :
+
+[25-07-16 17:49:28 Information]SwagLabs.Mvc:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("43"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""SELECT [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-16 17:49:28 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executing ViewResult, running view "Index".
+in method  at :
+
+[25-07-16 17:49:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executed ViewResult - view "Index" executed in 176.2331ms.
+in method  at :
+
+[25-07-16 17:49:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Mvc.Controllers.UsersController.IndexAsync (SwagLabs.Mvc)" in 1385.9648ms
+in method  at :
+
+[25-07-16 17:49:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Mvc.Controllers.UsersController.IndexAsync (SwagLabs.Mvc)"'
+in method  at :
+
+[25-07-16 17:49:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/users""" - 200 null "text/html; charset=utf-8" 1503.166ms
+in method  at :
+
+[25-07-16 17:49:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/lib/bootstrap/css/bootstrap.min.css""?v=YvdLHPgkqJ8DVUxjjnGVlMMJtNimJ6dYkowFFvp4kKs&v=YvdLHPgkqJ8DVUxjjnGVlMMJtNimJ6dYkowFFvp4kKs" - null null
+in method  at :
+
+[25-07-16 17:49:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-16 17:49:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-16 17:49:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 35.0539ms
+in method  at :
+
+[25-07-16 17:49:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/lib/bootstrap/css/bootstrap.min.css"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Mvc\wwwroot\lib\bootstrap\css\bootstrap.min.css"'
+in method  at :
+
+[25-07-16 17:49:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/lib/bootstrap/css/bootstrap.min.css""?v=YvdLHPgkqJ8DVUxjjnGVlMMJtNimJ6dYkowFFvp4kKs&v=YvdLHPgkqJ8DVUxjjnGVlMMJtNimJ6dYkowFFvp4kKs" - 200 163873 "text/css" 102.6944ms
+in method  at :
+
+[25-07-16 17:49:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 108.1613ms
+in method  at :
+
+[25-07-16 17:52:22 Information]SwagLabs.Mvc:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-07-16 17:52:22 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Now listening on: "https://localhost:7166"
+in method  at :
+
+[25-07-16 17:52:22 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5001"
+in method  at :
+
+[25-07-16 17:52:22 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-16 17:52:22 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-16 17:52:22 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Mvc"
+in method  at :
+
+[25-07-16 17:52:23 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/""" - null null
+in method  at :
+
+[25-07-16 17:52:23 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/""" - 404 0 null 225.7276ms
+in method  at :
+
+[25-07-16 17:52:23 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7166""""/", Response status code: 404
+in method  at :
+
+[25-07-16 17:52:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/users""" - null null
+in method  at :
+
+[25-07-16 17:52:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Mvc.Controllers.UsersController.IndexAsync (SwagLabs.Mvc)"'
+in method  at :
+
+[25-07-16 17:52:29 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Index\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IndexAsync()" on controller "SwagLabs.Mvc.Controllers.UsersController" ("SwagLabs.Mvc").
+in method  at :
+
+[25-07-16 17:52:30 Information]SwagLabs.Mvc:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("46"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""SELECT [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-16 17:52:30 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executing ViewResult, running view "Index".
+in method  at :
+
+[25-07-16 17:52:30 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executed ViewResult - view "Index" executed in 191.8296ms.
+in method  at :
+
+[25-07-16 17:52:30 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Mvc.Controllers.UsersController.IndexAsync (SwagLabs.Mvc)" in 1671.7259ms
+in method  at :
+
+[25-07-16 17:52:30 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Mvc.Controllers.UsersController.IndexAsync (SwagLabs.Mvc)"'
+in method  at :
+
+[25-07-16 17:52:30 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/users""" - 200 null "text/html; charset=utf-8" 1809.1591ms
+in method  at :
+
+[25-07-16 17:52:30 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-16 17:52:30 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-16 17:52:30 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 67.1277ms
+in method  at :
+
+[25-07-16 17:52:31 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 89.157ms
+in method  at :
+
+[25-07-16 17:53:53 Information]SwagLabs.Mvc:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-07-16 17:53:53 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Now listening on: "https://localhost:7166"
+in method  at :
+
+[25-07-16 17:53:53 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5001"
+in method  at :
+
+[25-07-16 17:53:53 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-16 17:53:53 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-16 17:53:53 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Mvc"
+in method  at :
+
+[25-07-16 17:53:54 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/""" - null null
+in method  at :
+
+[25-07-16 17:53:54 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/""" - 404 0 null 218.8262ms
+in method  at :
+
+[25-07-16 17:53:54 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7166""""/", Response status code: 404
+in method  at :
+
+[25-07-16 17:54:06 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/users""" - null null
+in method  at :
+
+[25-07-16 17:54:06 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Mvc.Controllers.UsersController.IndexAsync (SwagLabs.Mvc)"'
+in method  at :
+
+[25-07-16 17:54:06 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Index\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IndexAsync()" on controller "SwagLabs.Mvc.Controllers.UsersController" ("SwagLabs.Mvc").
+in method  at :
+
+[25-07-16 17:54:07 Information]SwagLabs.Mvc:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("27"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""SELECT [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-16 17:54:07 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executing ViewResult, running view "Index".
+in method  at :
+
+[25-07-16 17:54:08 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executed ViewResult - view "Index" executed in 154.5499ms.
+in method  at :
+
+[25-07-16 17:54:08 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Mvc.Controllers.UsersController.IndexAsync (SwagLabs.Mvc)" in 1421.7572ms
+in method  at :
+
+[25-07-16 17:54:08 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Mvc.Controllers.UsersController.IndexAsync (SwagLabs.Mvc)"'
+in method  at :
+
+[25-07-16 17:54:08 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/users""" - 200 null "text/html; charset=utf-8" 1513.6978ms
+in method  at :
+
+[25-07-16 17:54:08 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-16 17:54:08 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-16 17:54:08 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 36.1959ms
+in method  at :
+
+[25-07-16 17:54:08 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 72.2499ms
+in method  at :
+
+[25-07-16 17:58:03 Information]SwagLabs.Mvc:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-07-16 17:58:04 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Now listening on: "https://localhost:7166"
+in method  at :
+
+[25-07-16 17:58:04 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5001"
+in method  at :
+
+[25-07-16 17:58:04 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-16 17:58:04 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-16 17:58:04 Information]SwagLabs.Mvc:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Mvc"
+in method  at :
+
+[25-07-16 17:58:04 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/""" - null null
+in method  at :
+
+[25-07-16 17:58:05 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/""" - 404 0 null 268.6837ms
+in method  at :
+
+[25-07-16 17:58:05 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7166""""/", Response status code: 404
+in method  at :
+
+[25-07-16 17:58:10 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/users""" - null null
+in method  at :
+
+[25-07-16 17:58:10 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Mvc.Controllers.UsersController.IndexAsync (SwagLabs.Mvc)"'
+in method  at :
+
+[25-07-16 17:58:10 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Index\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] IndexAsync()" on controller "SwagLabs.Mvc.Controllers.UsersController" ("SwagLabs.Mvc").
+in method  at :
+
+[25-07-16 17:58:12 Information]SwagLabs.Mvc:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("36"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""SELECT [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-16 17:58:12 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executing ViewResult, running view "Index".
+in method  at :
+
+[25-07-16 17:58:12 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor
+Message:Executed ViewResult - view "Index" executed in 231.7581ms.
+in method  at :
+
+[25-07-16 17:58:12 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Mvc.Controllers.UsersController.IndexAsync (SwagLabs.Mvc)" in 1562.4206ms
+in method  at :
+
+[25-07-16 17:58:12 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Mvc.Controllers.UsersController.IndexAsync (SwagLabs.Mvc)"'
+in method  at :
+
+[25-07-16 17:58:12 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/users""" - 200 null "text/html; charset=utf-8" 1656.1794ms
+in method  at :
+
+[25-07-16 17:58:12 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-16 17:58:12 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-16 17:58:12 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 20.9143ms
+in method  at :
+
+[25-07-16 17:58:12 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 55.6582ms
+in method  at :
+
+[25-07-16 17:58:12 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/lib/font-awesome/webfonts/fa-solid-900.woff2""" - null null
+in method  at :
+
+[25-07-16 17:58:12 Information]SwagLabs.Mvc:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/lib/font-awesome/webfonts/fa-solid-900.woff2"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Mvc\wwwroot\lib\font-awesome\webfonts\fa-solid-900.woff2"'
+in method  at :
+
+[25-07-16 17:58:12 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/lib/font-awesome/webfonts/fa-solid-900.woff2""" - 200 78268 "font/woff2" 49.9234ms
+in method  at :
+
+[25-07-16 17:59:47 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/Users/Details""" - null null
+in method  at :
+
+[25-07-16 17:59:47 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Mvc.Controllers.UsersController.DetailsAsync (SwagLabs.Mvc)"'
+in method  at :
+
+[25-07-16 17:59:47 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Details\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DetailsAsync(System.Nullable`1[System.Int32])" on controller "SwagLabs.Mvc.Controllers.UsersController" ("SwagLabs.Mvc").
+in method  at :
+
+[25-07-16 17:59:47 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.StatusCodeResult
+Message:Executing StatusCodeResult, setting HTTP status code 400
+in method  at :
+
+[25-07-16 17:59:47 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Mvc.Controllers.UsersController.DetailsAsync (SwagLabs.Mvc)" in 28.5542ms
+in method  at :
+
+[25-07-16 17:59:47 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Mvc.Controllers.UsersController.DetailsAsync (SwagLabs.Mvc)"'
+in method  at :
+
+[25-07-16 17:59:47 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/Users/Details""" - 400 0 null 129.983ms
+in method  at :
+
+[25-07-16 17:59:48 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7166""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-16 17:59:48 Information]SwagLabs.Mvc:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7166""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 7.7723ms
+in method  at :
+
