@@ -16,9 +16,6 @@ public abstract class BaseCrudController<TEntity, TController> : Controller
 
     protected IDataServiceBase<TEntity> MainDataService;
 
-    [BindProperty]
-    TEntity Entity { get; set; }
-
     protected BaseCrudController(IAppLogging<TController> appLogging, IDataServiceBase<TEntity> mainDataService)
     {
         AppLoggingInstance = appLogging;
@@ -61,16 +58,15 @@ public abstract class BaseCrudController<TEntity, TController> : Controller
     }
 
     [HttpPost]
-    [ActionName("Create")]
-    public virtual async Task<IActionResult> CreatePostAsync()
+    public virtual async Task<IActionResult> CreateAsync(TEntity entity)
     {
         if (ModelState.IsValid)
         {
-            await MainDataService.AddAsync(Entity);
-            return RedirectToAction(nameof(DetailsAsync).RemoveAsyncSuffix(), new { id = Entity.Id });
+            await MainDataService.AddAsync(entity);
+            return RedirectToAction(nameof(DetailsAsync).RemoveAsyncSuffix(), new { id = entity.Id });
         }
 
-        return View(Entity);
+        return View(entity);
     }
 
     [HttpGet("{id}")]
@@ -94,10 +90,9 @@ public abstract class BaseCrudController<TEntity, TController> : Controller
     }
 
     [HttpPost("{id}")]
-    [ActionName("Edit")]
-    public virtual async Task<IActionResult> EditAsync(int id)
+    public virtual async Task<IActionResult> EditAsync(int id, TEntity entity)
     {
-        if (id != Entity.Id)
+        if (id != entity.Id)
         {
             ViewData["Error"] = "Bad Request";
             return View();
@@ -105,11 +100,11 @@ public abstract class BaseCrudController<TEntity, TController> : Controller
 
         if (ModelState.IsValid)
         {
-            await MainDataService.UpdateAsync(Entity);
+            await MainDataService.UpdateAsync(entity);
             return RedirectToAction(nameof(DetailsAsync).RemoveAsyncSuffix(), new { id });
         }
 
-        return View(Entity);
+        return View(entity);
     }
 
     [HttpGet("{id?}")]
@@ -134,9 +129,9 @@ public abstract class BaseCrudController<TEntity, TController> : Controller
 
     [HttpPost("{id}")]
     [ActionName("Delete")]
-    public virtual async Task<IActionResult> DeleteAsync(int id)
+    public virtual async Task<IActionResult> DeleteAsync(int id, TEntity entity)
     {
-        if (id != Entity.Id)
+        if (id != entity.Id)
         {
             ViewData["Error"] = "Bad Request";
             return View();
@@ -144,15 +139,15 @@ public abstract class BaseCrudController<TEntity, TController> : Controller
 
         try
         { 
-            await MainDataService.DeleteAsync(Entity);
+            await MainDataService.DeleteAsync(entity);
             return RedirectToAction(nameof(IndexAsync).RemoveAsyncSuffix());
         }
         catch (Exception ex)
         {
             ModelState.Clear();
             ModelState.AddModelError(string.Empty, ex.Message);
-            Entity = await GetOneEntityAsync(Entity.Id);
-            return View(Entity);
+            entity = await GetOneEntityAsync(entity.Id);
+            return View(entity);
         }
     }
 }

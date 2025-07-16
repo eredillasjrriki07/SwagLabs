@@ -15,4 +15,9 @@
     <ProjectReference Include="..\SwagLabs.Services\SwagLabs.Services.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Views\Users\DisplayTemplates\" />
+    <Folder Include="Views\Users\EditorTemplates\" />
+  </ItemGroup>
+
 </Project>
