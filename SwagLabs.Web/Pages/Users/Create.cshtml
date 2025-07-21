@@ -1,0 +1,32 @@
+﻿@page
+@model SwagLabs.Web.Pages.Users.CreateModel
+
+<h1>Create a New User</h1>
+<hr />
+
+@if (!string.IsNullOrEmpty(Model.Error))
+{
+	<div class="alert alert-danger" role="alert">@Model.Error</div>
+}
+else
+{
+	<form asp-page="Create" asp-page-handler="CreateNewUser">
+		<div class="row">
+			<div class="col-md-4">
+				<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+				@Html.EditorFor(x => x.Entity)
+			</div>
+		</div>
+		<div class="d-flex flex-row mt-3">
+			<button type="submit" class="btn btn-success">
+				Create <i class="fas fa-plus"></i>
+			</button>
+			&nbsp;&nbsp;|&nbsp;&nbsp;
+			<item-list></item-list>
+		</div>
+	</form>
+
+	@section Scripts {
+		<partial name="_ValidationScriptsPartial" />
+	}
+}

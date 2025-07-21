@@ -1,6 +1,9 @@
+using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 using SwagLabs.Dal.EfStructures;
 using SwagLabs.Services.ApiWrapper.Configuration;
+using SwagLabs.Services.AuthServices;
 using SwagLabs.Services.DataServices;
 using SwagLabs.Services.Logging.Configuration;
 
@@ -11,6 +14,20 @@ builder.Services.RegisterLoggingInterfaces();
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+
+if (builder.Environment.IsDevelopment() || builder.Environment.IsEnvironment("Local"))
+{
+    builder.Services.AddWebOptimizer(options =>
+    {
+        options.MinifyCssFiles("SwagLabs.Web.styles.css");
+        options.MinifyCssFiles("/css/site.css");
+        options.MinifyJsFiles("/js/site.js");
+
+        //options.AddJavaScriptBundle("/js/validationCode.");
+    });
+}
+
+builder.Services.TryAddSingleton<IActionContextAccessor, ActionContextAccessor>();
 
 var connectionString = builder.Configuration.GetConnectionString("SwagLabs");
 
@@ -23,6 +40,8 @@ builder.Services.AddDbContextPool<AppDbContext>(
 builder.Services.AddRepositories();
 
 builder.Services.AddDataServices(builder.Configuration);
+
+builder.Services.AddAuthServices(builder.Configuration);
 
 builder.Services.ConfigureApiServiceWrapper(builder.Configuration);
 
@@ -41,6 +60,7 @@ else
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+app.UseWebOptimizer();
 app.UseRouting();
 app.UseAuthorization();
 app.MapRazorPages();

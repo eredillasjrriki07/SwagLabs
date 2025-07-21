@@ -1,0 +1,36 @@
+﻿body {
+    background-color: #eefcf6;
+}
+
+.form-control.borderless {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+    .form-control.borderless:focus {
+        border-bottom: 1px solid #4be18a;
+        box-shadow: none;
+    }
+
+label {
+    font-size: 0.9rem;
+    color: #666;
+}
+.form-control.borderless {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+    .form-control.borderless:focus {
+        border-bottom: 1px solid #4be18a;
+        box-shadow: none;
+    }
+
+label {
+    font-size: 0.9rem;
+    color: #666;
+}

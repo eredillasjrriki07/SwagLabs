@@ -6,4 +6,5 @@ namespace SwagLabs.Dal.Repos.Interfaces;
 
 public interface IUserRepo : ITemporalTableBaseRepo<User>
 {
+    Task<User> FindByUsernameAsync(string username);
 }

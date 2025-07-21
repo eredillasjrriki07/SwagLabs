@@ -19,6 +19,9 @@ public class UserRepo : TemporalTableBaseRepo<User>, IUserRepo
     {
     }
 
+    public async Task<User> FindByUsernameAsync(string username)
+        => await BuildQuery().FirstOrDefaultAsync(u => u.UserName == username);
+
     public override async Task<IEnumerable<User>> GetAllAsync()
         => await BuildQuery().ToListAsync();
 

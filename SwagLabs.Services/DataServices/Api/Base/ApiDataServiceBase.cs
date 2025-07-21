@@ -6,15 +6,15 @@ using SwagLabs.Services.Logging.Interfaces;
 
 namespace SwagLabs.Services.DataServices.Api.Base;
 
-public class ApiDataServiceBase<TEntity, TDataService> : IDataServiceBase<TEntity> 
+public class ApiDataServiceBase<TEntity, TDataService> : IDataServiceBase<TEntity>
     where TEntity : BaseEntity, new()
-    where TDataService : IDataServiceBase<TEntity>
+    where TDataService :    IDataServiceBase<TEntity>
 {
 
     protected readonly IApiServiceWrapperBase<TEntity> ServiceWrapper;
     protected readonly IAppLogging<TDataService> AppLoggingInstance;
 
-    protected ApiDataServiceBase(IAppLogging<TDataService> appLogging,IApiServiceWrapperBase<TEntity> serviceWrapperBase)
+    protected ApiDataServiceBase(IAppLogging<TDataService> appLogging, IApiServiceWrapperBase<TEntity> serviceWrapperBase)
     {
         ServiceWrapper = serviceWrapperBase;
         AppLoggingInstance = appLogging;

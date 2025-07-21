@@ -5,4 +5,5 @@ namespace SwagLabs.Services.ApiWrapper.Interfaces;
 
 public interface IUserApiServiceWrapper : IApiServiceWrapperBase<User>
 {
+    Task<User> LoginWithUserandPasswordAsync(string username, string password);
 }

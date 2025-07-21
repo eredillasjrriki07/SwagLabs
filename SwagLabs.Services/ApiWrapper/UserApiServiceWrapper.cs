@@ -13,4 +13,9 @@ public class UserApiServiceWrapper : ApiServiceWrapperBase<User>, IUserApiServic
         : base(client, apiSettingsMonitor, apiSettingsMonitor.CurrentValue.UserBaseUri)
     {
     }
+
+    public Task<User> LoginWithUserandPasswordAsync(string username, string password)
+    {
+        throw new NotImplementedException();
+    }
 }

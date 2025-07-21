@@ -1,0 +1,28 @@
+﻿@model IEnumerable<SwagLabs.Models.Entities.User>
+
+<p>
+	<item-create></item-create>
+</p>
+
+<table>
+	<thead>
+		<tr>
+			<th>@Html.DisplayNameFor(model => model.UserName)</th>
+			<th>@Html.DisplayNameFor(model => model.Password)</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td>@Html.DisplayFor(modelItem => item.UserName)</td>
+				<td>@Html.DisplayFor(modelItem => item.Password)</td>
+				<td>
+					<item-edit item-id="@item.Id"></item-edit> |
+					<item-details item-id="@item.Id"></item-details> |
+					<item-delete item-id="@item.Id"></item-delete>
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>

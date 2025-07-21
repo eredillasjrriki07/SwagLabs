@@ -13,4 +13,5 @@ public class UserApiDataService : ApiDataServiceBase<User, UserApiDataService>, 
         : base(appLogging, serviceWrapper)
     {
     }
+
 }

@@ -9,8 +9,10 @@ namespace SwagLabs.Services.DataServices.Dal;
 
 public class UserDalDataService : DalDataServiceBase<User, UserDalDataService>, IUserDataService
 {
+
     public UserDalDataService(IAppLogging<UserDalDataService> appLogging, IUserRepo repo)
         : base(appLogging, repo)
     {
     }
+
 }
