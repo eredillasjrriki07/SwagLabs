@@ -1,5 +1,6 @@
 ﻿using SwagLabs.Dal.Repos.Interfaces;
 using SwagLabs.Models.Entities;
+using SwagLabs.Services.ApiWrapper.Auth.Models;
 using SwagLabs.Services.AuthServices.Interfaces;
 using SwagLabs.Services.Logging.Interfaces;
 
@@ -16,11 +17,11 @@ public class AuthDalService : IAuthService
         UserRepo = userRepo;
     }
 
-    public async Task<User?> LoginAsync(string username, string password)
+    public async Task<User?> LoginAsync(LoginRequest loginRequest)
     {
-        User user = await UserRepo.FindByUsernameAsync(username);
+        User user = await UserRepo.FindByUsernameAsync(loginRequest.UserName);
 
-        if (user == null || user.Password != password) 
+        if (user == null || user.Password != loginRequest.Password) 
         {
             return null;
         }

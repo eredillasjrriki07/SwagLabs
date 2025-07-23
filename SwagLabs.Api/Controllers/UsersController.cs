@@ -7,8 +7,10 @@ namespace SwagLabs.Api.Controllers;
 
 public class UsersController : BaseCrudController<User, UsersController>
 {
+
     public UsersController(IAppLogging<UsersController> logger, IUserRepo repo)
         : base(logger, repo)
     {
     }
+
 }

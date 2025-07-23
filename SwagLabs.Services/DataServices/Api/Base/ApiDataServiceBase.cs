@@ -1,6 +1,6 @@
 ﻿
 using SwagLabs.Models.Entities.Base;
-using SwagLabs.Services.ApiWrapper.Interfaces;
+using SwagLabs.Services.ApiWrapper.Services.Interfaces;
 using SwagLabs.Services.DataServices.Interfaces;
 using SwagLabs.Services.Logging.Interfaces;
 

@@ -1,0 +1,3246 @@
+[25-07-23 14:22:59 Information]SwagLabs.Web:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-07-23 14:23:00 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Now listening on: "https://localhost:7050"
+in method  at :
+
+[25-07-23 14:23:00 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5021"
+in method  at :
+
+[25-07-23 14:23:00 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-23 14:23:00 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-23 14:23:00 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web"
+in method  at :
+
+[25-07-23 14:23:01 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/""" - null null
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Index"'
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Index\"}". Executing page "/Index"
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.IndexModel.OnGet" - ModelState is Valid
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnGet", returned result "".
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing an implicit handler method - ModelState is Valid
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Index" in 109.6074ms
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Index"'
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/""" - 200 null "text/html; charset=utf-8" 468.0605ms
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/lib/bootstrap/css/bootstrap.css""?v=o-AsfCHj7A1M5Xgm1kJmZiGEIvMQEzQqrXz2072Gkkg" - null null
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/css/site.css""?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg" - null null
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/lib/font-awesome/css/all.css""?v=DLjMP-5CdeGCI2qxnDquVSdPQ6oP_enAUQ2NWfz45dw" - null null
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/SwagLabs.Web.styles.css""?v=WwhzUPldvx7-Oq9UfCCnZc_RdoYSg2nPDTsrv9quxiU" - null null
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/lib/jquery/jquery.js""?v=H-K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk" - null null
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/lib/bootstrap/js/bootstrap.bundle.js""?v=htsAUOIgN8xkootpQUzmvaCbQo6x2PNMTD7kLWI6yYQ" - null null
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:The file "/SwagLabs.Web.styles.css" was not modified
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:The file "/css/site.css" was not modified
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:The file "/lib/bootstrap/css/bootstrap.css" was not modified
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/js/site.js""?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo" - null null
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:The file "/lib/font-awesome/css/all.css" was not modified
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:The file "/lib/jquery/jquery.js" was not modified
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:The file "/lib/bootstrap/js/bootstrap.bundle.js" was not modified
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/SwagLabs.Web.styles.css""?v=WwhzUPldvx7-Oq9UfCCnZc_RdoYSg2nPDTsrv9quxiU" - 304 null "text/css" 212.4796ms
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/css/site.css""?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg" - 304 null "text/css" 215.4257ms
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/lib/bootstrap/css/bootstrap.css""?v=o-AsfCHj7A1M5Xgm1kJmZiGEIvMQEzQqrXz2072Gkkg" - 304 null "text/css" 225.9155ms
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:The file "/js/site.js" was not modified
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/lib/font-awesome/css/all.css""?v=DLjMP-5CdeGCI2qxnDquVSdPQ6oP_enAUQ2NWfz45dw" - 304 null "text/css" 222.0413ms
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/lib/jquery/jquery.js""?v=H-K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk" - 304 null "text/javascript" 162.7711ms
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/lib/bootstrap/js/bootstrap.bundle.js""?v=htsAUOIgN8xkootpQUzmvaCbQo6x2PNMTD7kLWI6yYQ" - 304 null "text/javascript" 117.3325ms
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/js/site.js""?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo" - 304 null "text/javascript" 46.2557ms
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 202.8613ms
+in method  at :
+
+[25-07-23 14:23:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 70.9479ms
+in method  at :
+
+[25-07-23 14:23:05 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/login""" - null null
+in method  at :
+
+[25-07-23 14:23:05 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/login""" - 404 0 null 54.132ms
+in method  at :
+
+[25-07-23 14:23:05 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7050""""/login", Response status code: 404
+in method  at :
+
+[25-07-23 14:23:06 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/login""" - null null
+in method  at :
+
+[25-07-23 14:23:06 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/login""" - 404 0 null 13.8046ms
+in method  at :
+
+[25-07-23 14:23:06 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7050""""/login", Response status code: 404
+in method  at :
+
+[25-07-23 14:23:15 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/auth/login""" - null null
+in method  at :
+
+[25-07-23 14:23:15 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 14:23:15 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Auth/Login\"}". Executing page "/Auth/Login"
+in method  at :
+
+[25-07-23 14:23:15 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Auth/Login" in 6.4603ms
+in method  at :
+
+[25-07-23 14:23:15 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 14:23:15 Error]SwagLabs.Web:Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware
+Message:An unhandled exception has occurred while executing the request.
+in method  at :
+System.InvalidOperationException: Unable to resolve service for type 'SwagLabs.Services.AuthServices.Interfaces.IAuthService' while attempting to activate 'SwagLabs.Web.Pages.Auth.LoginModel'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method33(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DefaultPageModelFactoryProvider.<>c__DisplayClass3_0.<CreateModelFactory>b__0(PageContext pageContext)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.CreateInstance()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+[25-07-23 14:23:15 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/auth/login""" - 500 null "text/html; charset=utf-8" 153.8643ms
+in method  at :
+
+[25-07-23 14:23:16 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/auth/login""" - null null
+in method  at :
+
+[25-07-23 14:23:16 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 14:23:16 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Auth/Login\"}". Executing page "/Auth/Login"
+in method  at :
+
+[25-07-23 14:23:16 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Auth/Login" in 1.1182ms
+in method  at :
+
+[25-07-23 14:23:16 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 14:23:16 Error]SwagLabs.Web:Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware
+Message:An unhandled exception has occurred while executing the request.
+in method  at :
+System.InvalidOperationException: Unable to resolve service for type 'SwagLabs.Services.AuthServices.Interfaces.IAuthService' while attempting to activate 'SwagLabs.Web.Pages.Auth.LoginModel'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method33(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DefaultPageModelFactoryProvider.<>c__DisplayClass3_0.<CreateModelFactory>b__0(PageContext pageContext)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.CreateInstance()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+[25-07-23 14:23:16 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/auth/login""" - 500 null "text/html; charset=utf-8" 43.3152ms
+in method  at :
+
+[25-07-23 14:23:16 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-23 14:23:16 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-23 14:23:16 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 28.229ms
+in method  at :
+
+[25-07-23 14:23:16 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 39.148ms
+in method  at :
+
+[25-07-23 14:25:46 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/auth/login""" - null null
+in method  at :
+
+[25-07-23 14:25:46 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 14:25:46 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Auth/Login\"}". Executing page "/Auth/Login"
+in method  at :
+
+[25-07-23 14:25:46 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Auth/Login" in 1.8409ms
+in method  at :
+
+[25-07-23 14:25:46 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 14:25:46 Error]SwagLabs.Web:Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware
+Message:An unhandled exception has occurred while executing the request.
+in method  at :
+System.InvalidOperationException: Unable to resolve service for type 'SwagLabs.Services.AuthServices.Interfaces.IAuthService' while attempting to activate 'SwagLabs.Web.Pages.Auth.LoginModel'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method33(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DefaultPageModelFactoryProvider.<>c__DisplayClass3_0.<CreateModelFactory>b__0(PageContext pageContext)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.CreateInstance()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+[25-07-23 14:25:46 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/auth/login""" - 500 null "text/html; charset=utf-8" 136.2937ms
+in method  at :
+
+[25-07-23 14:25:46 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-23 14:25:46 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-23 14:25:46 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 39.3405ms
+in method  at :
+
+[25-07-23 14:25:46 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 91.1087ms
+in method  at :
+
+[25-07-23 14:25:46 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/favicon.ico""" - null null
+in method  at :
+
+[25-07-23 14:25:46 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:The file "/favicon.ico" was not modified
+in method  at :
+
+[25-07-23 14:25:46 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/favicon.ico""" - 304 null "image/x-icon" 5.5734ms
+in method  at :
+
+[25-07-23 14:36:11 Information]SwagLabs.Web:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-07-23 14:36:11 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Now listening on: "https://localhost:7050"
+in method  at :
+
+[25-07-23 14:36:11 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5021"
+in method  at :
+
+[25-07-23 14:36:12 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-23 14:36:12 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-23 14:36:12 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web"
+in method  at :
+
+[25-07-23 14:36:13 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/""" - null null
+in method  at :
+
+[25-07-23 14:36:13 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Index"'
+in method  at :
+
+[25-07-23 14:36:13 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Index\"}". Executing page "/Index"
+in method  at :
+
+[25-07-23 14:36:13 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.IndexModel.OnGet" - ModelState is Valid
+in method  at :
+
+[25-07-23 14:36:13 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnGet", returned result "".
+in method  at :
+
+[25-07-23 14:36:13 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing an implicit handler method - ModelState is Valid
+in method  at :
+
+[25-07-23 14:36:13 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+in method  at :
+
+[25-07-23 14:36:13 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Index" in 188.5555ms
+in method  at :
+
+[25-07-23 14:36:13 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Index"'
+in method  at :
+
+[25-07-23 14:36:13 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/""" - 200 null "text/html; charset=utf-8" 591.8927ms
+in method  at :
+
+[25-07-23 14:36:13 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/lib/font-awesome/css/all.css""?v=DLjMP-5CdeGCI2qxnDquVSdPQ6oP_enAUQ2NWfz45dw" - null null
+in method  at :
+
+[25-07-23 14:36:13 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/lib/bootstrap/css/bootstrap.css""?v=o-AsfCHj7A1M5Xgm1kJmZiGEIvMQEzQqrXz2072Gkkg" - null null
+in method  at :
+
+[25-07-23 14:36:13 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/SwagLabs.Web.styles.css""?v=WwhzUPldvx7-Oq9UfCCnZc_RdoYSg2nPDTsrv9quxiU" - null null
+in method  at :
+
+[25-07-23 14:36:13 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/css/site.css""?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg" - null null
+in method  at :
+
+[25-07-23 14:36:13 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/lib/jquery/jquery.js""?v=H-K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk" - null null
+in method  at :
+
+[25-07-23 14:36:13 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/lib/bootstrap/js/bootstrap.bundle.js""?v=htsAUOIgN8xkootpQUzmvaCbQo6x2PNMTD7kLWI6yYQ" - null null
+in method  at :
+
+[25-07-23 14:36:13 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/js/site.js""?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo" - null null
+in method  at :
+
+[25-07-23 14:36:13 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-23 14:36:13 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-23 14:36:14 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/SwagLabs.Web.styles.css"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web\obj\Debug\net9.0\scopedcss\bundle\SwagLabs.Web.styles.css"'
+in method  at :
+
+[25-07-23 14:36:14 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/css/site.css"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web\wwwroot\css\site.css"'
+in method  at :
+
+[25-07-23 14:36:14 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/js/site.js"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web\wwwroot\js\site.js"'
+in method  at :
+
+[25-07-23 14:36:14 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 115.4496ms
+in method  at :
+
+[25-07-23 14:36:14 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/SwagLabs.Web.styles.css""?v=WwhzUPldvx7-Oq9UfCCnZc_RdoYSg2nPDTsrv9quxiU" - 200 68 "text/css" 290.8513ms
+in method  at :
+
+[25-07-23 14:36:14 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/lib/font-awesome/css/all.css"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web\wwwroot\lib\font-awesome\css\all.css"'
+in method  at :
+
+[25-07-23 14:36:14 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/css/site.css""?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg" - 200 667 "text/css" 313.235ms
+in method  at :
+
+[25-07-23 14:36:14 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web\wwwroot\lib\bootstrap\css\bootstrap.css"'
+in method  at :
+
+[25-07-23 14:36:14 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/lib/bootstrap/js/bootstrap.bundle.js"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web\wwwroot\lib\bootstrap\js\bootstrap.bundle.js"'
+in method  at :
+
+[25-07-23 14:36:14 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/lib/font-awesome/css/all.css""?v=DLjMP-5CdeGCI2qxnDquVSdPQ6oP_enAUQ2NWfz45dw" - 200 73577 "text/css" 323.951ms
+in method  at :
+
+[25-07-23 14:36:14 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/js/site.js""?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo" - 200 231 "text/javascript" 211.3501ms
+in method  at :
+
+[25-07-23 14:36:14 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/lib/jquery/jquery.js"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web\wwwroot\lib\jquery\jquery.js"'
+in method  at :
+
+[25-07-23 14:36:14 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/lib/bootstrap/css/bootstrap.css""?v=o-AsfCHj7A1M5Xgm1kJmZiGEIvMQEzQqrXz2072Gkkg" - 200 205484 "text/css" 357.0812ms
+in method  at :
+
+[25-07-23 14:36:14 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/lib/bootstrap/js/bootstrap.bundle.js""?v=htsAUOIgN8xkootpQUzmvaCbQo6x2PNMTD7kLWI6yYQ" - 200 209719 "text/javascript" 312.5727ms
+in method  at :
+
+[25-07-23 14:36:14 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 148.6369ms
+in method  at :
+
+[25-07-23 14:36:14 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/lib/jquery/jquery.js""?v=H-K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk" - 200 288580 "text/javascript" 375.4711ms
+in method  at :
+
+[25-07-23 14:36:14 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/favicon.ico""" - null null
+in method  at :
+
+[25-07-23 14:36:14 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/favicon.ico"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web\wwwroot\favicon.ico"'
+in method  at :
+
+[25-07-23 14:36:14 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/favicon.ico""" - 200 5430 "image/x-icon" 46.7808ms
+in method  at :
+
+[25-07-23 14:36:22 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/auth/login""" - null null
+in method  at :
+
+[25-07-23 14:36:22 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 14:36:22 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Auth/Login\"}". Executing page "/Auth/Login"
+in method  at :
+
+[25-07-23 14:36:22 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Auth.LoginModel.OnGet" - ModelState is Valid
+in method  at :
+
+[25-07-23 14:36:22 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnGet", returned result "".
+in method  at :
+
+[25-07-23 14:36:22 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing an implicit handler method - ModelState is Valid
+in method  at :
+
+[25-07-23 14:36:22 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+in method  at :
+
+[25-07-23 14:36:22 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Auth/Login" in 146.697ms
+in method  at :
+
+[25-07-23 14:36:22 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 14:36:22 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/auth/login""" - 200 null "text/html; charset=utf-8" 208.584ms
+in method  at :
+
+[25-07-23 14:36:22 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/css/login.css""?v=99J3riTYNDzffP9ETaB6t2tHYwYil_g9OxLJR8yM3TI" - null null
+in method  at :
+
+[25-07-23 14:36:22 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/css/login.css"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web\wwwroot\css\login.css"'
+in method  at :
+
+[25-07-23 14:36:22 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/css/login.css""?v=99J3riTYNDzffP9ETaB6t2tHYwYil_g9OxLJR8yM3TI" - 200 656 "text/css" 6.554ms
+in method  at :
+
+[25-07-23 14:36:22 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/lib/jquery-validation/jquery.validate.js""?v=JVPrkBw6HvZl_Pj3KKadp_cU_Xt6Ry0fJSuHjPbQK3A" - null null
+in method  at :
+
+[25-07-23 14:36:22 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js""?v=Wl9UaHxa_kEWNpEQDGCoCVsQaxKHgTSZ9RTA39hf5oI" - null null
+in method  at :
+
+[25-07-23 14:36:22 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/validators.js""" - null null
+in method  at :
+
+[25-07-23 14:36:22 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/errorFormatting.js""" - null null
+in method  at :
+
+[25-07-23 14:36:22 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-23 14:36:22 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-23 14:36:22 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/lib/jquery-validation/jquery.validate.js"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web\wwwroot\lib\jquery-validation\jquery.validate.js"'
+in method  at :
+
+[25-07-23 14:36:22 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js"'
+in method  at :
+
+[25-07-23 14:36:22 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/errorFormatting.js""" - 404 0 null 38.8458ms
+in method  at :
+
+[25-07-23 14:36:22 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/validators.js""" - 404 0 null 38.8683ms
+in method  at :
+
+[25-07-23 14:36:22 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 39.9983ms
+in method  at :
+
+[25-07-23 14:36:22 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/lib/jquery-validation/jquery.validate.js""?v=JVPrkBw6HvZl_Pj3KKadp_cU_Xt6Ry0fJSuHjPbQK3A" - 200 50943 "text/javascript" 44.831ms
+in method  at :
+
+[25-07-23 14:36:22 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7050""""/js/validations/validators.js", Response status code: 404
+in method  at :
+
+[25-07-23 14:36:22 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js""?v=Wl9UaHxa_kEWNpEQDGCoCVsQaxKHgTSZ9RTA39hf5oI" - 200 19798 "text/javascript" 66.8471ms
+in method  at :
+
+[25-07-23 14:36:22 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 72.0221ms
+in method  at :
+
+[25-07-23 14:36:22 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7050""""/js/validations/errorFormatting.js", Response status code: 404
+in method  at :
+
+[25-07-23 14:36:38 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "POST" "https"://"localhost:7050""""/Auth/Login""" - "application/x-www-form-urlencoded" 243
+in method  at :
+
+[25-07-23 14:36:38 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 14:36:38 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Auth/Login\"}". Executing page "/Auth/Login"
+in method  at :
+
+[25-07-23 14:36:38 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Auth.LoginModel.OnPostAsync" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:06:54 Information]SwagLabs.Web:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-07-23 15:06:54 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Now listening on: "https://localhost:7050"
+in method  at :
+
+[25-07-23 15:06:54 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5021"
+in method  at :
+
+[25-07-23 15:06:54 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-23 15:06:54 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-23 15:06:54 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web"
+in method  at :
+
+[25-07-23 15:06:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/""" - null null
+in method  at :
+
+[25-07-23 15:06:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Index"'
+in method  at :
+
+[25-07-23 15:06:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Index\"}". Executing page "/Index"
+in method  at :
+
+[25-07-23 15:06:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.IndexModel.OnGet" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:06:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnGet", returned result "".
+in method  at :
+
+[25-07-23 15:06:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing an implicit handler method - ModelState is Valid
+in method  at :
+
+[25-07-23 15:06:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+in method  at :
+
+[25-07-23 15:06:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Index" in 199.6543ms
+in method  at :
+
+[25-07-23 15:06:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Index"'
+in method  at :
+
+[25-07-23 15:06:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/""" - 200 null "text/html; charset=utf-8" 616.0337ms
+in method  at :
+
+[25-07-23 15:06:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-23 15:06:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-23 15:06:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 38.3097ms
+in method  at :
+
+[25-07-23 15:06:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 81.2208ms
+in method  at :
+
+[25-07-23 15:07:23 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/auth/login""" - null null
+in method  at :
+
+[25-07-23 15:07:23 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:07:23 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Auth/Login\"}". Executing page "/Auth/Login"
+in method  at :
+
+[25-07-23 15:07:23 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Auth.LoginModel.OnGet" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:07:23 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnGet", returned result "".
+in method  at :
+
+[25-07-23 15:07:23 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing an implicit handler method - ModelState is Valid
+in method  at :
+
+[25-07-23 15:07:23 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+in method  at :
+
+[25-07-23 15:07:23 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Auth/Login" in 285.7193ms
+in method  at :
+
+[25-07-23 15:07:23 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:07:23 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/auth/login""" - 200 null "text/html; charset=utf-8" 365.558ms
+in method  at :
+
+[25-07-23 15:07:23 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/css/login.css""?v=99J3riTYNDzffP9ETaB6t2tHYwYil_g9OxLJR8yM3TI" - null null
+in method  at :
+
+[25-07-23 15:07:23 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:The file "/css/login.css" was not modified
+in method  at :
+
+[25-07-23 15:07:23 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/css/login.css""?v=99J3riTYNDzffP9ETaB6t2tHYwYil_g9OxLJR8yM3TI" - 304 null "text/css" 15.1742ms
+in method  at :
+
+[25-07-23 15:07:23 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/lib/jquery-validation/jquery.validate.js""?v=JVPrkBw6HvZl_Pj3KKadp_cU_Xt6Ry0fJSuHjPbQK3A" - null null
+in method  at :
+
+[25-07-23 15:07:23 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:The file "/lib/jquery-validation/jquery.validate.js" was not modified
+in method  at :
+
+[25-07-23 15:07:23 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/lib/jquery-validation/jquery.validate.js""?v=JVPrkBw6HvZl_Pj3KKadp_cU_Xt6Ry0fJSuHjPbQK3A" - 304 null "text/javascript" 12.7117ms
+in method  at :
+
+[25-07-23 15:07:23 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js""?v=Wl9UaHxa_kEWNpEQDGCoCVsQaxKHgTSZ9RTA39hf5oI" - null null
+in method  at :
+
+[25-07-23 15:07:23 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/validators.js""" - null null
+in method  at :
+
+[25-07-23 15:07:23 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/errorFormatting.js""" - null null
+in method  at :
+
+[25-07-23 15:07:23 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:The file "/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" was not modified
+in method  at :
+
+[25-07-23 15:07:23 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/validators.js""" - 404 0 null 103.8578ms
+in method  at :
+
+[25-07-23 15:07:23 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-23 15:07:23 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/errorFormatting.js""" - 404 0 null 138.0488ms
+in method  at :
+
+[25-07-23 15:07:23 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-23 15:07:23 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7050""""/js/validations/validators.js", Response status code: 404
+in method  at :
+
+[25-07-23 15:07:23 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7050""""/js/validations/errorFormatting.js", Response status code: 404
+in method  at :
+
+[25-07-23 15:07:23 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js""?v=Wl9UaHxa_kEWNpEQDGCoCVsQaxKHgTSZ9RTA39hf5oI" - 304 null "text/javascript" 297.8422ms
+in method  at :
+
+[25-07-23 15:07:23 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 165.1218ms
+in method  at :
+
+[25-07-23 15:07:23 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 132.7996ms
+in method  at :
+
+[25-07-23 15:07:30 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "POST" "https"://"localhost:7050""""/Auth/Login""" - "application/x-www-form-urlencoded" 243
+in method  at :
+
+[25-07-23 15:07:30 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:07:30 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Auth/Login\"}". Executing page "/Auth/Login"
+in method  at :
+
+[25-07-23 15:07:30 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Auth.LoginModel.OnPostAsync" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:07:30 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.LogicalHandler
+Message:Start processing HTTP request "POST" "https://localhost:5011/api/v1/Auth?*"
+in method  at :
+
+[25-07-23 15:07:30 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.ClientHandler
+Message:Sending HTTP request "POST" "https://localhost:5011/api/v1/Auth?*"
+in method  at :
+
+[25-07-23 15:10:09 Information]SwagLabs.Web:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-07-23 15:10:09 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Now listening on: "https://localhost:7050"
+in method  at :
+
+[25-07-23 15:10:09 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5021"
+in method  at :
+
+[25-07-23 15:10:09 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-23 15:10:09 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-23 15:10:09 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web"
+in method  at :
+
+[25-07-23 15:10:10 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/""" - null null
+in method  at :
+
+[25-07-23 15:10:10 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Index"'
+in method  at :
+
+[25-07-23 15:10:10 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Index\"}". Executing page "/Index"
+in method  at :
+
+[25-07-23 15:10:10 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.IndexModel.OnGet" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:10:10 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnGet", returned result "".
+in method  at :
+
+[25-07-23 15:10:10 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing an implicit handler method - ModelState is Valid
+in method  at :
+
+[25-07-23 15:10:10 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+in method  at :
+
+[25-07-23 15:10:10 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Index" in 137.5497ms
+in method  at :
+
+[25-07-23 15:10:10 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Index"'
+in method  at :
+
+[25-07-23 15:10:10 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-23 15:10:10 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-23 15:10:10 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/""" - 200 null "text/html; charset=utf-8" 560.7266ms
+in method  at :
+
+[25-07-23 15:10:10 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 159.5734ms
+in method  at :
+
+[25-07-23 15:10:10 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 188.9365ms
+in method  at :
+
+[25-07-23 15:10:59 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/auth/login""" - null null
+in method  at :
+
+[25-07-23 15:10:59 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:10:59 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Auth/Login\"}". Executing page "/Auth/Login"
+in method  at :
+
+[25-07-23 15:10:59 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Auth.LoginModel.OnGet" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:10:59 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnGet", returned result "".
+in method  at :
+
+[25-07-23 15:10:59 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing an implicit handler method - ModelState is Valid
+in method  at :
+
+[25-07-23 15:10:59 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+in method  at :
+
+[25-07-23 15:11:00 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Auth/Login" in 167.3493ms
+in method  at :
+
+[25-07-23 15:11:00 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:11:00 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/auth/login""" - 200 null "text/html; charset=utf-8" 232.8287ms
+in method  at :
+
+[25-07-23 15:11:00 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/validators.js""" - null null
+in method  at :
+
+[25-07-23 15:11:00 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/errorFormatting.js""" - null null
+in method  at :
+
+[25-07-23 15:11:00 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-23 15:11:00 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/validators.js""" - 404 0 null 88.0703ms
+in method  at :
+
+[25-07-23 15:11:00 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 86.1839ms
+in method  at :
+
+[25-07-23 15:11:00 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-23 15:11:00 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7050""""/js/validations/validators.js", Response status code: 404
+in method  at :
+
+[25-07-23 15:11:00 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/errorFormatting.js""" - 404 0 null 95.7216ms
+in method  at :
+
+[25-07-23 15:11:00 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7050""""/js/validations/errorFormatting.js", Response status code: 404
+in method  at :
+
+[25-07-23 15:11:00 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 54.2722ms
+in method  at :
+
+[25-07-23 15:11:04 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "POST" "https"://"localhost:7050""""/Auth/Login""" - "application/x-www-form-urlencoded" 243
+in method  at :
+
+[25-07-23 15:11:04 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:11:04 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Auth/Login\"}". Executing page "/Auth/Login"
+in method  at :
+
+[25-07-23 15:11:04 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Auth.LoginModel.OnPostAsync" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:11:04 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.LogicalHandler
+Message:Start processing HTTP request "POST" "http://localhost:5010/api/v1/Auth?*"
+in method  at :
+
+[25-07-23 15:11:04 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.ClientHandler
+Message:Sending HTTP request "POST" "http://localhost:5010/api/v1/Auth?*"
+in method  at :
+
+[25-07-23 15:11:06 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.ClientHandler
+Message:Received HTTP response headers after 2552.1198ms - 200
+in method  at :
+
+[25-07-23 15:11:06 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.LogicalHandler
+Message:End processing HTTP request after 2567.7491ms - 200
+in method  at :
+
+[25-07-23 15:11:06 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnPostAsync", returned result "Microsoft.AspNetCore.Mvc.RedirectToPageResult".
+in method  at :
+
+[25-07-23 15:11:06 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RedirectToRouteResult
+Message:Executing RedirectToPageResult, redirecting to "/Users/Index".
+in method  at :
+
+[25-07-23 15:11:06 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Auth/Login" in 2661.1838ms
+in method  at :
+
+[25-07-23 15:11:06 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:11:06 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "POST" "https"://"localhost:7050""""/Auth/Login""" - 302 0 null 2674.6891ms
+in method  at :
+
+[25-07-23 15:11:06 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/Users""" - null null
+in method  at :
+
+[25-07-23 15:11:06 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Users/Index"'
+in method  at :
+
+[25-07-23 15:11:07 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Users/Index\"}". Executing page "/Users/Index"
+in method  at :
+
+[25-07-23 15:11:07 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Users.IndexModel.OnGetAsync" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:11:07 Information]SwagLabs.Web:System.Net.Http.HttpClient.IUserApiServiceWrapper.LogicalHandler
+Message:Start processing HTTP request "GET" "http://localhost:5010/api/v1/Auth?*"
+in method  at :
+
+[25-07-23 15:11:07 Information]SwagLabs.Web:System.Net.Http.HttpClient.IUserApiServiceWrapper.ClientHandler
+Message:Sending HTTP request "GET" "http://localhost:5010/api/v1/Auth?*"
+in method  at :
+
+[25-07-23 15:11:07 Information]SwagLabs.Web:System.Net.Http.HttpClient.IUserApiServiceWrapper.ClientHandler
+Message:Received HTTP response headers after 16.1263ms - 405
+in method  at :
+
+[25-07-23 15:11:07 Information]SwagLabs.Web:System.Net.Http.HttpClient.IUserApiServiceWrapper.LogicalHandler
+Message:End processing HTTP request after 20.4705ms - 405
+in method  at :
+
+[25-07-23 15:12:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Users/Index" in 55103.8765ms
+in method  at :
+
+[25-07-23 15:12:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Users/Index"'
+in method  at :
+
+[25-07-23 15:12:02 Error]SwagLabs.Web:Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware
+Message:An unhandled exception has occurred while executing the request.
+in method  at :
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 405 (Method Not Allowed).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at SwagLabs.Services.ApiWrapper.Base.ApiServiceWrapperBase`1.GetAllEntitiesAsync() in D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Services\ApiWrapper\Services\Base\ApiServiceWrapperBase.cs:line 44
+   at SwagLabs.Services.DataServices.Api.Base.ApiDataServiceBase`2.GetAllAsync() in D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Services\DataServices\Api\Base\ApiDataServiceBase.cs:line 36
+   at SwagLabs.Web.Pages.Users.IndexModel.OnGetAsync() in D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web\Pages\Users\Index.cshtml.cs:line 28
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.NonGenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+[25-07-23 15:12:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/Users""" - 500 null "text/html; charset=utf-8" 55264.426ms
+in method  at :
+
+[25-07-23 15:12:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-23 15:12:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-23 15:12:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 15.3648ms
+in method  at :
+
+[25-07-23 15:12:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 60.66ms
+in method  at :
+
+[25-07-23 15:12:49 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/auth/login""" - null null
+in method  at :
+
+[25-07-23 15:12:49 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:12:49 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Auth/Login\"}". Executing page "/Auth/Login"
+in method  at :
+
+[25-07-23 15:12:49 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Auth.LoginModel.OnGet" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:12:49 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnGet", returned result "".
+in method  at :
+
+[25-07-23 15:12:49 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing an implicit handler method - ModelState is Valid
+in method  at :
+
+[25-07-23 15:12:49 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+in method  at :
+
+[25-07-23 15:12:49 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Auth/Login" in 16.7686ms
+in method  at :
+
+[25-07-23 15:12:49 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-23 15:12:49 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:12:49 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 21.2645ms
+in method  at :
+
+[25-07-23 15:12:49 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/auth/login""" - 200 null "text/html; charset=utf-8" 106.4596ms
+in method  at :
+
+[25-07-23 15:12:50 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "POST" "https"://"localhost:7050""""/Auth/Login""" - "application/x-www-form-urlencoded" 243
+in method  at :
+
+[25-07-23 15:12:50 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:12:50 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Auth/Login\"}". Executing page "/Auth/Login"
+in method  at :
+
+[25-07-23 15:12:50 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Auth.LoginModel.OnPostAsync" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:12:50 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.LogicalHandler
+Message:Start processing HTTP request "POST" "http://localhost:5010/api/v1/Auth?*"
+in method  at :
+
+[25-07-23 15:12:50 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.ClientHandler
+Message:Sending HTTP request "POST" "http://localhost:5010/api/v1/Auth?*"
+in method  at :
+
+[25-07-23 15:12:50 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.ClientHandler
+Message:Received HTTP response headers after 113.9927ms - 200
+in method  at :
+
+[25-07-23 15:12:50 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.LogicalHandler
+Message:End processing HTTP request after 118.1874ms - 200
+in method  at :
+
+[25-07-23 15:12:50 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnPostAsync", returned result "Microsoft.AspNetCore.Mvc.RedirectToPageResult".
+in method  at :
+
+[25-07-23 15:12:50 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RedirectToRouteResult
+Message:Executing RedirectToPageResult, redirecting to "/Users/Index".
+in method  at :
+
+[25-07-23 15:12:50 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Auth/Login" in 125.9511ms
+in method  at :
+
+[25-07-23 15:12:50 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:12:50 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "POST" "https"://"localhost:7050""""/Auth/Login""" - 302 0 null 142.4193ms
+in method  at :
+
+[25-07-23 15:12:50 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/Users""" - null null
+in method  at :
+
+[25-07-23 15:12:50 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Users/Index"'
+in method  at :
+
+[25-07-23 15:12:50 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Users/Index\"}". Executing page "/Users/Index"
+in method  at :
+
+[25-07-23 15:12:50 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Users.IndexModel.OnGetAsync" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:12:50 Information]SwagLabs.Web:System.Net.Http.HttpClient.IUserApiServiceWrapper.LogicalHandler
+Message:Start processing HTTP request "GET" "http://localhost:5010/api/v1/Auth?*"
+in method  at :
+
+[25-07-23 15:12:50 Information]SwagLabs.Web:System.Net.Http.HttpClient.IUserApiServiceWrapper.ClientHandler
+Message:Sending HTTP request "GET" "http://localhost:5010/api/v1/Auth?*"
+in method  at :
+
+[25-07-23 15:12:50 Information]SwagLabs.Web:System.Net.Http.HttpClient.IUserApiServiceWrapper.ClientHandler
+Message:Received HTTP response headers after 7.6281ms - 405
+in method  at :
+
+[25-07-23 15:12:50 Information]SwagLabs.Web:System.Net.Http.HttpClient.IUserApiServiceWrapper.LogicalHandler
+Message:End processing HTTP request after 12.0104ms - 405
+in method  at :
+
+[25-07-23 15:12:57 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Users/Index" in 6385.9101ms
+in method  at :
+
+[25-07-23 15:12:57 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Users/Index"'
+in method  at :
+
+[25-07-23 15:12:57 Error]SwagLabs.Web:Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware
+Message:An unhandled exception has occurred while executing the request.
+in method  at :
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 405 (Method Not Allowed).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at SwagLabs.Services.ApiWrapper.Base.ApiServiceWrapperBase`1.GetAllEntitiesAsync() in D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Services\ApiWrapper\Services\Base\ApiServiceWrapperBase.cs:line 44
+   at SwagLabs.Services.DataServices.Api.Base.ApiDataServiceBase`2.GetAllAsync() in D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Services\DataServices\Api\Base\ApiDataServiceBase.cs:line 36
+   at SwagLabs.Web.Pages.Users.IndexModel.OnGetAsync() in D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web\Pages\Users\Index.cshtml.cs:line 28
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.NonGenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+[25-07-23 15:12:57 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/Users""" - 500 null "text/html; charset=utf-8" 6410.441ms
+in method  at :
+
+[25-07-23 15:12:57 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-23 15:12:57 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-23 15:12:57 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 4.3882ms
+in method  at :
+
+[25-07-23 15:12:57 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 10.5728ms
+in method  at :
+
+[25-07-23 15:14:10 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/auth/login""" - null null
+in method  at :
+
+[25-07-23 15:14:11 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:14:11 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Auth/Login\"}". Executing page "/Auth/Login"
+in method  at :
+
+[25-07-23 15:14:11 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Auth.LoginModel.OnGet" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:14:11 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnGet", returned result "".
+in method  at :
+
+[25-07-23 15:14:11 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing an implicit handler method - ModelState is Valid
+in method  at :
+
+[25-07-23 15:14:11 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+in method  at :
+
+[25-07-23 15:14:11 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Auth/Login" in 11.9813ms
+in method  at :
+
+[25-07-23 15:14:11 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:14:11 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/auth/login""" - 200 null "text/html; charset=utf-8" 100.1457ms
+in method  at :
+
+[25-07-23 15:14:11 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-23 15:14:11 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 9.6333ms
+in method  at :
+
+[25-07-23 15:17:07 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/auth/login""" - null null
+in method  at :
+
+[25-07-23 15:17:07 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:17:07 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Auth/Login\"}". Executing page "/Auth/Login"
+in method  at :
+
+[25-07-23 15:17:07 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Auth.LoginModel.OnGet" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:17:07 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnGet", returned result "".
+in method  at :
+
+[25-07-23 15:17:07 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing an implicit handler method - ModelState is Valid
+in method  at :
+
+[25-07-23 15:17:07 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+in method  at :
+
+[25-07-23 15:17:07 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Auth/Login" in 21.5565ms
+in method  at :
+
+[25-07-23 15:17:07 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:17:07 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/auth/login""" - 200 null "text/html; charset=utf-8" 55.8912ms
+in method  at :
+
+[25-07-23 15:17:07 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/validators.js""" - null null
+in method  at :
+
+[25-07-23 15:17:07 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/errorFormatting.js""" - null null
+in method  at :
+
+[25-07-23 15:17:07 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/validators.js""" - 404 0 null 4.1809ms
+in method  at :
+
+[25-07-23 15:17:07 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-23 15:17:07 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-23 15:17:07 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/errorFormatting.js""" - 404 0 null 18.3612ms
+in method  at :
+
+[25-07-23 15:17:07 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7050""""/js/validations/validators.js", Response status code: 404
+in method  at :
+
+[25-07-23 15:17:07 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7050""""/js/validations/errorFormatting.js", Response status code: 404
+in method  at :
+
+[25-07-23 15:17:07 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 83.9064ms
+in method  at :
+
+[25-07-23 15:17:07 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 85.0203ms
+in method  at :
+
+[25-07-23 15:17:14 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "POST" "https"://"localhost:7050""""/Auth/Login""" - "application/x-www-form-urlencoded" 243
+in method  at :
+
+[25-07-23 15:17:14 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:17:14 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Auth/Login\"}". Executing page "/Auth/Login"
+in method  at :
+
+[25-07-23 15:17:14 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Auth.LoginModel.OnPostAsync" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:17:14 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.LogicalHandler
+Message:Start processing HTTP request "POST" "http://localhost:5010/api/v1/Auth?*"
+in method  at :
+
+[25-07-23 15:17:14 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.ClientHandler
+Message:Sending HTTP request "POST" "http://localhost:5010/api/v1/Auth?*"
+in method  at :
+
+[25-07-23 15:17:14 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.ClientHandler
+Message:Received HTTP response headers after 37.2592ms - 200
+in method  at :
+
+[25-07-23 15:17:14 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.LogicalHandler
+Message:End processing HTTP request after 44.5157ms - 200
+in method  at :
+
+[25-07-23 15:17:14 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnPostAsync", returned result "Microsoft.AspNetCore.Mvc.RedirectToPageResult".
+in method  at :
+
+[25-07-23 15:17:14 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RedirectToRouteResult
+Message:Executing RedirectToPageResult, redirecting to "/Users/Index".
+in method  at :
+
+[25-07-23 15:17:14 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Auth/Login" in 63.2284ms
+in method  at :
+
+[25-07-23 15:17:14 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:17:14 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "POST" "https"://"localhost:7050""""/Auth/Login""" - 302 0 null 78.0783ms
+in method  at :
+
+[25-07-23 15:17:14 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/Users""" - null null
+in method  at :
+
+[25-07-23 15:17:14 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Users/Index"'
+in method  at :
+
+[25-07-23 15:17:14 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Users/Index\"}". Executing page "/Users/Index"
+in method  at :
+
+[25-07-23 15:17:14 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Users.IndexModel.OnGetAsync" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:18:30 Information]SwagLabs.Web:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-07-23 15:18:31 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Now listening on: "https://localhost:7050"
+in method  at :
+
+[25-07-23 15:18:31 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5021"
+in method  at :
+
+[25-07-23 15:18:31 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-23 15:18:31 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-23 15:18:31 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web"
+in method  at :
+
+[25-07-23 15:18:31 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/""" - null null
+in method  at :
+
+[25-07-23 15:18:31 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Index"'
+in method  at :
+
+[25-07-23 15:18:32 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Index\"}". Executing page "/Index"
+in method  at :
+
+[25-07-23 15:18:32 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.IndexModel.OnGet" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:18:32 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnGet", returned result "".
+in method  at :
+
+[25-07-23 15:18:32 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing an implicit handler method - ModelState is Valid
+in method  at :
+
+[25-07-23 15:18:32 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+in method  at :
+
+[25-07-23 15:18:32 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Index" in 139.7641ms
+in method  at :
+
+[25-07-23 15:18:32 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Index"'
+in method  at :
+
+[25-07-23 15:18:32 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/""" - 200 null "text/html; charset=utf-8" 526.6465ms
+in method  at :
+
+[25-07-23 15:18:32 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-23 15:18:32 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-23 15:18:32 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 70.2484ms
+in method  at :
+
+[25-07-23 15:18:32 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 98.2386ms
+in method  at :
+
+[25-07-23 15:18:35 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/auth/login""" - null null
+in method  at :
+
+[25-07-23 15:18:35 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:18:35 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Auth/Login\"}". Executing page "/Auth/Login"
+in method  at :
+
+[25-07-23 15:18:35 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Auth.LoginModel.OnGet" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:18:35 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnGet", returned result "".
+in method  at :
+
+[25-07-23 15:18:35 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing an implicit handler method - ModelState is Valid
+in method  at :
+
+[25-07-23 15:18:35 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+in method  at :
+
+[25-07-23 15:18:35 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Auth/Login" in 201.0977ms
+in method  at :
+
+[25-07-23 15:18:35 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:18:35 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/auth/login""" - 200 null "text/html; charset=utf-8" 326.2561ms
+in method  at :
+
+[25-07-23 15:18:36 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/validators.js""" - null null
+in method  at :
+
+[25-07-23 15:18:36 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/errorFormatting.js""" - null null
+in method  at :
+
+[25-07-23 15:18:36 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-23 15:18:36 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/validators.js""" - 404 0 null 25.6421ms
+in method  at :
+
+[25-07-23 15:18:36 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 15.56ms
+in method  at :
+
+[25-07-23 15:18:36 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/errorFormatting.js""" - 404 0 null 34.8391ms
+in method  at :
+
+[25-07-23 15:18:36 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-23 15:18:36 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7050""""/js/validations/validators.js", Response status code: 404
+in method  at :
+
+[25-07-23 15:18:36 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7050""""/js/validations/errorFormatting.js", Response status code: 404
+in method  at :
+
+[25-07-23 15:18:36 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 44.6565ms
+in method  at :
+
+[25-07-23 15:18:40 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "POST" "https"://"localhost:7050""""/Auth/Login""" - "application/x-www-form-urlencoded" 243
+in method  at :
+
+[25-07-23 15:18:40 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:18:40 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Auth/Login\"}". Executing page "/Auth/Login"
+in method  at :
+
+[25-07-23 15:18:40 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Auth.LoginModel.OnPostAsync" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:18:40 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.LogicalHandler
+Message:Start processing HTTP request "POST" "http://localhost:5010/api/v1/Auth?*"
+in method  at :
+
+[25-07-23 15:18:40 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.ClientHandler
+Message:Sending HTTP request "POST" "http://localhost:5010/api/v1/Auth?*"
+in method  at :
+
+[25-07-23 15:18:42 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.ClientHandler
+Message:Received HTTP response headers after 2117.376ms - 200
+in method  at :
+
+[25-07-23 15:18:42 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.LogicalHandler
+Message:End processing HTTP request after 2145.745ms - 200
+in method  at :
+
+[25-07-23 15:18:42 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnPostAsync", returned result "Microsoft.AspNetCore.Mvc.RedirectToPageResult".
+in method  at :
+
+[25-07-23 15:18:42 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RedirectToRouteResult
+Message:Executing RedirectToPageResult, redirecting to "/Users/Index".
+in method  at :
+
+[25-07-23 15:18:42 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Auth/Login" in 2258.6765ms
+in method  at :
+
+[25-07-23 15:18:42 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:18:42 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "POST" "https"://"localhost:7050""""/Auth/Login""" - 302 0 null 2276.7223ms
+in method  at :
+
+[25-07-23 15:18:42 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/Users""" - null null
+in method  at :
+
+[25-07-23 15:18:42 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Users/Index"'
+in method  at :
+
+[25-07-23 15:18:42 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Users/Index\"}". Executing page "/Users/Index"
+in method  at :
+
+[25-07-23 15:18:42 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Users.IndexModel.OnGetAsync" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:18:42 Information]SwagLabs.Web:System.Net.Http.HttpClient.IUserApiServiceWrapper.LogicalHandler
+Message:Start processing HTTP request "GET" "http://localhost:5010/api/v1/Auth?*"
+in method  at :
+
+[25-07-23 15:18:42 Information]SwagLabs.Web:System.Net.Http.HttpClient.IUserApiServiceWrapper.ClientHandler
+Message:Sending HTTP request "GET" "http://localhost:5010/api/v1/Auth?*"
+in method  at :
+
+[25-07-23 15:18:42 Information]SwagLabs.Web:System.Net.Http.HttpClient.IUserApiServiceWrapper.ClientHandler
+Message:Received HTTP response headers after 28.0579ms - 405
+in method  at :
+
+[25-07-23 15:18:42 Information]SwagLabs.Web:System.Net.Http.HttpClient.IUserApiServiceWrapper.LogicalHandler
+Message:End processing HTTP request after 40.1216ms - 405
+in method  at :
+
+[25-07-23 15:19:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Users/Index" in 51967.651ms
+in method  at :
+
+[25-07-23 15:19:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Users/Index"'
+in method  at :
+
+[25-07-23 15:19:34 Error]SwagLabs.Web:Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware
+Message:An unhandled exception has occurred while executing the request.
+in method  at :
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 405 (Method Not Allowed).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at SwagLabs.Services.ApiWrapper.Base.ApiServiceWrapperBase`1.GetAllEntitiesAsync() in D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Services\ApiWrapper\Services\Base\ApiServiceWrapperBase.cs:line 44
+   at SwagLabs.Services.DataServices.Api.Base.ApiDataServiceBase`2.GetAllAsync() in D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Services\DataServices\Api\Base\ApiDataServiceBase.cs:line 36
+   at SwagLabs.Web.Pages.Users.IndexModel.OnGetAsync() in D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web\Pages\Users\Index.cshtml.cs:line 28
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.NonGenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+[25-07-23 15:19:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/Users""" - 500 null "text/html; charset=utf-8" 52088.846ms
+in method  at :
+
+[25-07-23 15:19:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-23 15:19:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-23 15:19:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 39.6915ms
+in method  at :
+
+[25-07-23 15:19:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 46.3249ms
+in method  at :
+
+[25-07-23 15:20:05 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/Users""" - null null
+in method  at :
+
+[25-07-23 15:20:05 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Users/Index"'
+in method  at :
+
+[25-07-23 15:20:05 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Users/Index\"}". Executing page "/Users/Index"
+in method  at :
+
+[25-07-23 15:20:05 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Users.IndexModel.OnGetAsync" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:20:05 Information]SwagLabs.Web:System.Net.Http.HttpClient.IUserApiServiceWrapper.LogicalHandler
+Message:Start processing HTTP request "GET" "http://localhost:5010/api/v1/Auth?*"
+in method  at :
+
+[25-07-23 15:20:05 Information]SwagLabs.Web:System.Net.Http.HttpClient.IUserApiServiceWrapper.ClientHandler
+Message:Sending HTTP request "GET" "http://localhost:5010/api/v1/Auth?*"
+in method  at :
+
+[25-07-23 15:20:05 Information]SwagLabs.Web:System.Net.Http.HttpClient.IUserApiServiceWrapper.ClientHandler
+Message:Received HTTP response headers after 15.7362ms - 405
+in method  at :
+
+[25-07-23 15:20:05 Information]SwagLabs.Web:System.Net.Http.HttpClient.IUserApiServiceWrapper.LogicalHandler
+Message:End processing HTTP request after 28.8078ms - 405
+in method  at :
+
+[25-07-23 15:20:35 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Users/Index" in 29966.8105ms
+in method  at :
+
+[25-07-23 15:20:35 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Users/Index"'
+in method  at :
+
+[25-07-23 15:20:35 Error]SwagLabs.Web:Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware
+Message:An unhandled exception has occurred while executing the request.
+in method  at :
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 405 (Method Not Allowed).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at SwagLabs.Services.ApiWrapper.Base.ApiServiceWrapperBase`1.GetAllEntitiesAsync() in D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Services\ApiWrapper\Services\Base\ApiServiceWrapperBase.cs:line 44
+   at SwagLabs.Services.DataServices.Api.Base.ApiDataServiceBase`2.GetAllAsync() in D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Services\DataServices\Api\Base\ApiDataServiceBase.cs:line 36
+   at SwagLabs.Web.Pages.Users.IndexModel.OnGetAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.NonGenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+[25-07-23 15:20:35 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/Users""" - 500 null "text/html; charset=utf-8" 30015.915ms
+in method  at :
+
+[25-07-23 15:20:35 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-23 15:20:35 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-23 15:20:35 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 15.8809ms
+in method  at :
+
+[25-07-23 15:20:35 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 34.5893ms
+in method  at :
+
+[25-07-23 15:20:38 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/auth/login""" - null null
+in method  at :
+
+[25-07-23 15:20:38 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:20:38 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Auth/Login\"}". Executing page "/Auth/Login"
+in method  at :
+
+[25-07-23 15:20:38 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Auth.LoginModel.OnGet" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:20:38 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnGet", returned result "".
+in method  at :
+
+[25-07-23 15:20:38 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing an implicit handler method - ModelState is Valid
+in method  at :
+
+[25-07-23 15:20:38 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+in method  at :
+
+[25-07-23 15:20:38 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Auth/Login" in 17.7594ms
+in method  at :
+
+[25-07-23 15:20:38 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:20:38 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/auth/login""" - 200 null "text/html; charset=utf-8" 34.9849ms
+in method  at :
+
+[25-07-23 15:20:38 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-23 15:20:38 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 5.184ms
+in method  at :
+
+[25-07-23 15:20:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "POST" "https"://"localhost:7050""""/Auth/Login""" - "application/x-www-form-urlencoded" 243
+in method  at :
+
+[25-07-23 15:20:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:20:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Auth/Login\"}". Executing page "/Auth/Login"
+in method  at :
+
+[25-07-23 15:20:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Auth.LoginModel.OnPostAsync" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:20:48 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.LogicalHandler
+Message:Start processing HTTP request "POST" "http://localhost:5010/api/v1/Auth?*"
+in method  at :
+
+[25-07-23 15:20:48 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.ClientHandler
+Message:Sending HTTP request "POST" "http://localhost:5010/api/v1/Auth?*"
+in method  at :
+
+[25-07-23 15:20:48 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.ClientHandler
+Message:Received HTTP response headers after 52.4064ms - 200
+in method  at :
+
+[25-07-23 15:20:48 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.LogicalHandler
+Message:End processing HTTP request after 60.0519ms - 200
+in method  at :
+
+[25-07-23 15:20:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnPostAsync", returned result "Microsoft.AspNetCore.Mvc.RedirectToPageResult".
+in method  at :
+
+[25-07-23 15:20:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RedirectToRouteResult
+Message:Executing RedirectToPageResult, redirecting to "/Users/Index".
+in method  at :
+
+[25-07-23 15:20:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Auth/Login" in 76.0776ms
+in method  at :
+
+[25-07-23 15:20:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:20:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "POST" "https"://"localhost:7050""""/Auth/Login""" - 302 0 null 91.9638ms
+in method  at :
+
+[25-07-23 15:20:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/Users""" - null null
+in method  at :
+
+[25-07-23 15:20:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Users/Index"'
+in method  at :
+
+[25-07-23 15:20:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Users/Index\"}". Executing page "/Users/Index"
+in method  at :
+
+[25-07-23 15:20:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Users.IndexModel.OnGetAsync" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:20:48 Information]SwagLabs.Web:System.Net.Http.HttpClient.IUserApiServiceWrapper.LogicalHandler
+Message:Start processing HTTP request "GET" "http://localhost:5010/api/v1/Auth?*"
+in method  at :
+
+[25-07-23 15:20:48 Information]SwagLabs.Web:System.Net.Http.HttpClient.IUserApiServiceWrapper.ClientHandler
+Message:Sending HTTP request "GET" "http://localhost:5010/api/v1/Auth?*"
+in method  at :
+
+[25-07-23 15:20:48 Information]SwagLabs.Web:System.Net.Http.HttpClient.IUserApiServiceWrapper.ClientHandler
+Message:Received HTTP response headers after 11.3537ms - 405
+in method  at :
+
+[25-07-23 15:20:48 Information]SwagLabs.Web:System.Net.Http.HttpClient.IUserApiServiceWrapper.LogicalHandler
+Message:End processing HTTP request after 15.2446ms - 405
+in method  at :
+
+[25-07-23 15:24:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Users/Index" in 194474.6137ms
+in method  at :
+
+[25-07-23 15:24:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Users/Index"'
+in method  at :
+
+[25-07-23 15:24:02 Error]SwagLabs.Web:Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware
+Message:An unhandled exception has occurred while executing the request.
+in method  at :
+System.Net.Http.HttpRequestException: Response status code does not indicate success: 405 (Method Not Allowed).
+   at System.Net.Http.HttpResponseMessage.EnsureSuccessStatusCode()
+   at SwagLabs.Services.ApiWrapper.Base.ApiServiceWrapperBase`1.GetAllEntitiesAsync() in D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Services\ApiWrapper\Services\Base\ApiServiceWrapperBase.cs:line 44
+   at SwagLabs.Services.DataServices.Api.Base.ApiDataServiceBase`2.GetAllAsync() in D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Services\DataServices\Api\Base\ApiDataServiceBase.cs:line 36
+   at SwagLabs.Web.Pages.Users.IndexModel.OnGetAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.ExecutorFactory.NonGenericTaskHandlerMethod.Execute(Object receiver, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeHandlerMethodAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeNextPageFilterAsync()
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Rethrow(PageHandlerExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+
+[25-07-23 15:24:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/Users""" - 500 null "text/html; charset=utf-8" 194578.4216ms
+in method  at :
+
+[25-07-23 15:24:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-23 15:24:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-23 15:24:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 11.9542ms
+in method  at :
+
+[25-07-23 15:24:02 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 12.6026ms
+in method  at :
+
+[25-07-23 15:25:07 Information]SwagLabs.Web:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-07-23 15:25:08 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Now listening on: "https://localhost:7050"
+in method  at :
+
+[25-07-23 15:25:08 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5021"
+in method  at :
+
+[25-07-23 15:25:08 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-23 15:25:08 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-23 15:25:08 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web"
+in method  at :
+
+[25-07-23 15:25:09 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/""" - null null
+in method  at :
+
+[25-07-23 15:25:09 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Index"'
+in method  at :
+
+[25-07-23 15:25:09 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Index\"}". Executing page "/Index"
+in method  at :
+
+[25-07-23 15:25:09 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.IndexModel.OnGet" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:25:09 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnGet", returned result "".
+in method  at :
+
+[25-07-23 15:25:09 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing an implicit handler method - ModelState is Valid
+in method  at :
+
+[25-07-23 15:25:09 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+in method  at :
+
+[25-07-23 15:25:09 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Index" in 99.735ms
+in method  at :
+
+[25-07-23 15:25:09 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Index"'
+in method  at :
+
+[25-07-23 15:25:09 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-23 15:25:09 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-23 15:25:09 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/""" - 200 null "text/html; charset=utf-8" 375.3551ms
+in method  at :
+
+[25-07-23 15:25:09 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 105.2065ms
+in method  at :
+
+[25-07-23 15:25:09 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 124.3856ms
+in method  at :
+
+[25-07-23 15:25:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/auth/login""" - null null
+in method  at :
+
+[25-07-23 15:25:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:25:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Auth/Login\"}". Executing page "/Auth/Login"
+in method  at :
+
+[25-07-23 15:25:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/login""" - null null
+in method  at :
+
+[25-07-23 15:25:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/login""" - 404 0 null 38.5886ms
+in method  at :
+
+[25-07-23 15:25:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7050""""/login", Response status code: 404
+in method  at :
+
+[25-07-23 15:25:35 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Auth.LoginModel.OnGet" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:25:35 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnGet", returned result "".
+in method  at :
+
+[25-07-23 15:25:35 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing an implicit handler method - ModelState is Valid
+in method  at :
+
+[25-07-23 15:25:35 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+in method  at :
+
+[25-07-23 15:25:35 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Auth/Login" in 1199.0134ms
+in method  at :
+
+[25-07-23 15:25:35 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:25:35 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/auth/login""" - 200 null "text/html; charset=utf-8" 1384.3058ms
+in method  at :
+
+[25-07-23 15:25:39 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/login/auth""" - null null
+in method  at :
+
+[25-07-23 15:25:39 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/login/auth""" - 404 0 null 8.5492ms
+in method  at :
+
+[25-07-23 15:25:39 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7050""""/login/auth", Response status code: 404
+in method  at :
+
+[25-07-23 15:25:43 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/auth/login/""" - null null
+in method  at :
+
+[25-07-23 15:25:43 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:25:43 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Auth/Login\"}". Executing page "/Auth/Login"
+in method  at :
+
+[25-07-23 15:25:43 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Auth.LoginModel.OnGet" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:25:43 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnGet", returned result "".
+in method  at :
+
+[25-07-23 15:25:43 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing an implicit handler method - ModelState is Valid
+in method  at :
+
+[25-07-23 15:25:43 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+in method  at :
+
+[25-07-23 15:25:43 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Auth/Login" in 17.7169ms
+in method  at :
+
+[25-07-23 15:25:43 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:25:43 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/auth/login/""" - 200 null "text/html; charset=utf-8" 46.7756ms
+in method  at :
+
+[25-07-23 15:25:43 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-23 15:25:43 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-23 15:25:43 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/errorFormatting.js""" - null null
+in method  at :
+
+[25-07-23 15:25:43 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/validators.js""" - null null
+in method  at :
+
+[25-07-23 15:25:44 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 27.5419ms
+in method  at :
+
+[25-07-23 15:25:44 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/validators.js""" - 404 0 null 40.5937ms
+in method  at :
+
+[25-07-23 15:25:44 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/errorFormatting.js""" - 404 0 null 44.3737ms
+in method  at :
+
+[25-07-23 15:25:44 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7050""""/js/validations/validators.js", Response status code: 404
+in method  at :
+
+[25-07-23 15:25:44 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 83.1433ms
+in method  at :
+
+[25-07-23 15:25:44 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7050""""/js/validations/errorFormatting.js", Response status code: 404
+in method  at :
+
+[25-07-23 15:25:47 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "POST" "https"://"localhost:7050""""/Auth/Login""" - "application/x-www-form-urlencoded" 243
+in method  at :
+
+[25-07-23 15:25:47 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:25:47 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Auth/Login\"}". Executing page "/Auth/Login"
+in method  at :
+
+[25-07-23 15:25:47 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Auth.LoginModel.OnPostAsync" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:25:48 Information]SwagLabs.Web:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("40"ms) [Parameters=["@__username_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='60']"
+""SELECT TOP(1) [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__username_0
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-23 15:25:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnPostAsync", returned result "Microsoft.AspNetCore.Mvc.RedirectToPageResult".
+in method  at :
+
+[25-07-23 15:25:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RedirectToRouteResult
+Message:Executing RedirectToPageResult, redirecting to "/Users/Index".
+in method  at :
+
+[25-07-23 15:25:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Auth/Login" in 846.3651ms
+in method  at :
+
+[25-07-23 15:25:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:25:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "POST" "https"://"localhost:7050""""/Auth/Login""" - 302 0 null 868.6332ms
+in method  at :
+
+[25-07-23 15:25:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/Users""" - null null
+in method  at :
+
+[25-07-23 15:25:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Users/Index"'
+in method  at :
+
+[25-07-23 15:25:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Users/Index\"}". Executing page "/Users/Index"
+in method  at :
+
+[25-07-23 15:25:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Users.IndexModel.OnGetAsync" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:25:48 Information]SwagLabs.Web:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("28"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""SELECT [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-23 15:25:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnGetAsync", returned result "".
+in method  at :
+
+[25-07-23 15:25:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing an implicit handler method - ModelState is Valid
+in method  at :
+
+[25-07-23 15:25:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+in method  at :
+
+[25-07-23 15:25:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Users/Index" in 101.9102ms
+in method  at :
+
+[25-07-23 15:25:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Users/Index"'
+in method  at :
+
+[25-07-23 15:25:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/Users""" - 200 null "text/html; charset=utf-8" 120.1577ms
+in method  at :
+
+[25-07-23 15:25:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-23 15:25:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-23 15:25:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 8.9978ms
+in method  at :
+
+[25-07-23 15:25:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 11.5399ms
+in method  at :
+
+[25-07-23 15:25:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/lib/font-awesome/webfonts/fa-solid-900.woff2""" - null null
+in method  at :
+
+[25-07-23 15:25:48 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:The file "/lib/font-awesome/webfonts/fa-solid-900.woff2" was not modified
+in method  at :
+
+[25-07-23 15:25:48 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/lib/font-awesome/webfonts/fa-solid-900.woff2""" - 304 null "font/woff2" 16.5634ms
+in method  at :
+
+[25-07-23 15:36:03 Information]SwagLabs.Web:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-07-23 15:36:03 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Now listening on: "https://localhost:7050"
+in method  at :
+
+[25-07-23 15:36:03 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5021"
+in method  at :
+
+[25-07-23 15:36:04 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-23 15:36:04 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-23 15:36:04 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web"
+in method  at :
+
+[25-07-23 15:36:04 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/""" - null null
+in method  at :
+
+[25-07-23 15:36:05 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Index"'
+in method  at :
+
+[25-07-23 15:36:05 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Index\"}". Executing page "/Index"
+in method  at :
+
+[25-07-23 15:36:05 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.IndexModel.OnGet" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:36:05 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnGet", returned result "".
+in method  at :
+
+[25-07-23 15:36:05 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing an implicit handler method - ModelState is Valid
+in method  at :
+
+[25-07-23 15:36:05 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+in method  at :
+
+[25-07-23 15:36:05 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Index" in 279.5296ms
+in method  at :
+
+[25-07-23 15:36:05 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Index"'
+in method  at :
+
+[25-07-23 15:36:05 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-23 15:36:05 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-23 15:36:05 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/""" - 200 null "text/html; charset=utf-8" 1026.2471ms
+in method  at :
+
+[25-07-23 15:36:05 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 184.5388ms
+in method  at :
+
+[25-07-23 15:36:05 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 240.5055ms
+in method  at :
+
+[25-07-23 15:36:12 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/auth/login""" - null null
+in method  at :
+
+[25-07-23 15:36:12 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:36:12 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Auth/Login\"}". Executing page "/Auth/Login"
+in method  at :
+
+[25-07-23 15:36:12 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Auth.LoginModel.OnGet" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:36:12 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnGet", returned result "".
+in method  at :
+
+[25-07-23 15:36:12 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing an implicit handler method - ModelState is Valid
+in method  at :
+
+[25-07-23 15:36:12 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+in method  at :
+
+[25-07-23 15:36:12 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Auth/Login" in 241.7583ms
+in method  at :
+
+[25-07-23 15:36:12 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:36:12 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/auth/login""" - 200 null "text/html; charset=utf-8" 318.4244ms
+in method  at :
+
+[25-07-23 15:36:12 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/validators.js""" - null null
+in method  at :
+
+[25-07-23 15:36:12 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/errorFormatting.js""" - null null
+in method  at :
+
+[25-07-23 15:36:12 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-23 15:36:12 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/validators.js""" - 404 0 null 16.7399ms
+in method  at :
+
+[25-07-23 15:36:12 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 10.8536ms
+in method  at :
+
+[25-07-23 15:36:12 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/errorFormatting.js""" - 404 0 null 21.8605ms
+in method  at :
+
+[25-07-23 15:36:12 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7050""""/js/validations/validators.js", Response status code: 404
+in method  at :
+
+[25-07-23 15:36:12 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-23 15:36:12 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7050""""/js/validations/errorFormatting.js", Response status code: 404
+in method  at :
+
+[25-07-23 15:36:12 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 51.503ms
+in method  at :
+
+[25-07-23 15:36:16 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "POST" "https"://"localhost:7050""""/Auth/Login""" - "application/x-www-form-urlencoded" 243
+in method  at :
+
+[25-07-23 15:36:16 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:36:16 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Auth/Login\"}". Executing page "/Auth/Login"
+in method  at :
+
+[25-07-23 15:36:16 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Auth.LoginModel.OnPostAsync" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:36:16 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.LogicalHandler
+Message:Start processing HTTP request "POST" "http://localhost:5010/api/v1/Auth?*"
+in method  at :
+
+[25-07-23 15:36:16 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.ClientHandler
+Message:Sending HTTP request "POST" "http://localhost:5010/api/v1/Auth?*"
+in method  at :
+
+[25-07-23 15:36:19 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.ClientHandler
+Message:Received HTTP response headers after 3298.1261ms - 200
+in method  at :
+
+[25-07-23 15:36:19 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.LogicalHandler
+Message:End processing HTTP request after 3329.0644ms - 200
+in method  at :
+
+[25-07-23 15:36:19 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnPostAsync", returned result "Microsoft.AspNetCore.Mvc.RedirectToPageResult".
+in method  at :
+
+[25-07-23 15:36:19 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RedirectToRouteResult
+Message:Executing RedirectToPageResult, redirecting to "/Users/Index".
+in method  at :
+
+[25-07-23 15:36:19 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Auth/Login" in 3453.4841ms
+in method  at :
+
+[25-07-23 15:36:19 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:36:19 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "POST" "https"://"localhost:7050""""/Auth/Login""" - 302 0 null 3475.1322ms
+in method  at :
+
+[25-07-23 15:36:19 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/Users""" - null null
+in method  at :
+
+[25-07-23 15:36:19 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Users/Index"'
+in method  at :
+
+[25-07-23 15:36:19 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Users/Index\"}". Executing page "/Users/Index"
+in method  at :
+
+[25-07-23 15:36:19 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Users.IndexModel.OnGetAsync" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:36:19 Information]SwagLabs.Web:System.Net.Http.HttpClient.IUserApiServiceWrapper.LogicalHandler
+Message:Start processing HTTP request "GET" "http://localhost:5010/api/v1/Auth?*"
+in method  at :
+
+[25-07-23 15:36:19 Information]SwagLabs.Web:System.Net.Http.HttpClient.IUserApiServiceWrapper.ClientHandler
+Message:Sending HTTP request "GET" "http://localhost:5010/api/v1/Auth?*"
+in method  at :
+
+[25-07-23 15:36:19 Information]SwagLabs.Web:System.Net.Http.HttpClient.IUserApiServiceWrapper.ClientHandler
+Message:Received HTTP response headers after 76.1583ms - 405
+in method  at :
+
+[25-07-23 15:36:19 Information]SwagLabs.Web:System.Net.Http.HttpClient.IUserApiServiceWrapper.LogicalHandler
+Message:End processing HTTP request after 84.9992ms - 405
+in method  at :
+
+[25-07-23 15:39:44 Information]SwagLabs.Web:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-07-23 15:39:44 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Now listening on: "https://localhost:7050"
+in method  at :
+
+[25-07-23 15:39:44 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5021"
+in method  at :
+
+[25-07-23 15:39:44 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-23 15:39:44 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-23 15:39:44 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web"
+in method  at :
+
+[25-07-23 15:39:45 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/""" - null null
+in method  at :
+
+[25-07-23 15:39:45 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Index"'
+in method  at :
+
+[25-07-23 15:39:45 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Index\"}". Executing page "/Index"
+in method  at :
+
+[25-07-23 15:39:45 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.IndexModel.OnGet" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:39:45 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnGet", returned result "".
+in method  at :
+
+[25-07-23 15:39:45 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing an implicit handler method - ModelState is Valid
+in method  at :
+
+[25-07-23 15:39:45 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+in method  at :
+
+[25-07-23 15:39:46 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Index" in 198.3427ms
+in method  at :
+
+[25-07-23 15:39:46 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Index"'
+in method  at :
+
+[25-07-23 15:39:46 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/""" - 200 null "text/html; charset=utf-8" 511.0183ms
+in method  at :
+
+[25-07-23 15:39:46 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-23 15:39:46 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-23 15:39:46 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 44.8518ms
+in method  at :
+
+[25-07-23 15:39:46 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 104.8112ms
+in method  at :
+
+[25-07-23 15:39:53 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/auth/login""" - null null
+in method  at :
+
+[25-07-23 15:39:53 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:39:53 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Auth/Login\"}". Executing page "/Auth/Login"
+in method  at :
+
+[25-07-23 15:39:53 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Auth.LoginModel.OnGet" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:39:53 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnGet", returned result "".
+in method  at :
+
+[25-07-23 15:39:53 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing an implicit handler method - ModelState is Valid
+in method  at :
+
+[25-07-23 15:39:53 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+in method  at :
+
+[25-07-23 15:39:53 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Auth/Login" in 171.1427ms
+in method  at :
+
+[25-07-23 15:39:53 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:39:53 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/auth/login""" - 200 null "text/html; charset=utf-8" 236.2755ms
+in method  at :
+
+[25-07-23 15:39:53 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/validators.js""" - null null
+in method  at :
+
+[25-07-23 15:39:53 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-23 15:39:53 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-23 15:39:53 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/errorFormatting.js""" - null null
+in method  at :
+
+[25-07-23 15:39:53 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/validators.js""" - 404 0 null 156.5056ms
+in method  at :
+
+[25-07-23 15:39:54 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 213.3465ms
+in method  at :
+
+[25-07-23 15:39:54 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/errorFormatting.js""" - 404 0 null 201.1698ms
+in method  at :
+
+[25-07-23 15:39:54 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 307.6553ms
+in method  at :
+
+[25-07-23 15:39:54 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7050""""/js/validations/validators.js", Response status code: 404
+in method  at :
+
+[25-07-23 15:39:54 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7050""""/js/validations/errorFormatting.js", Response status code: 404
+in method  at :
+
+[25-07-23 15:39:56 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "POST" "https"://"localhost:7050""""/Auth/Login""" - "application/x-www-form-urlencoded" 243
+in method  at :
+
+[25-07-23 15:39:56 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:39:56 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Auth/Login\"}". Executing page "/Auth/Login"
+in method  at :
+
+[25-07-23 15:39:56 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Auth.LoginModel.OnPostAsync" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:39:56 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.LogicalHandler
+Message:Start processing HTTP request "POST" "http://localhost:5010/api/v1/Auth?*"
+in method  at :
+
+[25-07-23 15:39:56 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.ClientHandler
+Message:Sending HTTP request "POST" "http://localhost:5010/api/v1/Auth?*"
+in method  at :
+
+[25-07-23 15:39:59 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.ClientHandler
+Message:Received HTTP response headers after 2388.7074ms - 200
+in method  at :
+
+[25-07-23 15:39:59 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.LogicalHandler
+Message:End processing HTTP request after 2411.8792ms - 200
+in method  at :
+
+[25-07-23 15:39:59 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnPostAsync", returned result "Microsoft.AspNetCore.Mvc.RedirectToPageResult".
+in method  at :
+
+[25-07-23 15:39:59 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RedirectToRouteResult
+Message:Executing RedirectToPageResult, redirecting to "/Users/Index".
+in method  at :
+
+[25-07-23 15:39:59 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Auth/Login" in 2536.4229ms
+in method  at :
+
+[25-07-23 15:39:59 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:39:59 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "POST" "https"://"localhost:7050""""/Auth/Login""" - 302 0 null 2550.9424ms
+in method  at :
+
+[25-07-23 15:39:59 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/Users""" - null null
+in method  at :
+
+[25-07-23 15:39:59 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Users/Index"'
+in method  at :
+
+[25-07-23 15:39:59 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Users/Index\"}". Executing page "/Users/Index"
+in method  at :
+
+[25-07-23 15:39:59 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Users.IndexModel.OnGetAsync" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:43:49 Information]SwagLabs.Web:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-07-23 15:43:50 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Now listening on: "https://localhost:7050"
+in method  at :
+
+[25-07-23 15:43:50 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5021"
+in method  at :
+
+[25-07-23 15:43:50 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-23 15:43:50 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-23 15:43:50 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web"
+in method  at :
+
+[25-07-23 15:43:50 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/""" - null null
+in method  at :
+
+[25-07-23 15:43:50 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Index"'
+in method  at :
+
+[25-07-23 15:43:50 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Index\"}". Executing page "/Index"
+in method  at :
+
+[25-07-23 15:43:50 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.IndexModel.OnGet" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:43:50 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnGet", returned result "".
+in method  at :
+
+[25-07-23 15:43:50 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing an implicit handler method - ModelState is Valid
+in method  at :
+
+[25-07-23 15:43:50 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+in method  at :
+
+[25-07-23 15:43:50 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Index" in 80.4905ms
+in method  at :
+
+[25-07-23 15:43:50 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Index"'
+in method  at :
+
+[25-07-23 15:43:50 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/""" - 200 null "text/html; charset=utf-8" 325.0471ms
+in method  at :
+
+[25-07-23 15:43:50 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-23 15:43:50 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-23 15:43:51 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 183.2807ms
+in method  at :
+
+[25-07-23 15:43:51 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 203.7409ms
+in method  at :
+
+[25-07-23 15:43:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/auth/login""" - null null
+in method  at :
+
+[25-07-23 15:43:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:43:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Auth/Login\"}". Executing page "/Auth/Login"
+in method  at :
+
+[25-07-23 15:43:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Auth.LoginModel.OnGet" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:43:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnGet", returned result "".
+in method  at :
+
+[25-07-23 15:43:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing an implicit handler method - ModelState is Valid
+in method  at :
+
+[25-07-23 15:43:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+in method  at :
+
+[25-07-23 15:43:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Auth/Login" in 164.0402ms
+in method  at :
+
+[25-07-23 15:43:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:43:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/auth/login""" - 200 null "text/html; charset=utf-8" 224.8225ms
+in method  at :
+
+[25-07-23 15:43:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-23 15:43:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/validators.js""" - null null
+in method  at :
+
+[25-07-23 15:43:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/errorFormatting.js""" - null null
+in method  at :
+
+[25-07-23 15:43:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-23 15:43:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 9.1317ms
+in method  at :
+
+[25-07-23 15:43:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/validators.js""" - 404 0 null 48.6784ms
+in method  at :
+
+[25-07-23 15:43:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/js/validations/errorFormatting.js""" - 404 0 null 52.1218ms
+in method  at :
+
+[25-07-23 15:43:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7050""""/js/validations/validators.js", Response status code: 404
+in method  at :
+
+[25-07-23 15:43:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:7050""""/js/validations/errorFormatting.js", Response status code: 404
+in method  at :
+
+[25-07-23 15:43:55 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 78.5485ms
+in method  at :
+
+[25-07-23 15:43:58 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "POST" "https"://"localhost:7050""""/Auth/Login""" - "application/x-www-form-urlencoded" 243
+in method  at :
+
+[25-07-23 15:43:58 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:43:58 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Auth/Login\"}". Executing page "/Auth/Login"
+in method  at :
+
+[25-07-23 15:43:58 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Auth.LoginModel.OnPostAsync" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:43:58 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.LogicalHandler
+Message:Start processing HTTP request "POST" "http://localhost:5010/api/v1/Auth?*"
+in method  at :
+
+[25-07-23 15:43:58 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.ClientHandler
+Message:Sending HTTP request "POST" "http://localhost:5010/api/v1/Auth?*"
+in method  at :
+
+[25-07-23 15:44:00 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.ClientHandler
+Message:Received HTTP response headers after 1751.8886ms - 200
+in method  at :
+
+[25-07-23 15:44:00 Information]SwagLabs.Web:System.Net.Http.HttpClient.IAuthApiServiceWrapper.LogicalHandler
+Message:End processing HTTP request after 1776.8279ms - 200
+in method  at :
+
+[25-07-23 15:44:00 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnPostAsync", returned result "Microsoft.AspNetCore.Mvc.RedirectToPageResult".
+in method  at :
+
+[25-07-23 15:44:00 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RedirectToRouteResult
+Message:Executing RedirectToPageResult, redirecting to "/Users/Index".
+in method  at :
+
+[25-07-23 15:44:00 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Auth/Login" in 1881.6259ms
+in method  at :
+
+[25-07-23 15:44:00 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Auth/Login"'
+in method  at :
+
+[25-07-23 15:44:00 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "POST" "https"://"localhost:7050""""/Auth/Login""" - 302 0 null 1909.6535ms
+in method  at :
+
+[25-07-23 15:44:00 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/Users""" - null null
+in method  at :
+
+[25-07-23 15:44:00 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Users/Index"'
+in method  at :
+
+[25-07-23 15:44:00 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Users/Index\"}". Executing page "/Users/Index"
+in method  at :
+
+[25-07-23 15:44:00 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Users.IndexModel.OnGetAsync" - ModelState is Valid
+in method  at :
+
+[25-07-23 15:44:08 Information]SwagLabs.Web:System.Net.Http.HttpClient.IUserApiServiceWrapper.LogicalHandler
+Message:Start processing HTTP request "GET" "http://localhost:5010/api/v1/Users?*"
+in method  at :
+
+[25-07-23 15:44:08 Information]SwagLabs.Web:System.Net.Http.HttpClient.IUserApiServiceWrapper.ClientHandler
+Message:Sending HTTP request "GET" "http://localhost:5010/api/v1/Users?*"
+in method  at :
+
+[25-07-23 15:44:08 Information]SwagLabs.Web:System.Net.Http.HttpClient.IUserApiServiceWrapper.ClientHandler
+Message:Received HTTP response headers after 61.1684ms - 200
+in method  at :
+
+[25-07-23 15:44:08 Information]SwagLabs.Web:System.Net.Http.HttpClient.IUserApiServiceWrapper.LogicalHandler
+Message:End processing HTTP request after 65.7775ms - 200
+in method  at :
+
+[25-07-23 15:44:08 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnGetAsync", returned result "".
+in method  at :
+
+[25-07-23 15:44:08 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing an implicit handler method - ModelState is Valid
+in method  at :
+
+[25-07-23 15:44:08 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+in method  at :
+
+[25-07-23 15:44:08 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Users/Index" in 8223.2673ms
+in method  at :
+
+[25-07-23 15:44:08 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Users/Index"'
+in method  at :
+
+[25-07-23 15:44:08 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/Users""" - 200 null "text/html; charset=utf-8" 8247.3059ms
+in method  at :
+
+[25-07-23 15:44:08 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-23 15:44:08 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-23 15:44:08 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 115.1824ms
+in method  at :
+
+[25-07-23 15:44:08 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 111.6297ms
+in method  at :
+
+[25-07-23 15:44:08 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/2" "GET" "https"://"localhost:7050""""/lib/font-awesome/webfonts/fa-solid-900.woff2""" - null null
+in method  at :
+
+[25-07-23 15:44:08 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/lib/font-awesome/webfonts/fa-solid-900.woff2"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web\wwwroot\lib\font-awesome\webfonts\fa-solid-900.woff2"'
+in method  at :
+
+[25-07-23 15:44:08 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/2" "GET" "https"://"localhost:7050""""/lib/font-awesome/webfonts/fa-solid-900.woff2""" - 200 78268 "font/woff2" 34.7176ms
+in method  at :
+

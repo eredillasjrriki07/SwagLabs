@@ -1,7 +1,6 @@
-﻿
-using SwagLabs.Models.Entities.Base;
+﻿using SwagLabs.Models.Entities.Base;
 
-namespace SwagLabs.Services.ApiWrapper.Interfaces;
+namespace SwagLabs.Services.ApiWrapper.Services.Interfaces;
 
 public interface IApiServiceWrapperBase<TEntity> where TEntity : BaseEntity, new()
 {

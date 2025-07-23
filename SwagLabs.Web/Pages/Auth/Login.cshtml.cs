@@ -1,10 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using SwagLabs.Models.Entities;
+using SwagLabs.Services.ApiWrapper.Auth.Models;
 using SwagLabs.Services.AuthServices.Interfaces;
-using SwagLabs.Services.DataServices.Interfaces;
 using SwagLabs.Services.Logging.Interfaces;
-using SwagLabs.Web.Pages.Base;
 using SwagLabs.Web.ViewModel;
 
 namespace SwagLabs.Web.Pages.Auth
@@ -38,13 +37,22 @@ namespace SwagLabs.Web.Pages.Auth
                 return Page();
             }
 
-            User user = await AuthService.LoginAsync(LoginViewModel.UserName, LoginViewModel.Password);
+            LoginRequest loginRequest = new()
+            {
+                UserName = LoginViewModel.UserName,
+                Password = LoginViewModel.Password,
+            };
+
+            User user = await AuthService.LoginAsync(loginRequest);
 
             if (user == null)
             {
                 Error = "Invalid credentials";
                 return Page();
             }
+
+            Console.WriteLine(user.UserName);
+            Console.WriteLine(user.Password);
 
             return RedirectToPage("/Users/Index");
         }

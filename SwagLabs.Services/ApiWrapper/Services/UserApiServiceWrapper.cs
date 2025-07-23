@@ -1,11 +1,11 @@
 ﻿
 using Microsoft.Extensions.Options;
 using SwagLabs.Models.Entities;
-using SwagLabs.Services.ApiWrapper.Base;
-using SwagLabs.Services.ApiWrapper.Interfaces;
 using SwagLabs.Services.ApiWrapper.Models;
+using SwagLabs.Services.ApiWrapper.Services.Base;
+using SwagLabs.Services.ApiWrapper.Services.Interfaces;
 
-namespace SwagLabs.Services.ApiWrapper;
+namespace SwagLabs.Services.ApiWrapper.Services;
 
 public class UserApiServiceWrapper : ApiServiceWrapperBase<User>, IUserApiServiceWrapper
 {
@@ -14,7 +14,7 @@ public class UserApiServiceWrapper : ApiServiceWrapperBase<User>, IUserApiServic
     {
     }
 
-    public Task<User> LoginWithUserandPasswordAsync(string username, string password)
+    public Task<User> FindByUsernameAsync(string username)
     {
         throw new NotImplementedException();
     }

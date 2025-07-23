@@ -11,6 +11,7 @@ public class ApiServiceSettings
     public string Password { get; set; }
     public string Uri { get; set; }
     public string UserBaseUri { get; set; }
+    public string AuthBaseUri { get; set; }
     public int MajorVersion { get; set; }
     public int MinorVersion { get; set; }
     public string Status { get; set; }

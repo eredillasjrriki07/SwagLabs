@@ -1,6 +1,7 @@
 ﻿
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using SwagLabs.Services.AuthServices.Api;
 using SwagLabs.Services.AuthServices.Dal;
 using SwagLabs.Services.AuthServices.Interfaces;
 
@@ -12,7 +13,7 @@ public static class AuthServiceConfiguration
     {
         if (config.GetValue<bool>("UseApi"))
         {
-            // API Services here
+            services.AddScoped<IAuthService, AuthApiService>();
         }
         else
         {

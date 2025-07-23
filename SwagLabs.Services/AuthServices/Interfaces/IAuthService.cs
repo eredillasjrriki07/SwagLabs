@@ -1,8 +1,9 @@
 ﻿using SwagLabs.Models.Entities;
+using SwagLabs.Services.ApiWrapper.Auth.Models;
 
 namespace SwagLabs.Services.AuthServices.Interfaces;
 
 public interface IAuthService
 {
-    Task<User?> LoginAsync(string username, string password);
+    Task<User?> LoginAsync(LoginRequest loginRequest);
 }
