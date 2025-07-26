@@ -2,6 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using SwagLabs.Services.ApiWrapper.Auth;
 using SwagLabs.Services.ApiWrapper.Auth.Interfaces;
+using SwagLabs.Services.ApiWrapper.Auth.Models;
 using SwagLabs.Services.ApiWrapper.Models;
 using SwagLabs.Services.ApiWrapper.Services;
 using SwagLabs.Services.ApiWrapper.Services.Interfaces;

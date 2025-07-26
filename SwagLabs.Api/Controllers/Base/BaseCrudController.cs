@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using SwagLabs.Dal.Repos.Base;
 using SwagLabs.Models.Entities.Base;
 using SwagLabs.Services.Logging.Interfaces;
@@ -32,6 +33,7 @@ public class BaseCrudController<TEntity, TController> : ControllerBase
     [SwaggerResponse(400, "The request was invalid")]
     [SwaggerResponse(401, "Unauthorized access attempted")]
     [ApiVersion("1.0")]
+    [Authorize]
     [HttpGet]
     public async Task<ActionResult<IEnumerable<TEntity>>> GetAllAsync()
     {

@@ -1,5 +1,13 @@
 ﻿@page
 @model SwagLabs.Web.Pages.Users.IndexModel
 
-<h1>Users</h1>
-<partial name="Partials/_UserListPartial" model="@Model.UserRecords"></partial>
+@if (!string.IsNullOrEmpty(Model.Error))
+{
+	<div class="alert alert-danger" role="alert">@Model.Error</div>
+}
+else
+{
+	<h4>Users</h4>
+	<partial name="Partials/_UserListPartial" model="@Model.UserRecords"></partial>
+}
+

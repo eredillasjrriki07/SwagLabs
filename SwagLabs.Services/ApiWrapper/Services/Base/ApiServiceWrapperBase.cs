@@ -1,8 +1,11 @@
-﻿using System.Net.Http.Json;
+﻿using System.Net;
+using System.Net.Http.Headers;
+using System.Net.Http.Json;
 using System.Text;
 using System.Text.Json;
 using Microsoft.Extensions.Options;
 using SwagLabs.Models.Entities.Base;
+using SwagLabs.Services.ApiWrapper.Auth.Interfaces;
 using SwagLabs.Services.ApiWrapper.Base;
 using SwagLabs.Services.ApiWrapper.Models;
 using SwagLabs.Services.ApiWrapper.Services.Interfaces;
@@ -12,8 +15,12 @@ namespace SwagLabs.Services.ApiWrapper.Services.Base;
 public class ApiServiceWrapperBase<TEntity> : ApiWrapperBase<TEntity>, IApiServiceWrapperBase<TEntity>
     where TEntity : BaseEntity, new()
 {
-    public ApiServiceWrapperBase(HttpClient client, IOptionsMonitor<ApiServiceSettings> apiSettingsMonitor, string endPoint)
-        : base(client, apiSettingsMonitor, endPoint)
+    public ApiServiceWrapperBase(
+        HttpClient client,
+        IAccessTokenProvider tokenProvider,
+        IOptionsMonitor<ApiServiceSettings> apiSettingsMonitor,
+        string endPoint
+    ) : base(client, tokenProvider, apiSettingsMonitor, endPoint)
     {
     }
 
@@ -40,9 +47,25 @@ public class ApiServiceWrapperBase<TEntity> : ApiWrapperBase<TEntity>, IApiServi
     public async Task<IList<TEntity>> GetAllEntitiesAsync()
     {
         string url = $"{ApiSettings.Uri}{_endPoint}?v={ApiVersion}";
-        var response = await Client.GetAsync(url);
+
+        string accessToken = TokenProvider.Get();
+
+        if (!string.IsNullOrWhiteSpace(accessToken))
+        {
+            Client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
+        }
+
+        HttpResponseMessage response = await Client.GetAsync(url);
+
+        if (response.StatusCode == HttpStatusCode.Unauthorized)
+        {
+            throw new UnauthorizedAccessException("401 Unauthorized");
+        }
+
         response.EnsureSuccessStatusCode();
-        var result = await response.Content.ReadFromJsonAsync<IList<TEntity>>();
+        
+        IList<TEntity> result = await response.Content.ReadFromJsonAsync<IList<TEntity>>();
+        
         return result;
     }
 

@@ -2,6 +2,7 @@
 using System.Net.Http.Headers;
 using System.Text;
 using Microsoft.Extensions.Options;
+using SwagLabs.Services.ApiWrapper.Auth.Interfaces;
 using SwagLabs.Services.ApiWrapper.Models;
 
 namespace SwagLabs.Services.ApiWrapper.Base;
@@ -9,13 +10,20 @@ namespace SwagLabs.Services.ApiWrapper.Base;
 public abstract class ApiWrapperBase<TEntity>
 {
     protected readonly HttpClient Client;
+    protected readonly IAccessTokenProvider TokenProvider;
     protected readonly string _endPoint;
     protected readonly ApiServiceSettings ApiSettings;
     protected readonly string ApiVersion;
 
-    public ApiWrapperBase(HttpClient client, IOptionsMonitor<ApiServiceSettings> apiSettingsMonitor, string endPoint)
+    public ApiWrapperBase(
+        HttpClient client,
+        IAccessTokenProvider tokenProvider,
+        IOptionsMonitor<ApiServiceSettings> apiSettingsMonitor,
+        string endPoint
+    )
     {
         Client = client;
+        TokenProvider = tokenProvider;
         _endPoint = endPoint;
         ApiSettings = apiSettingsMonitor.CurrentValue;
         ApiVersion = ApiSettings.ApiVersion;

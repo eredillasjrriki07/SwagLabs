@@ -1,0 +1,1591 @@
+[25-07-26 14:14:32 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5010"
+in method  at :
+
+[25-07-26 14:14:32 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-26 14:14:32 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-26 14:14:32 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Api"
+in method  at :
+
+[25-07-26 14:14:33 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-26 14:14:33 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-26 14:14:34 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 171.4439ms
+in method  at :
+
+[25-07-26 14:14:39 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 5795.5683ms
+in method  at :
+
+[25-07-26 14:14:39 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-07-26 14:14:39 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 105.6089ms
+in method  at :
+
+[25-07-26 14:14:57 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/Auth""" - "application/json; v=1.0; api-version=1.0" 49
+in method  at :
+
+[25-07-26 14:14:57 Warning]SwagLabs.Api:Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware
+Message:Failed to determine the https port for redirect.
+in method  at :
+
+[25-07-26 14:14:57 Information]SwagLabs.Api:Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+Message:CORS policy execution successful.
+in method  at :
+
+[25-07-26 14:14:57 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 14:14:57 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SwagLabs.Models.Entities.User]] LoginAsync(SwagLabs.Api.Controllers.Auth.Models.LoginRequest)" on controller "SwagLabs.Api.Controllers.Auth.AuthController" ("SwagLabs.Api").
+in method  at :
+
+[25-07-26 14:15:01 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("124"ms) [Parameters=["@__username_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='60']"
+""SELECT TOP(1) [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__username_0
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-26 14:15:01 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"SwagLabs.Models.Entities.User"'.
+in method  at :
+
+[25-07-26 14:15:01 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)" in 3790.4127ms
+in method  at :
+
+[25-07-26 14:15:01 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 14:15:01 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/Auth""" - 200 null "application/json; charset=utf-8; v=1.0" 3997.4563ms
+in method  at :
+
+[25-07-26 14:20:37 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5010"
+in method  at :
+
+[25-07-26 14:20:38 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-26 14:20:38 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-26 14:20:38 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Api"
+in method  at :
+
+[25-07-26 14:21:10 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - "application/json; charset=utf-8" 40
+in method  at :
+
+[25-07-26 14:21:10 Warning]SwagLabs.Api:Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware
+Message:Failed to determine the https port for redirect.
+in method  at :
+
+[25-07-26 14:21:10 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 14:21:10 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SwagLabs.Models.Entities.User]] LoginAsync(SwagLabs.Api.Controllers.Auth.Models.LoginRequest)" on controller "SwagLabs.Api.Controllers.Auth.AuthController" ("SwagLabs.Api").
+in method  at :
+
+[25-07-26 14:21:12 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("57"ms) [Parameters=["@__username_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='60']"
+""SELECT TOP(1) [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__username_0
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-26 14:21:12 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"SwagLabs.Models.Entities.User"'.
+in method  at :
+
+[25-07-26 14:21:12 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)" in 1355.3157ms
+in method  at :
+
+[25-07-26 14:21:12 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 14:21:12 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 1597.11ms
+in method  at :
+
+[25-07-26 14:21:12 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - null null
+in method  at :
+
+[25-07-26 14:21:12 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 14:21:12 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"GetAll\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SwagLabs.Models.Entities.User]]] GetAllAsync()" on controller "SwagLabs.Api.Controllers.UsersController" ("SwagLabs.Api").
+in method  at :
+
+[25-07-26 14:21:12 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""SELECT [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-26 14:21:12 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SwagLabs.Models.Entities.User, SwagLabs.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+in method  at :
+
+[25-07-26 14:21:12 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)" in 45.7289ms
+in method  at :
+
+[25-07-26 14:21:12 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 14:21:12 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 74.3452ms
+in method  at :
+
+[25-07-26 16:30:38 Information]SwagLabs.Api:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-07-26 16:30:39 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5010"
+in method  at :
+
+[25-07-26 16:30:39 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-26 16:30:39 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-26 16:30:39 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Api"
+in method  at :
+
+[25-07-26 16:30:40 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - null null
+in method  at :
+
+[25-07-26 16:30:40 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 334.6864ms
+in method  at :
+
+[25-07-26 16:30:40 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-26 16:30:40 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-26 16:30:40 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 26.5389ms
+in method  at :
+
+[25-07-26 16:30:40 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 129.9731ms
+in method  at :
+
+[25-07-26 16:30:41 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-07-26 16:30:41 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 63.1445ms
+in method  at :
+
+[25-07-26 16:30:51 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/Auth""" - "application/json; v=1.0; api-version=1.0" 49
+in method  at :
+
+[25-07-26 16:30:52 Warning]SwagLabs.Api:Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware
+Message:Failed to determine the https port for redirect.
+in method  at :
+
+[25-07-26 16:30:52 Information]SwagLabs.Api:Microsoft.AspNetCore.Cors.Infrastructure.CorsService
+Message:CORS policy execution successful.
+in method  at :
+
+[25-07-26 16:30:52 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 16:30:52 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SwagLabs.Models.Entities.User]] LoginAsync(SwagLabs.Api.Controllers.Auth.Models.LoginRequest)" on controller "SwagLabs.Api.Controllers.Auth.AuthController" ("SwagLabs.Api").
+in method  at :
+
+[25-07-26 16:30:54 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("114"ms) [Parameters=["@__username_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='60']"
+""SELECT TOP(1) [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__username_0
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-26 16:30:54 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"SwagLabs.Models.Entities.User"'.
+in method  at :
+
+[25-07-26 16:30:54 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)" in 2553.26ms
+in method  at :
+
+[25-07-26 16:30:54 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 16:30:54 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/Auth""" - 200 null "application/json; charset=utf-8; v=1.0" 2931.4368ms
+in method  at :
+
+[25-07-26 16:32:54 Information]SwagLabs.Api:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-07-26 16:32:54 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5010"
+in method  at :
+
+[25-07-26 16:32:55 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-26 16:32:55 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-26 16:32:55 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Api"
+in method  at :
+
+[25-07-26 16:33:29 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - "application/json; charset=utf-8" 40
+in method  at :
+
+[25-07-26 16:33:30 Warning]SwagLabs.Api:Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware
+Message:Failed to determine the https port for redirect.
+in method  at :
+
+[25-07-26 16:33:30 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 16:33:30 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SwagLabs.Models.Entities.User]] LoginAsync(SwagLabs.Api.Controllers.Auth.Models.LoginRequest)" on controller "SwagLabs.Api.Controllers.Auth.AuthController" ("SwagLabs.Api").
+in method  at :
+
+[25-07-26 16:33:33 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("82"ms) [Parameters=["@__username_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='60']"
+""SELECT TOP(1) [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__username_0
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-26 16:33:33 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"SwagLabs.Models.Entities.User"'.
+in method  at :
+
+[25-07-26 16:33:33 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)" in 3088.3592ms
+in method  at :
+
+[25-07-26 16:33:33 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 16:33:33 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 3716.0783ms
+in method  at :
+
+[25-07-26 16:38:15 Information]SwagLabs.Api:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-07-26 16:38:16 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5010"
+in method  at :
+
+[25-07-26 16:38:16 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-26 16:38:16 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-26 16:38:16 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Api"
+in method  at :
+
+[25-07-26 16:39:20 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - "application/json; charset=utf-8" 40
+in method  at :
+
+[25-07-26 16:39:21 Warning]SwagLabs.Api:Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware
+Message:Failed to determine the https port for redirect.
+in method  at :
+
+[25-07-26 16:39:21 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 16:39:21 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SwagLabs.Models.Entities.User]] LoginAsync(SwagLabs.Api.Controllers.Auth.Models.LoginRequest)" on controller "SwagLabs.Api.Controllers.Auth.AuthController" ("SwagLabs.Api").
+in method  at :
+
+[25-07-26 16:39:24 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("117"ms) [Parameters=["@__username_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='60']"
+""SELECT TOP(1) [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__username_0
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-26 16:39:24 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"SwagLabs.Models.Entities.User"'.
+in method  at :
+
+[25-07-26 16:39:24 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)" in 2901.2448ms
+in method  at :
+
+[25-07-26 16:39:24 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 16:39:24 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 3573.5079ms
+in method  at :
+
+[25-07-26 16:42:18 Information]SwagLabs.Api:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-07-26 16:42:18 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5010"
+in method  at :
+
+[25-07-26 16:42:18 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-26 16:42:18 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-26 16:42:18 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Api"
+in method  at :
+
+[25-07-26 16:42:41 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - "application/json; charset=utf-8" 40
+in method  at :
+
+[25-07-26 16:42:41 Warning]SwagLabs.Api:Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware
+Message:Failed to determine the https port for redirect.
+in method  at :
+
+[25-07-26 16:42:41 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 16:42:41 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SwagLabs.Models.Entities.User]] LoginAsync(SwagLabs.Api.Controllers.Auth.Models.LoginRequest)" on controller "SwagLabs.Api.Controllers.Auth.AuthController" ("SwagLabs.Api").
+in method  at :
+
+[25-07-26 16:42:44 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("83"ms) [Parameters=["@__username_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='60']"
+""SELECT TOP(1) [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__username_0
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-26 16:42:44 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"SwagLabs.Models.Entities.User"'.
+in method  at :
+
+[25-07-26 16:42:44 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)" in 2302.3857ms
+in method  at :
+
+[25-07-26 16:42:44 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 16:42:44 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 2702.2219ms
+in method  at :
+
+[25-07-26 16:49:39 Information]SwagLabs.Api:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-07-26 16:49:40 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5010"
+in method  at :
+
+[25-07-26 16:49:40 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-26 16:49:40 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-26 16:49:40 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Api"
+in method  at :
+
+[25-07-26 16:50:04 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - "application/json; charset=utf-8" 40
+in method  at :
+
+[25-07-26 16:50:04 Warning]SwagLabs.Api:Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware
+Message:Failed to determine the https port for redirect.
+in method  at :
+
+[25-07-26 16:50:04 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 16:50:04 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SwagLabs.Models.Entities.User]] LoginAsync(SwagLabs.Api.Controllers.Auth.Models.LoginRequest)" on controller "SwagLabs.Api.Controllers.Auth.AuthController" ("SwagLabs.Api").
+in method  at :
+
+[25-07-26 16:50:06 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("58"ms) [Parameters=["@__username_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='60']"
+""SELECT TOP(1) [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__username_0
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-26 16:50:06 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"SwagLabs.Models.Entities.User"'.
+in method  at :
+
+[25-07-26 16:50:06 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)" in 2433.8546ms
+in method  at :
+
+[25-07-26 16:50:06 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 16:50:06 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 2843.9163ms
+in method  at :
+
+[25-07-26 17:05:00 Information]SwagLabs.Api:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-07-26 17:05:00 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5010"
+in method  at :
+
+[25-07-26 17:05:00 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-26 17:05:00 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-26 17:05:00 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Api"
+in method  at :
+
+[25-07-26 17:09:23 Information]SwagLabs.Api:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-07-26 17:09:23 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5010"
+in method  at :
+
+[25-07-26 17:09:23 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-26 17:09:23 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-26 17:09:23 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Api"
+in method  at :
+
+[25-07-26 17:10:23 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - "application/json; charset=utf-8" 40
+in method  at :
+
+[25-07-26 17:10:23 Warning]SwagLabs.Api:Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware
+Message:Failed to determine the https port for redirect.
+in method  at :
+
+[25-07-26 17:10:23 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 17:10:23 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SwagLabs.Models.Entities.User]] LoginAsync(SwagLabs.Api.Controllers.Auth.Models.LoginRequest)" on controller "SwagLabs.Api.Controllers.Auth.AuthController" ("SwagLabs.Api").
+in method  at :
+
+[25-07-26 17:10:25 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("78"ms) [Parameters=["@__username_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='60']"
+""SELECT TOP(1) [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__username_0
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-26 17:10:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"SwagLabs.Models.Entities.User"'.
+in method  at :
+
+[25-07-26 17:10:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)" in 1926.4431ms
+in method  at :
+
+[25-07-26 17:10:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 17:10:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 2344.6423ms
+in method  at :
+
+[25-07-26 17:10:44 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - null null
+in method  at :
+
+[25-07-26 17:10:44 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 17:10:44 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"GetAll\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SwagLabs.Models.Entities.User]]] GetAllAsync()" on controller "SwagLabs.Api.Controllers.UsersController" ("SwagLabs.Api").
+in method  at :
+
+[25-07-26 17:10:44 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("29"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""SELECT [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-26 17:10:44 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SwagLabs.Models.Entities.User, SwagLabs.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+in method  at :
+
+[25-07-26 17:10:44 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)" in 73.8775ms
+in method  at :
+
+[25-07-26 17:10:44 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 17:10:44 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 108.315ms
+in method  at :
+
+[25-07-26 17:27:57 Information]SwagLabs.Api:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-07-26 17:27:58 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5010"
+in method  at :
+
+[25-07-26 17:27:58 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-26 17:27:58 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-26 17:27:58 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Api"
+in method  at :
+
+[25-07-26 17:29:22 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - "application/json; charset=utf-8" 40
+in method  at :
+
+[25-07-26 17:29:22 Warning]SwagLabs.Api:Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware
+Message:Failed to determine the https port for redirect.
+in method  at :
+
+[25-07-26 17:29:22 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 17:29:22 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SwagLabs.Models.Entities.User]] LoginAsync(SwagLabs.Api.Controllers.Auth.Models.LoginRequest)" on controller "SwagLabs.Api.Controllers.Auth.AuthController" ("SwagLabs.Api").
+in method  at :
+
+[25-07-26 17:29:24 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("69"ms) [Parameters=["@__username_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='60']"
+""SELECT TOP(1) [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__username_0
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-26 17:29:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"SwagLabs.Models.Entities.User"'.
+in method  at :
+
+[25-07-26 17:29:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)" in 2174.129ms
+in method  at :
+
+[25-07-26 17:29:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 17:29:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 2518.7775ms
+in method  at :
+
+[25-07-26 17:29:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - null null
+in method  at :
+
+[25-07-26 17:29:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 17:29:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"GetAll\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SwagLabs.Models.Entities.User]]] GetAllAsync()" on controller "SwagLabs.Api.Controllers.UsersController" ("SwagLabs.Api").
+in method  at :
+
+[25-07-26 17:29:25 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""SELECT [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-26 17:29:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SwagLabs.Models.Entities.User, SwagLabs.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+in method  at :
+
+[25-07-26 17:29:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)" in 31.9119ms
+in method  at :
+
+[25-07-26 17:29:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 17:29:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 60.9848ms
+in method  at :
+
+[25-07-26 17:37:24 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - "application/json; charset=utf-8" 40
+in method  at :
+
+[25-07-26 17:37:24 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 17:37:24 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SwagLabs.Models.Entities.User]] LoginAsync(SwagLabs.Api.Controllers.Auth.Models.LoginRequest)" on controller "SwagLabs.Api.Controllers.Auth.AuthController" ("SwagLabs.Api").
+in method  at :
+
+[25-07-26 17:37:25 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("3"ms) [Parameters=["@__username_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='60']"
+""SELECT TOP(1) [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__username_0
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-26 17:37:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"SwagLabs.Models.Entities.User"'.
+in method  at :
+
+[25-07-26 17:37:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)" in 209.2843ms
+in method  at :
+
+[25-07-26 17:37:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 17:37:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 241.2792ms
+in method  at :
+
+[25-07-26 17:37:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - null null
+in method  at :
+
+[25-07-26 17:37:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 17:37:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"GetAll\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SwagLabs.Models.Entities.User]]] GetAllAsync()" on controller "SwagLabs.Api.Controllers.UsersController" ("SwagLabs.Api").
+in method  at :
+
+[25-07-26 17:37:25 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""SELECT [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-26 17:37:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SwagLabs.Models.Entities.User, SwagLabs.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+in method  at :
+
+[25-07-26 17:37:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)" in 5.6449ms
+in method  at :
+
+[25-07-26 17:37:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 17:37:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 14.9751ms
+in method  at :
+
+[25-07-26 17:37:45 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - "application/json; charset=utf-8" 51
+in method  at :
+
+[25-07-26 17:37:45 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 17:37:45 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SwagLabs.Models.Entities.User]] LoginAsync(SwagLabs.Api.Controllers.Auth.Models.LoginRequest)" on controller "SwagLabs.Api.Controllers.Auth.AuthController" ("SwagLabs.Api").
+in method  at :
+
+[25-07-26 17:37:45 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("1"ms) [Parameters=["@__username_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='60']"
+""SELECT TOP(1) [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__username_0
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-26 17:37:45 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"SwagLabs.Models.Entities.User"'.
+in method  at :
+
+[25-07-26 17:37:45 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)" in 78.7292ms
+in method  at :
+
+[25-07-26 17:37:45 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 17:37:45 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 89.9994ms
+in method  at :
+
+[25-07-26 17:37:45 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - null null
+in method  at :
+
+[25-07-26 17:37:45 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 17:37:45 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"GetAll\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SwagLabs.Models.Entities.User]]] GetAllAsync()" on controller "SwagLabs.Api.Controllers.UsersController" ("SwagLabs.Api").
+in method  at :
+
+[25-07-26 17:37:45 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""SELECT [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-26 17:37:45 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SwagLabs.Models.Entities.User, SwagLabs.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+in method  at :
+
+[25-07-26 17:37:46 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)" in 28.1779ms
+in method  at :
+
+[25-07-26 17:37:46 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 17:37:46 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 49.5406ms
+in method  at :
+
+[25-07-26 19:28:04 Information]SwagLabs.Api:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-07-26 19:28:05 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5010"
+in method  at :
+
+[25-07-26 19:28:05 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-26 19:28:05 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-26 19:28:05 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Api"
+in method  at :
+
+[25-07-26 19:28:45 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - "application/json; charset=utf-8" 40
+in method  at :
+
+[25-07-26 19:28:45 Warning]SwagLabs.Api:Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware
+Message:Failed to determine the https port for redirect.
+in method  at :
+
+[25-07-26 19:28:45 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 19:28:46 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SwagLabs.Models.Entities.User]] LoginAsync(SwagLabs.Api.Controllers.Auth.Models.LoginRequest)" on controller "SwagLabs.Api.Controllers.Auth.AuthController" ("SwagLabs.Api").
+in method  at :
+
+[25-07-26 19:28:50 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("186"ms) [Parameters=["@__username_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='60']"
+""SELECT TOP(1) [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__username_0
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-26 19:28:51 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"SwagLabs.Models.Entities.User"'.
+in method  at :
+
+[25-07-26 19:28:51 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)" in 5146.8901ms
+in method  at :
+
+[25-07-26 19:28:51 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 19:28:51 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 5961.9052ms
+in method  at :
+
+[25-07-26 19:30:48 Information]SwagLabs.Api:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-07-26 19:30:48 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5010"
+in method  at :
+
+[25-07-26 19:30:48 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-26 19:30:48 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-26 19:30:48 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Api"
+in method  at :
+
+[25-07-26 19:31:17 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - "application/json; charset=utf-8" 40
+in method  at :
+
+[25-07-26 19:31:18 Warning]SwagLabs.Api:Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware
+Message:Failed to determine the https port for redirect.
+in method  at :
+
+[25-07-26 19:31:18 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 19:31:18 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SwagLabs.Models.Entities.User]] LoginAsync(SwagLabs.Api.Controllers.Auth.Models.LoginRequest)" on controller "SwagLabs.Api.Controllers.Auth.AuthController" ("SwagLabs.Api").
+in method  at :
+
+[25-07-26 19:31:22 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("145"ms) [Parameters=["@__username_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='60']"
+""SELECT TOP(1) [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__username_0
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-26 19:31:22 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"SwagLabs.Models.Entities.User"'.
+in method  at :
+
+[25-07-26 19:31:22 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)" in 4284.5096ms
+in method  at :
+
+[25-07-26 19:31:22 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 19:31:22 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 5038.6681ms
+in method  at :
+
+[25-07-26 19:31:58 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - "application/json; charset=utf-8" 51
+in method  at :
+
+[25-07-26 19:31:58 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 19:31:58 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SwagLabs.Models.Entities.User]] LoginAsync(SwagLabs.Api.Controllers.Auth.Models.LoginRequest)" on controller "SwagLabs.Api.Controllers.Auth.AuthController" ("SwagLabs.Api").
+in method  at :
+
+[25-07-26 19:31:58 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("6"ms) [Parameters=["@__username_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='60']"
+""SELECT TOP(1) [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__username_0
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-26 19:31:58 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"SwagLabs.Models.Entities.User"'.
+in method  at :
+
+[25-07-26 19:31:58 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)" in 46.7869ms
+in method  at :
+
+[25-07-26 19:31:58 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 19:31:58 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 223.2604ms
+in method  at :
+
+[25-07-26 19:42:46 Information]SwagLabs.Api:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-07-26 19:42:46 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5010"
+in method  at :
+
+[25-07-26 19:42:46 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-26 19:42:46 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-26 19:42:46 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Api"
+in method  at :
+
+[25-07-26 19:43:14 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - "application/json; charset=utf-8" 40
+in method  at :
+
+[25-07-26 19:43:15 Warning]SwagLabs.Api:Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware
+Message:Failed to determine the https port for redirect.
+in method  at :
+
+[25-07-26 19:43:15 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 19:43:15 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SwagLabs.Models.Entities.User]] LoginAsync(SwagLabs.Api.Controllers.Auth.Models.LoginRequest)" on controller "SwagLabs.Api.Controllers.Auth.AuthController" ("SwagLabs.Api").
+in method  at :
+
+[25-07-26 19:43:19 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("96"ms) [Parameters=["@__username_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='60']"
+""SELECT TOP(1) [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__username_0
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-26 19:43:19 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"SwagLabs.Models.Entities.User"'.
+in method  at :
+
+[25-07-26 19:43:19 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)" in 4023.706ms
+in method  at :
+
+[25-07-26 19:43:19 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 19:43:19 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 4949.2899ms
+in method  at :
+
+[25-07-26 20:10:40 Information]SwagLabs.Api:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-07-26 20:10:40 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5010"
+in method  at :
+
+[25-07-26 20:10:40 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-26 20:10:40 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-26 20:10:40 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Api"
+in method  at :
+
+[25-07-26 20:11:31 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - "application/json; charset=utf-8" 40
+in method  at :
+
+[25-07-26 20:11:31 Warning]SwagLabs.Api:Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware
+Message:Failed to determine the https port for redirect.
+in method  at :
+
+[25-07-26 20:11:31 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 20:11:31 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SwagLabs.Models.Entities.User]] LoginAsync(SwagLabs.Api.Controllers.Auth.Models.LoginRequest)" on controller "SwagLabs.Api.Controllers.Auth.AuthController" ("SwagLabs.Api").
+in method  at :
+
+[25-07-26 20:11:35 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("153"ms) [Parameters=["@__username_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='60']"
+""SELECT TOP(1) [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__username_0
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-26 20:11:35 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"SwagLabs.Models.Entities.User"'.
+in method  at :
+
+[25-07-26 20:11:36 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)" in 4183.4884ms
+in method  at :
+
+[25-07-26 20:11:36 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 20:11:36 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 4842.8147ms
+in method  at :
+
+[25-07-26 20:14:14 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - null null
+in method  at :
+
+[25-07-26 20:14:14 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 20:14:14 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"GetAll\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SwagLabs.Models.Entities.User]]] GetAllAsync()" on controller "SwagLabs.Api.Controllers.UsersController" ("SwagLabs.Api").
+in method  at :
+
+[25-07-26 20:14:14 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""SELECT [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-26 20:14:14 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SwagLabs.Models.Entities.User, SwagLabs.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+in method  at :
+
+[25-07-26 20:14:14 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)" in 37.7669ms
+in method  at :
+
+[25-07-26 20:14:14 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 20:14:14 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 106.2616ms
+in method  at :
+
+[25-07-26 20:14:15 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - null null
+in method  at :
+
+[25-07-26 20:14:15 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 219.5455ms
+in method  at :
+
+[25-07-26 20:14:15 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-26 20:14:15 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 14.4479ms
+in method  at :
+
+[25-07-26 20:14:15 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-26 20:14:15 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 41.5444ms
+in method  at :
+
+[25-07-26 20:14:15 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-07-26 20:14:15 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 32.657ms
+in method  at :
+
+[25-07-26 20:14:17 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - "application/json; charset=utf-8" 40
+in method  at :
+
+[25-07-26 20:14:17 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 20:14:17 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SwagLabs.Models.Entities.User]] LoginAsync(SwagLabs.Api.Controllers.Auth.Models.LoginRequest)" on controller "SwagLabs.Api.Controllers.Auth.AuthController" ("SwagLabs.Api").
+in method  at :
+
+[25-07-26 20:14:17 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("3"ms) [Parameters=["@__username_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='60']"
+""SELECT TOP(1) [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__username_0
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-26 20:14:17 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"SwagLabs.Models.Entities.User"'.
+in method  at :
+
+[25-07-26 20:14:17 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)" in 17.5015ms
+in method  at :
+
+[25-07-26 20:14:17 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 20:14:17 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 34.2781ms
+in method  at :
+
+[25-07-26 20:14:28 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - null null
+in method  at :
+
+[25-07-26 20:14:28 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 20:14:28 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"GetAll\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SwagLabs.Models.Entities.User]]] GetAllAsync()" on controller "SwagLabs.Api.Controllers.UsersController" ("SwagLabs.Api").
+in method  at :
+
+[25-07-26 20:14:28 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""SELECT [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-26 20:14:28 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SwagLabs.Models.Entities.User, SwagLabs.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+in method  at :
+
+[25-07-26 20:14:28 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)" in 11.3691ms
+in method  at :
+
+[25-07-26 20:14:28 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 20:14:28 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 25.3595ms
+in method  at :
+
+[25-07-26 20:20:59 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - null null
+in method  at :
+
+[25-07-26 20:20:59 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 20:20:59 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"GetAll\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SwagLabs.Models.Entities.User]]] GetAllAsync()" on controller "SwagLabs.Api.Controllers.UsersController" ("SwagLabs.Api").
+in method  at :
+
+[25-07-26 20:20:59 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""SELECT [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-26 20:20:59 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SwagLabs.Models.Entities.User, SwagLabs.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+in method  at :
+
+[25-07-26 20:20:59 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)" in 49.0469ms
+in method  at :
+
+[25-07-26 20:20:59 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 20:20:59 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 268.0085ms
+in method  at :
+
+[25-07-26 20:21:01 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - null null
+in method  at :
+
+[25-07-26 20:21:01 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 92.7287ms
+in method  at :
+
+[25-07-26 20:21:01 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-26 20:21:01 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-26 20:21:01 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 126.8418ms
+in method  at :
+
+[25-07-26 20:21:02 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 253.8646ms
+in method  at :
+
+[25-07-26 20:21:03 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-07-26 20:21:04 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 159.2072ms
+in method  at :
+
+[25-07-26 20:22:50 Information]SwagLabs.Api:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-07-26 20:22:51 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5010"
+in method  at :
+
+[25-07-26 20:22:51 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-07-26 20:22:51 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-07-26 20:22:51 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Api"
+in method  at :
+
+[25-07-26 20:24:06 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - null null
+in method  at :
+
+[25-07-26 20:24:07 Warning]SwagLabs.Api:Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware
+Message:Failed to determine the https port for redirect.
+in method  at :
+
+[25-07-26 20:24:07 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 20:24:08 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"GetAll\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SwagLabs.Models.Entities.User]]] GetAllAsync()" on controller "SwagLabs.Api.Controllers.UsersController" ("SwagLabs.Api").
+in method  at :
+
+[25-07-26 20:24:11 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("71"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""SELECT [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-26 20:24:11 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SwagLabs.Models.Entities.User, SwagLabs.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+in method  at :
+
+[25-07-26 20:24:11 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)" in 3622.1987ms
+in method  at :
+
+[25-07-26 20:24:11 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 20:24:11 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 4741.7832ms
+in method  at :
+
+[25-07-26 20:26:50 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - null null
+in method  at :
+
+[25-07-26 20:26:50 Information]SwagLabs.Api:Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Message:Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+in method  at :
+
+[25-07-26 20:26:51 Information]SwagLabs.Api:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler
+Message:AuthenticationScheme: "Bearer" was challenged.
+in method  at :
+
+[25-07-26 20:26:51 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - 401 0 null 129.8838ms
+in method  at :
+
+[25-07-26 20:31:15 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - null null
+in method  at :
+
+[25-07-26 20:31:15 Information]SwagLabs.Api:Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Message:Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+in method  at :
+
+[25-07-26 20:31:15 Information]SwagLabs.Api:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler
+Message:AuthenticationScheme: "Bearer" was challenged.
+in method  at :
+
+[25-07-26 20:31:15 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - 401 0 null 7.2406ms
+in method  at :
+
+[25-07-26 20:55:40 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - null null
+in method  at :
+
+[25-07-26 20:55:40 Information]SwagLabs.Api:Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Message:Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+in method  at :
+
+[25-07-26 20:55:40 Information]SwagLabs.Api:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler
+Message:AuthenticationScheme: "Bearer" was challenged.
+in method  at :
+
+[25-07-26 20:55:41 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - 401 0 null 222.5129ms
+in method  at :
+
+[25-07-26 20:55:41 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - null null
+in method  at :
+
+[25-07-26 20:55:42 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 625.5387ms
+in method  at :
+
+[25-07-26 20:55:42 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-26 20:55:42 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 34.5432ms
+in method  at :
+
+[25-07-26 20:55:42 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-07-26 20:55:42 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 75.4518ms
+in method  at :
+
+[25-07-26 20:55:42 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-07-26 20:55:43 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 62.8401ms
+in method  at :
+
+[25-07-26 20:55:49 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - null null
+in method  at :
+
+[25-07-26 20:55:49 Information]SwagLabs.Api:Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Message:Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+in method  at :
+
+[25-07-26 20:55:49 Information]SwagLabs.Api:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler
+Message:AuthenticationScheme: "Bearer" was challenged.
+in method  at :
+
+[25-07-26 20:55:49 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - 401 0 null 15.2284ms
+in method  at :
+
+[25-07-26 20:55:57 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - "application/json; charset=utf-8" 40
+in method  at :
+
+[25-07-26 20:55:57 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 20:55:57 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SwagLabs.Models.Entities.User]] LoginAsync(SwagLabs.Api.Controllers.Auth.Models.LoginRequest)" on controller "SwagLabs.Api.Controllers.Auth.AuthController" ("SwagLabs.Api").
+in method  at :
+
+[25-07-26 20:55:57 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("28"ms) [Parameters=["@__username_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='60']"
+""SELECT TOP(1) [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__username_0
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-26 20:55:57 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"SwagLabs.Models.Entities.User"'.
+in method  at :
+
+[25-07-26 20:55:57 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)" in 174.2109ms
+in method  at :
+
+[25-07-26 20:55:57 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 20:55:57 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 211.8041ms
+in method  at :
+
+[25-07-26 20:55:57 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - null null
+in method  at :
+
+[25-07-26 20:55:57 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 20:55:57 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"GetAll\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SwagLabs.Models.Entities.User]]] GetAllAsync()" on controller "SwagLabs.Api.Controllers.UsersController" ("SwagLabs.Api").
+in method  at :
+
+[25-07-26 20:55:57 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""SELECT [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-07-26 20:55:57 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SwagLabs.Models.Entities.User, SwagLabs.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+in method  at :
+
+[25-07-26 20:55:57 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)" in 28.9845ms
+in method  at :
+
+[25-07-26 20:55:57 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-07-26 20:55:57 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 54.4468ms
+in method  at :
+
+[25-07-26 20:56:05 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - null null
+in method  at :
+
+[25-07-26 20:56:05 Information]SwagLabs.Api:Microsoft.AspNetCore.Authorization.DefaultAuthorizationService
+Message:Authorization failed. "These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user."
+in method  at :
+
+[25-07-26 20:56:05 Information]SwagLabs.Api:Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler
+Message:AuthenticationScheme: "Bearer" was challenged.
+in method  at :
+
+[25-07-26 20:56:05 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - 401 0 null 21.4587ms
+in method  at :
+

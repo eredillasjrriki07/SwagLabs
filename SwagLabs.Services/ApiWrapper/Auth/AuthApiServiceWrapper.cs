@@ -12,14 +12,16 @@ namespace SwagLabs.Services.ApiWrapper.Auth;
 public class AuthApiServiceWrapper : ApiWrapperBase<User>, IAuthApiServiceWrapper
 {
 
-    public AuthApiServiceWrapper(HttpClient client, IOptionsMonitor<ApiServiceSettings> apiSettingsMonitor)
-        : base(client, apiSettingsMonitor, apiSettingsMonitor.CurrentValue.AuthBaseUri)
+    public AuthApiServiceWrapper(
+        HttpClient client,
+        IAccessTokenProvider tokenProvider,
+        IOptionsMonitor<ApiServiceSettings> apiSettingsMonitor
+    ) : base(client, tokenProvider, apiSettingsMonitor, apiSettingsMonitor.CurrentValue.AuthBaseUri)
     {
-
     }
 
-    public async Task<User?> LoginAsync(LoginRequest loginRequest)
-    {   
+    public async Task<User> LoginAsync(LoginRequest loginRequest)
+    {
         var response = await PostAsJsonAsync($"{ApiSettings.Uri}{_endPoint}?v={ApiVersion}", JsonSerializer.Serialize(loginRequest));
 
         if (response == null)
@@ -32,4 +34,6 @@ public class AuthApiServiceWrapper : ApiWrapperBase<User>, IAuthApiServiceWrappe
         return await response.Content.ReadFromJsonAsync<User>();
 
     }
+
+    public string CreateJwtToken(User user) => TokenProvider.Create(user);
 }

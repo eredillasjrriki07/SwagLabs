@@ -1,5 +1,4 @@
-﻿using SwagLabs.Dal.Repos.Interfaces;
-using SwagLabs.Models.Entities;
+﻿using SwagLabs.Models.Entities;
 using SwagLabs.Services.ApiWrapper.Auth.Interfaces;
 using SwagLabs.Services.ApiWrapper.Auth.Models;
 using SwagLabs.Services.AuthServices.Interfaces;
@@ -19,7 +18,7 @@ public class AuthApiService : IAuthService
         ServiceWrapper = serviceWrapper;
     }
 
-    public async Task<User?> LoginAsync(LoginRequest loginRequest)
+    public async Task<User> LoginAsync(LoginRequest loginRequest)
     {
         var user = await ServiceWrapper.LoginAsync(loginRequest);
 
@@ -31,4 +30,5 @@ public class AuthApiService : IAuthService
         return user;
     }
 
+    public string CreateJwtToken(User user) => ServiceWrapper.CreateJwtToken(user);
 }

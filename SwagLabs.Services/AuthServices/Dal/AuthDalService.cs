@@ -21,11 +21,16 @@ public class AuthDalService : IAuthService
     {
         User user = await UserRepo.FindByUsernameAsync(loginRequest.UserName);
 
-        if (user == null || user.Password != loginRequest.Password) 
+        if (user == null || user.Password != loginRequest.Password)
         {
             return null;
         }
 
         return user;
+    }
+
+    public string CreateJwtToken(User user)
+    {
+        throw new NotImplementedException();
     }
 }

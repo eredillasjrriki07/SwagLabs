@@ -5,5 +5,7 @@ namespace SwagLabs.Services.ApiWrapper.Auth.Interfaces;
 
 public interface IAuthApiServiceWrapper
 {
-    Task<User?> LoginAsync(LoginRequest loginRequest);
+    Task<User> LoginAsync(LoginRequest loginRequest);
+
+    string CreateJwtToken(User user);
 }

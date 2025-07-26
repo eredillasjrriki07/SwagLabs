@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SwagLabs.Api.ApiVersionSupport;
 using SwagLabs.Dal.EfStructures;
+using SwagLabs.Services.ApiWrapper.Auth.Configuration;
 using SwagLabs.Services.DataServices;
 using SwagLabs.Services.Logging.Configuration;
 
@@ -31,6 +32,8 @@ builder.Services.AddControllers()
             options.ClientErrorMapping[StatusCodes.Status404NotFound].Title = "Invalid location";
         }
     );
+
+builder.Services.ConfigureJwtAuthentication(builder.Configuration);
 
 builder.Services.AddCors(options =>
 {
@@ -70,6 +73,9 @@ if (app.Environment.IsDevelopment())
 
 app.UseSwagger();
 app.UseSwaggerUI();
+
+app.UseAuthentication();
+app.UseAuthorization();
 
 app.UseHttpsRedirection();
 
