@@ -1,0 +1,16 @@
+[25-07-30 18:12:31 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-07-30 18:12:31 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 290.0446ms
+in method  at :
+
+[25-07-30 18:12:31 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-07-30 18:12:32 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 439.6244ms
+in method  at :
+

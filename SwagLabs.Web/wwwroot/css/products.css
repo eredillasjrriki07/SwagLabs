@@ -1,0 +1,17 @@
+﻿.fs-1_4x {  
+    font-size: 1.4rem;
+}
+
+/** {
+    border: 1px solid red;
+}*/
+
+.card-image {
+    width: 158px;
+    height: 238px;
+}
+
+.card-info {
+    width: 353px;
+    height: 238px;
+}

@@ -1,0 +1,12 @@
+﻿@page "{id?}"
+@model SwagLabs.Web.Pages.Products.DetailsModel
+@{
+	ViewData["Title"] = "Product";
+	ViewData["viewing"] = true;
+	Layout = "../Shared/_ProductLayout.cshtml";
+}
+
+<partial name="../Shared/Partials/_NavPartial" />
+<div class="d-flex justify-content-center py-4">
+	<partial name="Partials/_ProductCardPartial" model="@Model.Entity" />
+</div>

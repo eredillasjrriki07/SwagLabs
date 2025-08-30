@@ -15,6 +15,6 @@ public class ItemDetailsTagHelper : ItemLinkTagHelperBase
 
     public override void Process(TagHelperContext context, TagHelperOutput output)
     {
-        BuildContent(output, "text-info", "Details", "info-circle");
+        BuildContent(output);
     }
 }

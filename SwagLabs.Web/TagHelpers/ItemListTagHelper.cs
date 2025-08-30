@@ -15,6 +15,6 @@ public class ItemListTagHelper : ItemLinkTagHelperBase
 
     public override void Process(TagHelperContext context, TagHelperOutput output)
     {
-        BuildContent(output, "text-default", "Back to List", "list");
+        //BuildContent(output, "text-default", "Back to List", "list");
     }
 }

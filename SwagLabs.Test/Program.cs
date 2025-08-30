@@ -3,15 +3,13 @@ using SwagLabs.Models.Entities;
 
 AppDbContext context = new AppDbContextFactory().CreateDbContext(null);
 
-//User user = new()
-//{
-//    UserName = "test",
-//    Password = "pass",
-//};
+Product product = new Product()
+{
+    Name = "HotSiLog",
+    Description = "Hot Sinaing Itlog, (kala mo sinangag no?)",
+    Price = 99.45
+};
 
-//context.Users.Add(user);
-
-User user = context.Users.First();
-user.Password = "newpass";
+context.Products.Add(product);
 
 context.SaveChanges();

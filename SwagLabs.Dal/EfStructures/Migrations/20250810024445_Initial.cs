@@ -12,6 +12,31 @@ namespace SwagLabs.Dal.EfStructures.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
+                name: "Products",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Name = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
+                    Description = table.Column<string>(type: "nvarchar(250)", maxLength: 250, nullable: false),
+                    Price = table.Column<double>(type: "float", nullable: false),
+                    ValidFrom = table.Column<DateTime>(type: "datetime2", nullable: false)
+                        .Annotation("SqlServer:TemporalIsPeriodStartColumn", true),
+                    ValidTo = table.Column<DateTime>(type: "datetime2", nullable: false)
+                        .Annotation("SqlServer:TemporalIsPeriodEndColumn", true),
+                    TimeStamp = table.Column<byte[]>(type: "rowversion", rowVersion: true, nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Products", x => x.Id);
+                })
+                .Annotation("SqlServer:IsTemporal", true)
+                .Annotation("SqlServer:TemporalHistoryTableName", "ProductAudit")
+                .Annotation("SqlServer:TemporalHistoryTableSchema", null)
+                .Annotation("SqlServer:TemporalPeriodEndColumnName", "ValidTo")
+                .Annotation("SqlServer:TemporalPeriodStartColumnName", "ValidFrom");
+
+            migrationBuilder.CreateTable(
                 name: "SeriLogEntry",
                 columns: table => new
                 {
@@ -66,6 +91,14 @@ namespace SwagLabs.Dal.EfStructures.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "Products")
+                .Annotation("SqlServer:IsTemporal", true)
+                .Annotation("SqlServer:TemporalHistoryTableName", "ProductAudit")
+                .Annotation("SqlServer:TemporalHistoryTableSchema", null)
+                .Annotation("SqlServer:TemporalPeriodEndColumnName", "ValidTo")
+                .Annotation("SqlServer:TemporalPeriodStartColumnName", "ValidFrom");
+
             migrationBuilder.DropTable(
                 name: "SeriLogEntry");
 

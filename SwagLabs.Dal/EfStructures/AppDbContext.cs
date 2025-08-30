@@ -11,6 +11,8 @@ public class AppDbContext : DbContext
     public virtual DbSet<User> Users { get; set; }
 
     public virtual DbSet<SeriLogEntry> SeriLogEntries { get; set; }
+
+    public virtual DbSet<Product> Products { get; set; }
         
     public AppDbContext(DbContextOptions<AppDbContext> options)
         : base(options)
@@ -21,5 +23,6 @@ public class AppDbContext : DbContext
     {
         new UserConfiguration().Configure(modelBuilder.Entity<User>());
         new SeriLogEntryConfiguration().Configure(modelBuilder.Entity<SeriLogEntry>());
+        new ProductConfiguration().Configure(modelBuilder.Entity<Product>());
     }
 }

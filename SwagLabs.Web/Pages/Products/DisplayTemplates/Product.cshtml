@@ -1,0 +1,17 @@
+﻿@using SwagLabs.Models.Entities
+@model Product
+
+<div class="d-flex w-auto border rounded-3 overflow-auto">
+	<div class="card-image bg-dark">
+	</div>
+	<div class="card-info d-flex flex-column justify-content-between p-3">
+		<div class="d-flex flex-column gap-2">
+			<span class="fs-5 fw-bold">@Model.Name</span>
+			<span class="fs-6">@Model.Description</span>
+		</div>
+		<div class="d-flex justify-content-between border-top pt-3">
+			<span class="fw-bold fs-5">$@Model.Price</span>
+			<button class="px-4 bg-white rounded border border border-dark">Add to cart</button>
+		</div>
+	</div>
+</div>

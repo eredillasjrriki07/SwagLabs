@@ -1,0 +1,40 @@
+[25-08-11 09:45:44 Information]SwagLabs.Api:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-08-11 09:45:49 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5010"
+in method  at :
+
+[25-08-11 09:45:49 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-08-11 09:45:50 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-08-11 09:45:50 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Api"
+in method  at :
+
+[25-08-11 13:20:12 Information]SwagLabs.Api:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-08-11 13:20:12 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5010"
+in method  at :
+
+[25-08-11 13:20:12 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-08-11 13:20:12 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-08-11 13:20:12 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Api"
+in method  at :
+

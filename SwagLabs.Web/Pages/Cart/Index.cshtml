@@ -1,0 +1,33 @@
+﻿@page
+@model SwagLabs.Web.Pages.Cart.IndexModel
+@{
+	ViewData["Title"] = "Cart";
+	Layout = "../Shared/_CartLayout.cshtml";
+}
+<partial name="../Shared/Partials/_NavPartial" />
+<div class="container-md">
+	<div class="d-flex text-uppercase">
+		<span>qty</span>
+		<span>description</span>
+	</div>
+	<div class="d-flex border rounded-3 p-3 gap-2">
+		<div class="align-self-baseline border px-3 py-2 rounded-3">1</div>
+		<div class="d-flex flex-grow-1 flex-column">
+			<span class="fw-bold fs-5">Sauce Labs Backpack</span>
+			<span class="fs-7">Description</span>
+			<div class="d-flex justify-content-between flex-grow-1">
+				<span class="fw-bold fs-5 mt-4 border-top">$29.99</span>
+				<button class="text-danger align-self-end px-4 bg-white rounded border border-danger">Remove</button>
+			</div>
+
+		</div>
+	</div>
+</div>
+<div class="mt-4 container-md">
+	<div class="d-flex justify-content-end">
+		<button class="px-5 py-1 bg-success border-0 rounded">Checkout</button>
+	</div>
+</div>
+@section Scripts {
+	<partial name="_ValidationScriptsPartial" />
+}

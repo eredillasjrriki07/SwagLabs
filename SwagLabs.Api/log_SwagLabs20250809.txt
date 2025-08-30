@@ -1,0 +1,1485 @@
+[25-08-09 19:12:19 Information]SwagLabs.Api:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-08-09 19:12:20 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5010"
+in method  at :
+
+[25-08-09 19:12:21 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-08-09 19:12:21 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-08-09 19:12:21 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Api"
+in method  at :
+
+[25-08-09 19:12:23 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - null null
+in method  at :
+
+[25-08-09 19:12:24 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 1297.7507ms
+in method  at :
+
+[25-08-09 19:12:24 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/swagger-ui-bundle.js""" - null null
+in method  at :
+
+[25-08-09 19:12:24 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/swagger-ui-standalone-preset.js""" - null null
+in method  at :
+
+[25-08-09 19:12:24 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.css""" - null null
+in method  at :
+
+[25-08-09 19:12:24 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.js""" - null null
+in method  at :
+
+[25-08-09 19:12:24 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/swagger-ui.css""" - null null
+in method  at :
+
+[25-08-09 19:12:24 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-08-09 19:12:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 366.8448ms
+in method  at :
+
+[25-08-09 19:12:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 276.5183ms
+in method  at :
+
+[25-08-09 19:12:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.css""" - 304 null null 466.0043ms
+in method  at :
+
+[25-08-09 19:12:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/swagger-ui.css""" - 304 null null 335.2715ms
+in method  at :
+
+[25-08-09 19:12:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-08-09 19:12:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/swagger-ui-standalone-preset.js""" - 200 229223 "text/javascript" 620.4064ms
+in method  at :
+
+[25-08-09 19:12:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/swagger-ui-bundle.js""" - 200 1485750 "text/javascript" 629.5016ms
+in method  at :
+
+[25-08-09 19:12:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 332.9211ms
+in method  at :
+
+[25-08-09 19:12:25 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-08-09 19:12:26 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/favicon-32x32.png""" - null null
+in method  at :
+
+[25-08-09 19:12:26 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 113.6047ms
+in method  at :
+
+[25-08-09 19:12:26 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/favicon-32x32.png""" - 304 null null 95.0155ms
+in method  at :
+
+[25-08-09 19:13:51 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - "application/json; charset=utf-8" 41
+in method  at :
+
+[25-08-09 19:13:52 Warning]SwagLabs.Api:Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware
+Message:Failed to determine the https port for redirect.
+in method  at :
+
+[25-08-09 19:13:52 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-08-09 19:13:52 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SwagLabs.Models.Entities.User]] LoginAsync(SwagLabs.Api.Controllers.Auth.Models.LoginRequest)" on controller "SwagLabs.Api.Controllers.Auth.AuthController" ("SwagLabs.Api").
+in method  at :
+
+[25-08-09 19:13:55 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("140"ms) [Parameters=["@__username_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='60']"
+""SELECT TOP(1) [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__username_0
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-08-09 19:13:55 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"SwagLabs.Models.Entities.User"'.
+in method  at :
+
+[25-08-09 19:13:55 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)" in 3058.7159ms
+in method  at :
+
+[25-08-09 19:13:55 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-08-09 19:13:55 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 3715.412ms
+in method  at :
+
+[25-08-09 19:15:08 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - "application/json; charset=utf-8" 40
+in method  at :
+
+[25-08-09 19:15:08 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-08-09 19:15:08 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SwagLabs.Models.Entities.User]] LoginAsync(SwagLabs.Api.Controllers.Auth.Models.LoginRequest)" on controller "SwagLabs.Api.Controllers.Auth.AuthController" ("SwagLabs.Api").
+in method  at :
+
+[25-08-09 19:15:08 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("1"ms) [Parameters=["@__username_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='60']"
+""SELECT TOP(1) [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__username_0
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-08-09 19:15:08 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"SwagLabs.Models.Entities.User"'.
+in method  at :
+
+[25-08-09 19:15:08 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)" in 20.5081ms
+in method  at :
+
+[25-08-09 19:15:08 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-08-09 19:15:08 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 68.1538ms
+in method  at :
+
+[25-08-09 19:15:09 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - null null
+in method  at :
+
+[25-08-09 19:15:09 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-08-09 19:15:09 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"GetAll\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SwagLabs.Models.Entities.User]]] GetAllAsync()" on controller "SwagLabs.Api.Controllers.UsersController" ("SwagLabs.Api").
+in method  at :
+
+[25-08-09 19:15:09 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""SELECT [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-08-09 19:15:09 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SwagLabs.Models.Entities.User, SwagLabs.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+in method  at :
+
+[25-08-09 19:15:09 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)" in 46.5654ms
+in method  at :
+
+[25-08-09 19:15:09 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-08-09 19:15:09 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 182.2249ms
+in method  at :
+
+[25-08-09 19:15:45 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - "application/json; charset=utf-8" 40
+in method  at :
+
+[25-08-09 19:15:45 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-08-09 19:15:45 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"Login\", controller = \"Auth\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SwagLabs.Models.Entities.User]] LoginAsync(SwagLabs.Api.Controllers.Auth.Models.LoginRequest)" on controller "SwagLabs.Api.Controllers.Auth.AuthController" ("SwagLabs.Api").
+in method  at :
+
+[25-08-09 19:15:45 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("3"ms) [Parameters=["@__username_0='?' (Size = 50)"], CommandType='Text', CommandTimeout='60']"
+""SELECT TOP(1) [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__username_0
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-08-09 19:15:45 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"SwagLabs.Models.Entities.User"'.
+in method  at :
+
+[25-08-09 19:15:45 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)" in 15.6564ms
+in method  at :
+
+[25-08-09 19:15:45 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.Auth.AuthController.LoginAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-08-09 19:15:45 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "POST" "http"://"localhost:5010""""/api/v1/Auth""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 33.4774ms
+in method  at :
+
+[25-08-09 19:15:45 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - null null
+in method  at :
+
+[25-08-09 19:15:45 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-08-09 19:15:45 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"GetAll\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SwagLabs.Models.Entities.User]]] GetAllAsync()" on controller "SwagLabs.Api.Controllers.UsersController" ("SwagLabs.Api").
+in method  at :
+
+[25-08-09 19:15:45 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""SELECT [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-08-09 19:15:45 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SwagLabs.Models.Entities.User, SwagLabs.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+in method  at :
+
+[25-08-09 19:15:45 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)" in 8.9953ms
+in method  at :
+
+[25-08-09 19:15:45 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-08-09 19:15:45 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 31.4637ms
+in method  at :
+
+[25-08-09 19:15:57 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - null null
+in method  at :
+
+[25-08-09 19:15:57 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-08-09 19:15:57 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"GetAll\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SwagLabs.Models.Entities.User]]] GetAllAsync()" on controller "SwagLabs.Api.Controllers.UsersController" ("SwagLabs.Api").
+in method  at :
+
+[25-08-09 19:15:57 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""SELECT [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-08-09 19:15:57 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SwagLabs.Models.Entities.User, SwagLabs.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+in method  at :
+
+[25-08-09 19:15:57 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)" in 9.3463ms
+in method  at :
+
+[25-08-09 19:15:57 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-08-09 19:15:57 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 23.9265ms
+in method  at :
+
+[25-08-09 19:16:03 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - null null
+in method  at :
+
+[25-08-09 19:16:03 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-08-09 19:16:03 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"GetAll\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SwagLabs.Models.Entities.User]]] GetAllAsync()" on controller "SwagLabs.Api.Controllers.UsersController" ("SwagLabs.Api").
+in method  at :
+
+[25-08-09 19:16:03 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""SELECT [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-08-09 19:16:03 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SwagLabs.Models.Entities.User, SwagLabs.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+in method  at :
+
+[25-08-09 19:16:03 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)" in 14.4209ms
+in method  at :
+
+[25-08-09 19:16:03 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-08-09 19:16:03 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 33.7461ms
+in method  at :
+
+[25-08-09 19:16:06 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users/5""?v=1.0" - null null
+in method  at :
+
+[25-08-09 19:16:06 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.UsersController.GetOneAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-08-09 19:16:06 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"GetOne\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SwagLabs.Models.Entities.User]] GetOneAsync(Int32)" on controller "SwagLabs.Api.Controllers.UsersController" ("SwagLabs.Api").
+in method  at :
+
+[25-08-09 19:16:07 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("3"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='60']"
+""SELECT TOP(1) [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0"
+in method  at :
+
+[25-08-09 19:16:07 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"SwagLabs.Models.Entities.User"'.
+in method  at :
+
+[25-08-09 19:16:07 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.UsersController.GetOneAsync (SwagLabs.Api)" in 618.0173ms
+in method  at :
+
+[25-08-09 19:16:07 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.UsersController.GetOneAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-08-09 19:16:07 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users/5""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 1013.7718ms
+in method  at :
+
+[25-08-09 19:16:11 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "PUT" "http"://"localhost:5010""""/api/v1/Users/5""?v=1.0" - "application/json; charset=utf-8" 78
+in method  at :
+
+[25-08-09 19:16:11 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.UsersController.UpdateOneAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-08-09 19:16:11 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"UpdateOne\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateOneAsync(Int32, SwagLabs.Models.Entities.User)" on controller "SwagLabs.Api.Controllers.UsersController" ("SwagLabs.Api").
+in method  at :
+
+[25-08-09 19:16:11 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("17"ms) [Parameters=["@p2='?' (DbType = Int32), @p0='?' (Size = 50), @p3='?' (Size = 8) (DbType = Binary), @p1='?' (Size = 50)"], CommandType='Text', CommandTimeout='60']"
+""SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [Password] = @p0, [UserName] = @p1
+OUTPUT INSERTED.[TimeStamp], INSERTED.[ValidFrom], INSERTED.[ValidTo]
+WHERE [Id] = @p2 AND [TimeStamp] = @p3;"
+in method  at :
+
+[25-08-09 19:16:11 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"SwagLabs.Models.Entities.User"'.
+in method  at :
+
+[25-08-09 19:16:11 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.UsersController.UpdateOneAsync (SwagLabs.Api)" in 209.8737ms
+in method  at :
+
+[25-08-09 19:16:11 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.UsersController.UpdateOneAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-08-09 19:16:11 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "PUT" "http"://"localhost:5010""""/api/v1/Users/5""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 238.0556ms
+in method  at :
+
+[25-08-09 19:16:11 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users/5""?v=1.0" - null null
+in method  at :
+
+[25-08-09 19:16:11 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.UsersController.GetOneAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-08-09 19:16:11 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"GetOne\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[SwagLabs.Models.Entities.User]] GetOneAsync(Int32)" on controller "SwagLabs.Api.Controllers.UsersController" ("SwagLabs.Api").
+in method  at :
+
+[25-08-09 19:16:11 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("5"ms) [Parameters=["@__p_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='60']"
+""SELECT TOP(1) [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__p_0"
+in method  at :
+
+[25-08-09 19:16:11 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"SwagLabs.Models.Entities.User"'.
+in method  at :
+
+[25-08-09 19:16:11 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.UsersController.GetOneAsync (SwagLabs.Api)" in 25.4162ms
+in method  at :
+
+[25-08-09 19:16:11 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.UsersController.GetOneAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-08-09 19:16:11 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users/5""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 50.0983ms
+in method  at :
+
+[25-08-09 19:16:15 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - null null
+in method  at :
+
+[25-08-09 19:16:15 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-08-09 19:16:15 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"GetAll\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SwagLabs.Models.Entities.User]]] GetAllAsync()" on controller "SwagLabs.Api.Controllers.UsersController" ("SwagLabs.Api").
+in method  at :
+
+[25-08-09 19:16:15 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""SELECT [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-08-09 19:16:15 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SwagLabs.Models.Entities.User, SwagLabs.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+in method  at :
+
+[25-08-09 19:16:15 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)" in 12.0632ms
+in method  at :
+
+[25-08-09 19:16:15 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-08-09 19:16:15 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 28.9718ms
+in method  at :
+
+[25-08-09 19:16:20 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - null null
+in method  at :
+
+[25-08-09 19:16:20 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-08-09 19:16:20 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Route matched with "{action = \"GetAll\", controller = \"Users\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[SwagLabs.Models.Entities.User]]] GetAllAsync()" on controller "SwagLabs.Api.Controllers.UsersController" ("SwagLabs.Api").
+in method  at :
+
+[25-08-09 19:16:20 Information]SwagLabs.Api:Microsoft.EntityFrameworkCore.Database.Command
+Message:Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""SELECT [u].[Id], [u].[Password], [u].[TimeStamp], [u].[UserName], [u].[ValidFrom], [u].[ValidTo]
+FROM [Users] AS [u]
+ORDER BY [u].[UserName]"
+in method  at :
+
+[25-08-09 19:16:20 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor
+Message:Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[SwagLabs.Models.Entities.User, SwagLabs.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+in method  at :
+
+[25-08-09 19:16:20 Information]SwagLabs.Api:Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker
+Message:Executed action "SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)" in 9.4138ms
+in method  at :
+
+[25-08-09 19:16:20 Information]SwagLabs.Api:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"SwagLabs.Api.Controllers.UsersController.GetAllAsync (SwagLabs.Api)"'
+in method  at :
+
+[25-08-09 19:16:20 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/api/v1/Users""?v=1.0" - 200 null "application/json; charset=utf-8; v=1" 29.8334ms
+in method  at :
+
+[25-08-09 19:39:09 Information]SwagLabs.Api:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-08-09 19:39:09 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5010"
+in method  at :
+
+[25-08-09 19:39:09 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-08-09 19:39:09 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-08-09 19:39:09 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Api"
+in method  at :
+
+[25-08-09 19:41:27 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - null null
+in method  at :
+
+[25-08-09 19:41:28 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 483.9454ms
+in method  at :
+
+[25-08-09 19:41:28 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-08-09 19:41:28 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-08-09 19:41:28 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 94.4326ms
+in method  at :
+
+[25-08-09 19:41:28 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 245.0211ms
+in method  at :
+
+[25-08-09 19:41:29 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-08-09 19:41:29 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 89.8245ms
+in method  at :
+
+[25-08-09 19:44:34 Information]SwagLabs.Api:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-08-09 19:44:35 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5010"
+in method  at :
+
+[25-08-09 19:44:35 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-08-09 19:44:35 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-08-09 19:44:35 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Api"
+in method  at :
+
+[25-08-09 19:51:14 Information]SwagLabs.Api:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-08-09 19:51:15 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5010"
+in method  at :
+
+[25-08-09 19:51:16 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-08-09 19:51:16 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-08-09 19:51:16 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Api"
+in method  at :
+
+[25-08-09 19:51:22 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - null null
+in method  at :
+
+[25-08-09 19:51:23 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 699.2803ms
+in method  at :
+
+[25-08-09 19:51:23 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-08-09 19:51:23 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.js""" - null null
+in method  at :
+
+[25-08-09 19:51:23 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/swagger-ui-standalone-preset.js""" - null null
+in method  at :
+
+[25-08-09 19:51:23 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/swagger-ui-bundle.js""" - null null
+in method  at :
+
+[25-08-09 19:51:23 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-08-09 19:51:23 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 92.0223ms
+in method  at :
+
+[25-08-09 19:51:23 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.js""" - 200 null "application/javascript;charset=utf-8" 308.2384ms
+in method  at :
+
+[25-08-09 19:51:23 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 417.8776ms
+in method  at :
+
+[25-08-09 19:51:23 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/swagger-ui-standalone-preset.js""" - 200 229223 "text/javascript" 448.4088ms
+in method  at :
+
+[25-08-09 19:51:23 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/swagger-ui-bundle.js""" - 200 1485750 "text/javascript" 470.4109ms
+in method  at :
+
+[25-08-09 19:51:24 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-08-09 19:51:24 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 35.3175ms
+in method  at :
+
+[25-08-09 22:25:55 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - null null
+in method  at :
+
+[25-08-09 22:25:55 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 177.4254ms
+in method  at :
+
+[25-08-09 22:25:55 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-08-09 22:25:55 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-08-09 22:25:55 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 107.3737ms
+in method  at :
+
+[25-08-09 22:25:55 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 195.3137ms
+in method  at :
+
+[25-08-09 22:25:56 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-08-09 22:25:56 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 78.5466ms
+in method  at :
+
+[25-08-09 22:26:14 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - null null
+in method  at :
+
+[25-08-09 22:26:14 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 34.081ms
+in method  at :
+
+[25-08-09 22:26:14 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-08-09 22:26:14 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-08-09 22:26:14 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 7.4652ms
+in method  at :
+
+[25-08-09 22:26:14 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 21.8482ms
+in method  at :
+
+[25-08-09 22:26:14 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-08-09 22:26:14 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 34.3367ms
+in method  at :
+
+[25-08-09 22:27:12 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - null null
+in method  at :
+
+[25-08-09 22:27:12 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 12.0153ms
+in method  at :
+
+[25-08-09 22:27:12 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-08-09 22:27:12 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-08-09 22:27:12 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 32.5069ms
+in method  at :
+
+[25-08-09 22:27:12 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 62.9507ms
+in method  at :
+
+[25-08-09 22:27:12 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-08-09 22:27:12 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 24.5306ms
+in method  at :
+
+[25-08-09 22:28:48 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - null null
+in method  at :
+
+[25-08-09 22:28:48 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 23.6623ms
+in method  at :
+
+[25-08-09 22:28:48 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-08-09 22:28:48 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-08-09 22:28:49 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 72.1316ms
+in method  at :
+
+[25-08-09 22:28:49 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 68.5685ms
+in method  at :
+
+[25-08-09 22:28:49 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-08-09 22:28:49 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 21.4655ms
+in method  at :
+
+[25-08-09 22:29:43 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - null null
+in method  at :
+
+[25-08-09 22:29:43 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 14.0068ms
+in method  at :
+
+[25-08-09 22:29:43 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-08-09 22:29:43 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-08-09 22:29:43 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 8.4212ms
+in method  at :
+
+[25-08-09 22:29:43 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 18.0373ms
+in method  at :
+
+[25-08-09 22:29:43 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-08-09 22:29:43 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 19.4103ms
+in method  at :
+
+[25-08-09 22:30:04 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - null null
+in method  at :
+
+[25-08-09 22:30:04 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 9.9274ms
+in method  at :
+
+[25-08-09 22:30:04 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-08-09 22:30:04 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-08-09 22:30:04 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 22.7856ms
+in method  at :
+
+[25-08-09 22:30:04 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 125.1263ms
+in method  at :
+
+[25-08-09 22:30:04 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-08-09 22:30:04 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 17.5054ms
+in method  at :
+
+[25-08-09 22:30:59 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - null null
+in method  at :
+
+[25-08-09 22:30:59 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 10.6023ms
+in method  at :
+
+[25-08-09 22:30:59 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-08-09 22:30:59 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-08-09 22:30:59 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 33.179ms
+in method  at :
+
+[25-08-09 22:30:59 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 38.0079ms
+in method  at :
+
+[25-08-09 22:30:59 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-08-09 22:30:59 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 16.698ms
+in method  at :
+
+[25-08-09 22:31:19 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - null null
+in method  at :
+
+[25-08-09 22:31:19 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 12.2236ms
+in method  at :
+
+[25-08-09 22:31:19 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-08-09 22:31:19 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-08-09 22:31:19 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 26.6571ms
+in method  at :
+
+[25-08-09 22:31:19 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 20.6681ms
+in method  at :
+
+[25-08-09 22:31:19 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-08-09 22:31:19 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 13.1568ms
+in method  at :
+
+[25-08-09 22:31:45 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - null null
+in method  at :
+
+[25-08-09 22:31:45 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 33.0777ms
+in method  at :
+
+[25-08-09 22:31:45 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-08-09 22:31:46 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-08-09 22:31:46 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 11.4004ms
+in method  at :
+
+[25-08-09 22:31:46 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 124.2435ms
+in method  at :
+
+[25-08-09 22:31:46 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-08-09 22:31:46 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 21.5844ms
+in method  at :
+
+[25-08-09 22:32:33 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - null null
+in method  at :
+
+[25-08-09 22:32:33 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 8.6791ms
+in method  at :
+
+[25-08-09 22:32:33 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-08-09 22:32:33 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-08-09 22:32:33 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 10.8996ms
+in method  at :
+
+[25-08-09 22:32:33 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 22.0327ms
+in method  at :
+
+[25-08-09 22:32:33 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-08-09 22:32:33 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 23.8806ms
+in method  at :
+
+[25-08-09 22:32:53 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - null null
+in method  at :
+
+[25-08-09 22:32:53 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 17.6704ms
+in method  at :
+
+[25-08-09 22:32:53 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-08-09 22:32:53 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-08-09 22:32:53 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 11.7479ms
+in method  at :
+
+[25-08-09 22:32:53 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 8.1344ms
+in method  at :
+
+[25-08-09 22:32:53 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-08-09 22:32:53 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 11.4912ms
+in method  at :
+
+[25-08-09 22:33:06 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - null null
+in method  at :
+
+[25-08-09 22:33:06 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 14.1086ms
+in method  at :
+
+[25-08-09 22:33:06 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-08-09 22:33:06 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-08-09 22:33:06 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 5.4996ms
+in method  at :
+
+[25-08-09 22:33:06 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 11.804ms
+in method  at :
+
+[25-08-09 22:33:06 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-08-09 22:33:06 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 15.9678ms
+in method  at :
+
+[25-08-09 22:33:16 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - null null
+in method  at :
+
+[25-08-09 22:33:16 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 8.1837ms
+in method  at :
+
+[25-08-09 22:33:16 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-08-09 22:33:16 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-08-09 22:33:16 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 20.029ms
+in method  at :
+
+[25-08-09 22:33:16 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 14.7725ms
+in method  at :
+
+[25-08-09 22:33:16 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-08-09 22:33:16 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 14.1815ms
+in method  at :
+
+[25-08-09 22:33:31 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - null null
+in method  at :
+
+[25-08-09 22:33:31 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 9.9949ms
+in method  at :
+
+[25-08-09 22:33:31 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-08-09 22:33:31 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-08-09 22:33:31 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 16.807ms
+in method  at :
+
+[25-08-09 22:33:31 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 11.668ms
+in method  at :
+
+[25-08-09 22:33:31 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-08-09 22:33:31 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 13.5848ms
+in method  at :
+
+[25-08-09 22:34:03 Information]SwagLabs.Api:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-08-09 22:34:04 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5010"
+in method  at :
+
+[25-08-09 22:34:04 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-08-09 22:34:04 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-08-09 22:34:04 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Api"
+in method  at :
+
+[25-08-09 22:35:28 Information]SwagLabs.Api:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-08-09 22:35:29 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5010"
+in method  at :
+
+[25-08-09 22:35:29 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-08-09 22:35:29 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-08-09 22:35:29 Information]SwagLabs.Api:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Api"
+in method  at :
+
+[25-08-09 22:53:47 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - null null
+in method  at :
+
+[25-08-09 22:53:48 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 388.3864ms
+in method  at :
+
+[25-08-09 22:53:48 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-08-09 22:53:48 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-08-09 22:53:48 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 98.6216ms
+in method  at :
+
+[25-08-09 22:53:48 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 166.9919ms
+in method  at :
+
+[25-08-09 22:53:48 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-08-09 22:53:48 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 52.8463ms
+in method  at :
+
+[25-08-09 22:54:11 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - null null
+in method  at :
+
+[25-08-09 22:54:11 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 13.2358ms
+in method  at :
+
+[25-08-09 22:54:11 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-08-09 22:54:11 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-08-09 22:54:11 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 7.3798ms
+in method  at :
+
+[25-08-09 22:54:11 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 22.6819ms
+in method  at :
+
+[25-08-09 22:54:11 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-08-09 22:54:11 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 27.115ms
+in method  at :
+
+[25-08-09 22:54:28 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - null null
+in method  at :
+
+[25-08-09 22:54:28 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 17.2127ms
+in method  at :
+
+[25-08-09 22:54:28 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-08-09 22:54:28 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-08-09 22:54:28 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 42.6282ms
+in method  at :
+
+[25-08-09 22:54:28 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 48.1743ms
+in method  at :
+
+[25-08-09 22:54:28 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-08-09 22:54:28 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 19.0337ms
+in method  at :
+
+[25-08-09 22:55:08 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - null null
+in method  at :
+
+[25-08-09 22:55:08 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 7.3426ms
+in method  at :
+
+[25-08-09 22:55:08 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-08-09 22:55:08 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-08-09 22:55:09 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 81.2116ms
+in method  at :
+
+[25-08-09 22:55:09 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 77.3594ms
+in method  at :
+
+[25-08-09 22:55:09 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-08-09 22:55:09 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 15.1524ms
+in method  at :
+
+[25-08-09 22:57:41 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - null null
+in method  at :
+
+[25-08-09 22:57:41 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 61.7678ms
+in method  at :
+
+[25-08-09 22:57:42 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-08-09 22:57:42 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-08-09 22:57:42 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 13.4941ms
+in method  at :
+
+[25-08-09 22:57:42 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 21.8927ms
+in method  at :
+
+[25-08-09 22:57:42 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-08-09 22:57:42 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 16.6612ms
+in method  at :
+
+[25-08-09 22:57:49 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - null null
+in method  at :
+
+[25-08-09 22:57:49 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 12.2787ms
+in method  at :
+
+[25-08-09 22:57:49 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-08-09 22:57:49 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-08-09 22:57:49 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 13.8131ms
+in method  at :
+
+[25-08-09 22:57:49 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 9.7858ms
+in method  at :
+
+[25-08-09 22:57:49 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-08-09 22:57:50 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 34.2129ms
+in method  at :
+
+[25-08-09 23:27:09 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - null null
+in method  at :
+
+[25-08-09 23:27:09 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 161.7843ms
+in method  at :
+
+[25-08-09 23:27:09 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-08-09 23:27:09 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-08-09 23:27:09 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 54.7565ms
+in method  at :
+
+[25-08-09 23:27:09 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 146.8093ms
+in method  at :
+
+[25-08-09 23:27:10 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-08-09 23:27:10 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 49.5167ms
+in method  at :
+
+[25-08-09 23:27:20 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - null null
+in method  at :
+
+[25-08-09 23:27:20 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 30.1861ms
+in method  at :
+
+[25-08-09 23:27:20 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-08-09 23:27:20 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-08-09 23:27:20 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 55.3739ms
+in method  at :
+
+[25-08-09 23:27:20 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 43.3662ms
+in method  at :
+
+[25-08-09 23:27:21 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-08-09 23:27:21 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 28.0406ms
+in method  at :
+
+[25-08-09 23:27:43 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - null null
+in method  at :
+
+[25-08-09 23:27:43 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 23.2711ms
+in method  at :
+
+[25-08-09 23:27:43 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-08-09 23:27:43 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-08-09 23:27:43 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 41.759ms
+in method  at :
+
+[25-08-09 23:27:43 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 47.0224ms
+in method  at :
+
+[25-08-09 23:27:43 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-08-09 23:27:43 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 35.162ms
+in method  at :
+
+[25-08-09 23:40:08 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - null null
+in method  at :
+
+[25-08-09 23:40:08 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 65.6366ms
+in method  at :
+
+[25-08-09 23:40:08 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-08-09 23:40:08 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-08-09 23:40:08 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 6.3067ms
+in method  at :
+
+[25-08-09 23:40:08 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 82.6657ms
+in method  at :
+
+[25-08-09 23:40:08 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - null null
+in method  at :
+
+[25-08-09 23:40:09 Information]SwagLabs.Api:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5010""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 78.3958ms
+in method  at :
+

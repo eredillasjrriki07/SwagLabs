@@ -1,0 +1,11 @@
+﻿@page
+@model SwagLabs.Web.Pages.Products.IndexModel
+@{
+	ViewData["Title"] = "Products";
+	Layout = "../Shared/_ProductsLayout.cshtml";
+}
+<partial name="../Shared/Partials/_NavPartial" />
+<partial name="Partials/_ProductListPartial" model="@Model.Products" />
+@section Scripts {
+	<partial name="_ValidationScriptsPartial" />
+}

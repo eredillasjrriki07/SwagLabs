@@ -1,0 +1,26 @@
+﻿@model SwagLabs.Models.Entities.Product
+
+@{
+	bool viewing = ViewData["viewing"] as bool? ?? false;
+}
+<div class="d-flex border rounded-3 overflow-auto">
+	<div class="card-image bg-dark">
+	</div>
+	<div class="card-info d-flex flex-column justify-content-between p-3">
+		<div class="d-flex flex-column gap-2">
+			@if (viewing)
+			{
+				<span class="fs-5 fw-bold">@Model.Name</span>
+			}
+			else
+			{
+				<product-details product-id="@Model.Id" display-text="@Model.Name" class-name="fs-5 fw-bold"></product-details>
+			}
+			<span class="fs-6">@Model.Description</span>
+		</div>
+		<div class="d-flex justify-content-between border-top pt-3">
+			<span class="fw-bold fs-5">$@Model.Price</span>
+			<button class="px-4 bg-white rounded border border border-dark">Add to cart</button>
+		</div>
+	</div>
+</div> 

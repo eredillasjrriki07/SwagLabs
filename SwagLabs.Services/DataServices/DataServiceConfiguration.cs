@@ -15,6 +15,7 @@ public static class DataServiceConfiguration
     public static IServiceCollection AddRepositories(this IServiceCollection services)
     {
         services.AddScoped<IUserRepo, UserRepo>();
+        services.AddScoped<IProductRepo, ProductRepo>();
         return services;
     }
 
@@ -27,6 +28,7 @@ public static class DataServiceConfiguration
         else 
         {
             services.AddScoped<IUserDataService, UserDalDataService>();
+            services.AddScoped<IProductDataService, ProductDalDataService>();
         }
         return services;
     }

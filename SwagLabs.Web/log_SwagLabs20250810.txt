@@ -1,0 +1,332 @@
+[25-08-10 09:37:01 Information]SwagLabs.Web:Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager
+Message:User profile is available. Using '"C:\Users\eredillas_r\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+in method  at :
+
+[25-08-10 09:37:03 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Now listening on: "http://localhost:5020"
+in method  at :
+
+[25-08-10 09:37:03 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Application started. Press Ctrl+C to shut down.
+in method  at :
+
+[25-08-10 09:37:03 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Hosting environment: "Development"
+in method  at :
+
+[25-08-10 09:37:03 Information]SwagLabs.Web:Microsoft.Hosting.Lifetime
+Message:Content root path: "D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web"
+in method  at :
+
+[25-08-10 09:37:05 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5020""""/""" - null null
+in method  at :
+
+[25-08-10 09:37:06 Warning]SwagLabs.Web:Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware
+Message:Failed to determine the https port for redirect.
+in method  at :
+
+[25-08-10 09:37:06 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Index"'
+in method  at :
+
+[25-08-10 09:37:07 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Index\"}". Executing page "/Index"
+in method  at :
+
+[25-08-10 09:37:07 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.IndexModel.OnGet" - ModelState is Valid
+in method  at :
+
+[25-08-10 09:37:07 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnGet", returned result "".
+in method  at :
+
+[25-08-10 09:37:07 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing an implicit handler method - ModelState is Valid
+in method  at :
+
+[25-08-10 09:37:07 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+in method  at :
+
+[25-08-10 09:37:08 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Index" in 1635.39ms
+in method  at :
+
+[25-08-10 09:37:08 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5020""""/lib/bootstrap/css/bootstrap.css""?v=o-AsfCHj7A1M5Xgm1kJmZiGEIvMQEzQqrXz2072Gkkg" - null null
+in method  at :
+
+[25-08-10 09:37:08 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5020""""/lib/jquery/jquery.js""?v=H-K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk" - null null
+in method  at :
+
+[25-08-10 09:37:08 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5020""""/css/site.css""?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg" - null null
+in method  at :
+
+[25-08-10 09:37:08 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5020""""/lib/font-awesome/css/all.css""?v=DLjMP-5CdeGCI2qxnDquVSdPQ6oP_enAUQ2NWfz45dw" - null null
+in method  at :
+
+[25-08-10 09:37:09 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5020""""/SwagLabs.Web.styles.css""?v=WwhzUPldvx7-Oq9UfCCnZc_RdoYSg2nPDTsrv9quxiU" - null null
+in method  at :
+
+[25-08-10 09:37:09 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Index"'
+in method  at :
+
+[25-08-10 09:37:10 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/lib/bootstrap/css/bootstrap.css"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web\wwwroot\lib\bootstrap\css\bootstrap.css"'
+in method  at :
+
+[25-08-10 09:37:11 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/SwagLabs.Web.styles.css"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web\obj\Debug\net9.0\scopedcss\bundle\SwagLabs.Web.styles.css"'
+in method  at :
+
+[25-08-10 09:37:12 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/lib/font-awesome/css/all.css"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web\wwwroot\lib\font-awesome\css\all.css"'
+in method  at :
+
+[25-08-10 09:37:12 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/css/site.css"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web\wwwroot\css\site.css"'
+in method  at :
+
+[25-08-10 09:37:12 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5020""""/""" - 200 null "text/html; charset=utf-8" 7335.7539ms
+in method  at :
+
+[25-08-10 09:37:12 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/lib/jquery/jquery.js"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web\wwwroot\lib\jquery\jquery.js"'
+in method  at :
+
+[25-08-10 09:37:12 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5020""""/lib/bootstrap/css/bootstrap.css""?v=o-AsfCHj7A1M5Xgm1kJmZiGEIvMQEzQqrXz2072Gkkg" - 200 205484 "text/css" 3789.1492ms
+in method  at :
+
+[25-08-10 09:37:12 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5020""""/SwagLabs.Web.styles.css""?v=WwhzUPldvx7-Oq9UfCCnZc_RdoYSg2nPDTsrv9quxiU" - 200 68 "text/css" 3745.1206ms
+in method  at :
+
+[25-08-10 09:37:12 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5020""""/lib/font-awesome/css/all.css""?v=DLjMP-5CdeGCI2qxnDquVSdPQ6oP_enAUQ2NWfz45dw" - 200 73577 "text/css" 3806.7781ms
+in method  at :
+
+[25-08-10 09:37:12 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5020""""/css/site.css""?v=j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg" - 200 667 "text/css" 3824.6356ms
+in method  at :
+
+[25-08-10 09:37:12 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5020""""/lib/jquery/jquery.js""?v=H-K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk" - 200 288580 "text/javascript" 3891.6692ms
+in method  at :
+
+[25-08-10 09:37:12 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5020""""/lib/bootstrap/js/bootstrap.bundle.js""?v=htsAUOIgN8xkootpQUzmvaCbQo6x2PNMTD7kLWI6yYQ" - null null
+in method  at :
+
+[25-08-10 09:37:12 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5020""""/js/site.js""?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo" - null null
+in method  at :
+
+[25-08-10 09:37:12 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5020""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-08-10 09:37:13 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5020""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-08-10 09:37:13 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/lib/bootstrap/js/bootstrap.bundle.js"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web\wwwroot\lib\bootstrap\js\bootstrap.bundle.js"'
+in method  at :
+
+[25-08-10 09:37:13 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/js/site.js"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web\wwwroot\js\site.js"'
+in method  at :
+
+[25-08-10 09:37:13 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5020""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 303.2652ms
+in method  at :
+
+[25-08-10 09:37:13 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5020""""/lib/bootstrap/js/bootstrap.bundle.js""?v=htsAUOIgN8xkootpQUzmvaCbQo6x2PNMTD7kLWI6yYQ" - 200 209719 "text/javascript" 397.9615ms
+in method  at :
+
+[25-08-10 09:37:13 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5020""""/js/site.js""?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo" - 200 231 "text/javascript" 381.7271ms
+in method  at :
+
+[25-08-10 09:37:13 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5020""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 451.88ms
+in method  at :
+
+[25-08-10 09:38:33 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5020""""/auth/login""" - null null
+in method  at :
+
+[25-08-10 09:38:33 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5020""""/products""" - null null
+in method  at :
+
+[25-08-10 09:38:33 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Auth/Login"'
+in method  at :
+
+[25-08-10 09:38:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executing endpoint '"/Products/Index"'
+in method  at :
+
+[25-08-10 09:38:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Products/Index\"}". Executing page "/Products/Index"
+in method  at :
+
+[25-08-10 09:38:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Route matched with "{page = \"/Auth/Login\"}". Executing page "/Auth/Login"
+in method  at :
+
+[25-08-10 09:38:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Products.ProductsModel.OnGet" - ModelState is Valid
+in method  at :
+
+[25-08-10 09:38:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnGet", returned result "".
+in method  at :
+
+[25-08-10 09:38:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing an implicit handler method - ModelState is Valid
+in method  at :
+
+[25-08-10 09:38:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+in method  at :
+
+[25-08-10 09:38:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing handler method "SwagLabs.Web.Pages.Auth.LoginModel.OnGet" - ModelState is Valid
+in method  at :
+
+[25-08-10 09:38:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed handler method "OnGet", returned result "".
+in method  at :
+
+[25-08-10 09:38:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executing an implicit handler method - ModelState is Valid
+in method  at :
+
+[25-08-10 09:38:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+in method  at :
+
+[25-08-10 09:38:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Products/Index" in 109.0807ms
+in method  at :
+
+[25-08-10 09:38:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Products/Index"'
+in method  at :
+
+[25-08-10 09:38:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5020""""/products""" - 200 null "text/html; charset=utf-8" 354.9035ms
+in method  at :
+
+[25-08-10 09:38:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5020""""/css/products.css""?v=bLi4C2zFmJ7aiYGG2gvQ5BWZqjn7nYgBg2Jh2m5Pk0A" - null null
+in method  at :
+
+[25-08-10 09:38:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker
+Message:Executed page "/Auth/Login" in 370.2599ms
+in method  at :
+
+[25-08-10 09:38:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5020""""/lib/jquery-validation/jquery.validate.js""?v=JVPrkBw6HvZl_Pj3KKadp_cU_Xt6Ry0fJSuHjPbQK3A" - null null
+in method  at :
+
+[25-08-10 09:38:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5020""""/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js""?v=Wl9UaHxa_kEWNpEQDGCoCVsQaxKHgTSZ9RTA39hf5oI" - null null
+in method  at :
+
+[25-08-10 09:38:34 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:The file "/css/products.css" was not modified
+in method  at :
+
+[25-08-10 09:38:34 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js"'
+in method  at :
+
+[25-08-10 09:38:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Routing.EndpointMiddleware
+Message:Executed endpoint '"/Auth/Login"'
+in method  at :
+
+[25-08-10 09:38:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5020""""/js/validations/errorFormatting.js""" - null null
+in method  at :
+
+[25-08-10 09:38:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5020""""/js/validations/validators.js""" - null null
+in method  at :
+
+[25-08-10 09:38:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5020""""/_vs/browserLink""" - null null
+in method  at :
+
+[25-08-10 09:38:34 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/lib/jquery-validation/jquery.validate.js"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web\wwwroot\lib\jquery-validation\jquery.validate.js"'
+in method  at :
+
+[25-08-10 09:38:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5020""""/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js""?v=Wl9UaHxa_kEWNpEQDGCoCVsQaxKHgTSZ9RTA39hf5oI" - 200 19798 "text/javascript" 409.2968ms
+in method  at :
+
+[25-08-10 09:38:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5020""""/auth/login""" - 200 null "text/html; charset=utf-8" 1235.7158ms
+in method  at :
+
+[25-08-10 09:38:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5020""""/css/products.css""?v=bLi4C2zFmJ7aiYGG2gvQ5BWZqjn7nYgBg2Jh2m5Pk0A" - 304 null "text/css" 483.2794ms
+in method  at :
+
+[25-08-10 09:38:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5020""""/js/validations/errorFormatting.js""" - 404 0 null 159.8974ms
+in method  at :
+
+[25-08-10 09:38:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5020""""/js/validations/validators.js""" - 404 0 null 163.2113ms
+in method  at :
+
+[25-08-10 09:38:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5020""""/lib/jquery-validation/jquery.validate.js""?v=JVPrkBw6HvZl_Pj3KKadp_cU_Xt6Ry0fJSuHjPbQK3A" - 200 50943 "text/javascript" 464.3399ms
+in method  at :
+
+[25-08-10 09:38:34 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5020""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 61.0659ms
+in method  at :
+
+[25-08-10 09:38:35 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5020""""/_framework/aspnetcore-browser-refresh.js""" - null null
+in method  at :
+
+[25-08-10 09:38:35 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5020""""/js/validations/errorFormatting.js", Response status code: 404
+in method  at :
+
+[25-08-10 09:38:35 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "http"://"localhost:5020""""/js/validations/validators.js", Response status code: 404
+in method  at :
+
+[25-08-10 09:38:35 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request starting "HTTP/1.1" "GET" "http"://"localhost:5020""""/lib/font-awesome/webfonts/fa-solid-900.woff2""" - null null
+in method  at :
+
+[25-08-10 09:38:35 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5020""""/_framework/aspnetcore-browser-refresh.js""" - 200 16509 "application/javascript; charset=utf-8" 147.2772ms
+in method  at :
+
+[25-08-10 09:38:35 Information]SwagLabs.Web:Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware
+Message:Sending file. Request path: '"/lib/font-awesome/webfonts/fa-solid-900.woff2"'. Physical path: '"D:\RNSheesh\Exercises\SwagLabs\SwagLabs.Web\wwwroot\lib\font-awesome\webfonts\fa-solid-900.woff2"'
+in method  at :
+
+[25-08-10 09:38:35 Information]SwagLabs.Web:Microsoft.AspNetCore.Hosting.Diagnostics
+Message:Request finished "HTTP/1.1" "GET" "http"://"localhost:5020""""/lib/font-awesome/webfonts/fa-solid-900.woff2""" - 200 78268 "font/woff2" 94.131ms
+in method  at :
+

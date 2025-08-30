@@ -12,7 +12,7 @@ using SwagLabs.Dal.EfStructures;
 namespace SwagLabs.Dal.EfStructures.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250710071252_Initial")]
+    [Migration("20250810024445_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -24,6 +24,58 @@ namespace SwagLabs.Dal.EfStructures.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("SwagLabs.Models.Entities.Product", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.Property<double>("Price")
+                        .HasColumnType("float");
+
+                    b.Property<byte[]>("TimeStamp")
+                        .IsConcurrencyToken()
+                        .ValueGeneratedOnAddOrUpdate()
+                        .HasColumnType("rowversion");
+
+                    b.Property<DateTime>("ValidFrom")
+                        .ValueGeneratedOnAddOrUpdate()
+                        .HasColumnType("datetime2")
+                        .HasColumnName("ValidFrom");
+
+                    b.Property<DateTime>("ValidTo")
+                        .ValueGeneratedOnAddOrUpdate()
+                        .HasColumnType("datetime2")
+                        .HasColumnName("ValidTo");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Products");
+
+                    b.ToTable(tb => tb.IsTemporal(ttb =>
+                            {
+                                ttb.UseHistoryTable("ProductAudit");
+                                ttb
+                                    .HasPeriodStart("ValidFrom")
+                                    .HasColumnName("ValidFrom");
+                                ttb
+                                    .HasPeriodEnd("ValidTo")
+                                    .HasColumnName("ValidTo");
+                            }));
+                });
 
             modelBuilder.Entity("SwagLabs.Models.Entities.SeriLogEntry", b =>
                 {

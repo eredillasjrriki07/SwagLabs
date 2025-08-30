@@ -15,6 +15,6 @@ public class ItemEditTagHelper : ItemLinkTagHelperBase
 
     public override void Process(TagHelperContext context, TagHelperOutput output)
     {
-        BuildContent(output, "text-warning", "Edit", "edit");
+        //BuildContent(output, "text-warning", "Edit", "edit");
     }
 }

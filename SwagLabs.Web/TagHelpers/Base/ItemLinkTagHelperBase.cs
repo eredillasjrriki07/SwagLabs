@@ -2,14 +2,22 @@
 using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Razor.TagHelpers;
+using NUglify.Helpers;
 
 namespace SwagLabs.Web.TagHelpers.Base;
 
 public abstract class ItemLinkTagHelperBase : TagHelper
 {
     protected readonly IUrlHelper UrlHelper;
-    public int? ItemId { get; set; }
+
+    public string DisplayText { get; set; }
+
+    public int? ProductId { get; set; }
+
+    public string? ClassName { get; set; }
+
     private readonly string _pageName;
+
     protected string ActionName { get; set; }
 
     protected ItemLinkTagHelperBase(IActionContextAccessor contextAccessor, IUrlHelperFactory urlHelperFactory)
@@ -18,14 +26,20 @@ public abstract class ItemLinkTagHelperBase : TagHelper
         _pageName = contextAccessor.ActionContext.ActionDescriptor.RouteValues["page"]?.Split("/", StringSplitOptions.RemoveEmptyEntries)[0];
     }
 
-    protected void BuildContent(TagHelperOutput output,
-        string cssClassName, string displayText, string fontAwesomeName)
+    protected void BuildContent(TagHelperOutput output)
     {
         output.TagName = "a";
-        var target = (ItemId.HasValue) ? UrlHelper.Page($"/{_pageName}/{ActionName}", new { id = ItemId }) : UrlHelper.Page($"/{_pageName}/{ActionName}");
+        
+        var target = (ProductId.HasValue) ? UrlHelper.Page($"/{_pageName}/{ActionName}", new { id = ProductId }) : UrlHelper.Page($"/{_pageName}/{ActionName}");
+        
         output.Attributes.SetAttribute("href", target);
-        output.Attributes.Add("class", cssClassName);
-        output.Content.AppendHtml($@"{displayText} <i class=""fas fa-{fontAwesomeName}""></i>");
+
+        if (!string.IsNullOrEmpty(ClassName))
+        {
+            output.Attributes.Add("class", $"text-decoration-none text-dark {ClassName}");
+        }
+
+        output.Content.AppendHtml(DisplayText);
     }
 
 }

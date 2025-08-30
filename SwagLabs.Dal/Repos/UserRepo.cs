@@ -30,4 +30,5 @@ public class UserRepo : TemporalTableBaseRepo<User>, IUserRepo
 
     internal IOrderedQueryable<User> BuildQuery()
         => Table.OrderBy(u => u.UserName);
+
 }

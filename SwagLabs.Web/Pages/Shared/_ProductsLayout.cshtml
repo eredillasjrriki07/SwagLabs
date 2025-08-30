@@ -1,0 +1,12 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<partial name="Partials/_Head" />
+	<link rel="stylesheet" href="~/css/products.css" asp-append-version="true" />
+</head>
+<body>
+	@RenderBody()
+	<partial name="Partials/_JavaScriptFiles" />
+	@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
